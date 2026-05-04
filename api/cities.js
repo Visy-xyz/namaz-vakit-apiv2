@@ -76,7 +76,7 @@ function citiesFromFilesystem(countryFilter) {
 
 /**
  * GET /api/cities              → all countries + cities
- * GET /api/cities?country=al   → only that country
+ * GET /api/cities?country=af   → only that country
  *
  * On Vercel, uses generated/prayer-catalog.json (see scripts/build-prayer-catalog.mjs).
  * Locally falls back to scanning data/ if the catalog is missing.

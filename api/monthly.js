@@ -5,8 +5,8 @@ import { displayCityName } from '../lib/cityNormalizations.js';
 import { readCityJson, dataBaseUrlHint } from '../lib/readCityData.js';
 
 /**
- * GET /api/monthly?country=al&city=tirana
- * GET /api/monthly?country=al&city=tirana&month=2026-04
+ * GET /api/monthly?country=af&city=calalabad
+ * GET /api/monthly?country=af&city=calalabad&month=2026-04
  *
  * Returns all prayer times for a full month.
  * Each day includes `detail` — the full Diyanet row (hijri, moon URL, astronomical times, …).
@@ -25,7 +25,7 @@ export default async function handler(req, res) {
   if (!country || !city) {
     return res.status(400).json({
       error: 'Missing params',
-      example: '/api/monthly?country=al&city=tirana&month=2026-05',
+      example: '/api/monthly?country=af&city=calalabad&month=2026-05',
     });
   }
 

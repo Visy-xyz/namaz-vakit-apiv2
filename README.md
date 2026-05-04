@@ -14,11 +14,11 @@ Reliable prayer-time data API for websites, mobile apps, and community tools.
 
 This project provides a fast, public JSON API for:
 
-- listing supported countries and cities
+- listing supported countries and cities (from `data/**` — rebuild `generated/prayer-catalog.json` after changes)
 - returning daily prayer times for a selected location
 - returning monthly prayer times for calendar views
 
-It also includes a simple bilingual landing page at `https://namaz.frmsh.al/`.
+Supported locations are exactly those present under the repository `data/` tree. It also includes a simple bilingual landing page at `https://namaz.frmsh.al/`.
 
 ---
 
@@ -33,10 +33,10 @@ It also includes a simple bilingual landing page at `https://namaz.frmsh.al/`.
 
 ### `GET /api/cities`
 
-Returns supported locations.
+Returns supported locations (derived from `data/{country}/*.json`).
 
 - all countries: `/api/cities`
-- single country: `/api/cities?country=al`
+- single country: `/api/cities?country=af` (use any code returned by the list endpoint)
 
 ### `GET /api/prayer`
 
@@ -48,8 +48,8 @@ Returns prayer times for one day.
 Example:
 
 ```http
-GET https://namaz.frmsh.al/api/prayer?country=al&city=tirana
-GET https://namaz.frmsh.al/api/prayer?country=us&city=new_york&date=2026-05-04
+GET https://namaz.frmsh.al/api/prayer?country=af&city=calalabad
+GET https://namaz.frmsh.al/api/prayer?country=af&city=calalabad&date=2026-05-04
 ```
 
 ### `GET /api/monthly`
@@ -62,7 +62,7 @@ Returns prayer times for a month.
 Example:
 
 ```http
-GET https://namaz.frmsh.al/api/monthly?country=al&city=tirana&month=2026-05
+GET https://namaz.frmsh.al/api/monthly?country=af&city=calalabad&month=2026-05
 ```
 
 ---

@@ -5,8 +5,8 @@ import { displayCityName } from '../lib/cityNormalizations.js';
 import { readCityJson, dataBaseUrlHint } from '../lib/readCityData.js';
 
 /**
- * GET /api/prayer?country=al&city=tirana
- * GET /api/prayer?country=al&city=tirana&date=2026-04-25
+ * GET /api/prayer?country=af&city=calalabad
+ * GET /api/prayer?country=af&city=calalabad&date=2026-04-25
  *
  * Returns prayer times for a specific city and date.
  * `times` is a short subset; `detail` is the full Diyanet row from the JSON file.
@@ -27,7 +27,7 @@ export default async function handler(req, res) {
   if (!country || !city) {
     return res.status(400).json({
       error: 'Missing params',
-      example: '/api/prayer?country=al&city=tirana',
+      example: '/api/prayer?country=af&city=calalabad',
       hint: 'List cities: GET /api/cities or /api/cities?country=us',
     });
   }

@@ -26,7 +26,7 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Fetch prayer times (Europe list or Balkan fallback)
+      - name: Fetch prayer times (Europe list or data/ refresh)
         env:
           DIYANET_EMAIL: ${{ secrets.DIYANET_EMAIL }}
           DIYANET_PASS: ${{ secrets.DIYANET_PASS }}
@@ -35,7 +35,7 @@ jobs:
             echo "Using scripts/fetch-europe.mjs (countries-all.json or countries.json present)"
             node scripts/fetch-europe.mjs
           else
-            echo "No country list JSON — using scripts/fetch-yearly.mjs (hardcoded city list)"
+            echo "No country list JSON — using scripts/fetch-yearly.mjs (refresh every data/*/city.json with _meta.districtId)"
             node scripts/fetch-yearly.mjs
           fi
 
