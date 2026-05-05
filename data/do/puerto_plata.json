@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "do",
+    "countryName": "DOMINIK CUMHURIYETI",
+    "countryNameTr": "DOMINIK CUMHURIYETI",
+    "countryId": "72",
     "city": "puerto_plata",
+    "cityName": "PUERTO PLATA",
+    "cityNameTr": "PUERTO PLATA",
+    "cityGroup": "DOMINIK CUMHURIYETI",
+    "cityGroupTr": "DOMINIK CUMHURIYETI",
+    "cityId": "689",
     "districtId": "12682",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:13:09.347Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:08:14.518Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

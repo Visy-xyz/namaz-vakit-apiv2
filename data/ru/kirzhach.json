@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ru",
+    "countryName": "RUSSIA",
+    "countryNameTr": "RUSYA",
+    "countryId": "207",
     "city": "kirzhach",
+    "cityName": "KIRZHACH",
+    "cityNameTr": "KIRZHACH",
+    "cityGroup": "RUSSIA",
+    "cityGroupTr": "RUSYA",
+    "cityId": "805",
     "districtId": "16046",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:06:33.611Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:37:08.020Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

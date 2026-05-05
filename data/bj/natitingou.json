@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "bj",
+    "countryName": "BENIN",
+    "countryNameTr": "BENIN",
+    "countryId": "181",
     "city": "natitingou",
+    "cityName": "NATITINGOU",
+    "cityNameTr": "NATITINGOU",
+    "cityGroup": "BENIN",
+    "cityGroupTr": "BENIN",
+    "cityId": "666",
     "districtId": "11925",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:51:59.955Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:49:26.060Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

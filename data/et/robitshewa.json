@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "et",
+    "countryName": "ETHIOPIA",
+    "countryNameTr": "ETYOPYA",
+    "countryId": "95",
     "city": "robitshewa",
+    "cityName": "ROBIT(SHEWA)",
+    "cityNameTr": "ROBIT(SHEWA)",
+    "cityGroup": "ETHIOPIA",
+    "cityGroupTr": "ETYOPYA",
+    "cityId": "697",
     "districtId": "12795",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:21:42.055Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:11:07.143Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

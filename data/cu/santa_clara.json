@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "cu",
+    "countryName": "CUBA",
+    "countryNameTr": "KUBA",
+    "countryId": "209",
     "city": "santa_clara",
+    "cityName": "SANTA CLARA",
+    "cityNameTr": "SANTA CLARA",
+    "cityGroup": "CUBA",
+    "cityGroupTr": "KUBA",
+    "cityId": "748",
     "districtId": "15144",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:12:16.430Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:07:26.057Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "gt",
+    "countryName": "GUATEMALA",
+    "countryNameTr": "GUATEMALA",
+    "countryId": "99",
     "city": "coban",
+    "cityName": "COBAN",
+    "cityNameTr": "COBAN",
+    "cityGroup": "GUATEMALA",
+    "cityGroupTr": "GUATEMALA",
+    "cityId": "713",
     "districtId": "13456",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:22:01.456Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:13:07.557Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

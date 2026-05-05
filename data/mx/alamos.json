@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "mx",
+    "countryName": "MEXICO",
+    "countryNameTr": "MEKSIKA",
+    "countryId": "53",
     "city": "alamos",
+    "cityName": "ALAMOS",
+    "cityNameTr": "ALAMOS",
+    "cityGroup": "MEXICO",
+    "cityGroupTr": "MEKSIKA",
+    "cityId": "774",
     "districtId": "15364",
     "year": 2026,
-    "fetchedAt": "2026-05-04T09:38:13.054Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:23:45.047Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

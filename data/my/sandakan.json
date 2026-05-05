@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "my",
+    "countryName": "MALAYSIA",
+    "countryNameTr": "MALEZYA",
+    "countryId": "107",
     "city": "sandakan",
+    "cityName": "SANDAKAN",
+    "cityNameTr": "SANDAKAN",
+    "cityGroup": "MALAYSIA",
+    "cityGroupTr": "MALEZYA",
+    "cityId": "768",
     "districtId": "15333",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:24:32.798Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:27:00.958Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

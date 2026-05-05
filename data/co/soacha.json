@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "co",
+    "countryName": "KOLOMBIYA",
+    "countryNameTr": "KOLOMBIYA",
+    "countryId": "57",
     "city": "soacha",
+    "cityName": "SOACHA",
+    "cityNameTr": "SOACHA",
+    "cityGroup": "KOLOMBIYA",
+    "cityGroupTr": "KOLOMBIYA",
+    "cityId": "744",
     "districtId": "15106",
     "year": 2026,
-    "fetchedAt": "2026-05-04T09:55:40.609Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:06:42.076Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

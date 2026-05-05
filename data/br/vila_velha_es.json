@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "br",
+    "countryName": "BRAZIL",
+    "countryNameTr": "BREZILYA",
+    "countryId": "146",
     "city": "vila_velha_es",
+    "cityName": "VILA VELHA (E.S.)",
+    "cityNameTr": "VILA VELHA (E.S.)",
+    "cityGroup": "BRAZIL",
+    "cityGroupTr": "BREZILYA",
+    "cityId": "672",
     "districtId": "12158",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:45:00.914Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:55:31.268Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

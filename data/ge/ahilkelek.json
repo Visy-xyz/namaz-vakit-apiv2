@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ge",
+    "countryName": "GEORGIA",
+    "countryNameTr": "GURCISTAN",
+    "countryId": "62",
     "city": "ahilkelek",
+    "cityName": "AHILKELEK",
+    "cityNameTr": "AHILKELEK",
+    "cityGroup": "GEORGIA",
+    "cityGroupTr": "GURCISTAN",
+    "cityId": "716",
     "districtId": "33298",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:09:44.538Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:11:27.982Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

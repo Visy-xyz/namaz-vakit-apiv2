@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "il",
+    "countryName": "ISRAEL",
+    "countryNameTr": "ISRAIL",
+    "countryId": "205",
     "city": "ashdod",
+    "cityName": "ASHDOD",
+    "cityNameTr": "ASHDOD",
+    "cityGroup": "ISRAEL",
+    "cityGroupTr": "ISRAIL",
+    "cityId": "730",
     "districtId": "14265",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:04:26.345Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:16:38.769Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

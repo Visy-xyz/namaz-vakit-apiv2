@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ng",
+    "countryName": "NIGERIA",
+    "countryNameTr": "NIJERYA",
+    "countryId": "127",
     "city": "gusau",
+    "cityName": "GUSAU",
+    "cityNameTr": "GUSAU",
+    "cityGroup": "NIGERIA",
+    "cityGroupTr": "NIJERYA",
+    "cityId": "786",
     "districtId": "15592",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:33:41.044Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:28:08.819Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

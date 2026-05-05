@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "gh",
+    "countryName": "GHANA",
+    "countryNameTr": "GANA",
+    "countryId": "143",
     "city": "kumasi",
+    "cityName": "KUMASI",
+    "cityNameTr": "KUMASI",
+    "cityGroup": "GHANA",
+    "cityGroupTr": "GANA",
+    "cityId": "707",
     "districtId": "13439",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:39:58.539Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:12:35.730Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

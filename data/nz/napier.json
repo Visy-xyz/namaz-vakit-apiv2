@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "nz",
+    "countryName": "NEW ZEALAND",
+    "countryNameTr": "YENI ZELANDA",
+    "countryId": "193",
     "city": "napier",
+    "cityName": "NAPIER",
+    "cityNameTr": "NAPIER",
+    "cityGroup": "NEW ZEALAND",
+    "cityGroupTr": "YENI ZELANDA",
+    "cityId": "843",
     "districtId": "16627",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:59:05.154Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:29:39.967Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

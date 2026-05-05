@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "kr",
+    "countryName": "SOUTH KOREA",
+    "countryNameTr": "GUNEY KORE",
+    "countryId": "128",
     "city": "jeju",
+    "cityName": "JEJU",
+    "cityNameTr": "JEJU",
+    "cityGroup": "SOUTH KOREA",
+    "cityGroupTr": "GUNEY KORE",
+    "cityId": "715",
     "districtId": "13511",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:34:48.334Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:14:15.274Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ru",
+    "countryName": "RUSSIA",
+    "countryNameTr": "RUSYA",
+    "countryId": "207",
     "city": "salavat",
+    "cityName": "SALAVAT",
+    "cityNameTr": "SALAVAT",
+    "cityGroup": "RUSSIA",
+    "cityGroupTr": "RUSYA",
+    "cityId": "805",
     "districtId": "16789",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:09:00.173Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:39:42.729Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

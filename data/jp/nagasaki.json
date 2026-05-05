@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "jp",
+    "countryName": "JAPAN",
+    "countryNameTr": "JAPONYA",
+    "countryId": "116",
     "city": "nagasaki",
+    "cityName": "NAGASAKI",
+    "cityNameTr": "NAGASAKI",
+    "cityGroup": "JAPAN",
+    "cityGroupTr": "JAPONYA",
+    "cityId": "736",
     "districtId": "14789",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:28:07.896Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:24:43.196Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

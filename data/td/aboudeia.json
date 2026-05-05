@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "td",
+    "countryName": "CAD",
+    "countryNameTr": "CAD",
+    "countryId": "156",
     "city": "aboudeia",
+    "cityName": "ABOU-DEIA",
+    "cityNameTr": "ABOU-DEIA",
+    "cityGroup": "CAD",
+    "cityGroupTr": "CAD",
+    "cityId": "679",
     "districtId": "12296",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:46:22.635Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:44:31.578Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

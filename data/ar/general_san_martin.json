@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ar",
+    "countryName": "ARGENTINA",
+    "countryNameTr": "ARJANTIN",
+    "countryId": "199",
     "city": "general_san_martin",
+    "cityName": "GENERAL SAN MARTIN",
+    "cityNameTr": "GENERAL SAN MARTIN",
+    "cityGroup": "ARGENTINA",
+    "cityGroupTr": "ARJANTIN",
+    "cityId": "653",
     "districtId": "11187",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:00:25.277Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:39:48.740Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

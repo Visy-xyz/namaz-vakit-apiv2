@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ci",
+    "countryName": "FILDISI SAHILI",
+    "countryNameTr": "FILDISI SAHILI",
+    "countryId": "120",
     "city": "korhogo",
+    "cityName": "KORHOGO",
+    "cityNameTr": "KORHOGO",
+    "cityGroup": "FILDISI SAHILI",
+    "cityGroupTr": "FILDISI SAHILI",
+    "cityId": "700",
     "districtId": "12826",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:31:42.341Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:58:15.831Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "mm",
+    "countryName": "BURMA (MYANMAR)",
+    "countryNameTr": "MYANMAR",
+    "countryId": "154",
     "city": "pyinmana_naypyidaw",
+    "cityName": "PYINMANA (Naypyidaw)",
+    "cityNameTr": "PYINMANA (Naypyidaw)",
+    "cityGroup": "MYANMAR",
+    "cityGroupTr": "MYANMAR",
+    "cityId": "676",
     "districtId": "12263",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:46:07.604Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:20:52.569Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

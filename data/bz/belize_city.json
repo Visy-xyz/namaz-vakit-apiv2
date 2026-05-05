@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "bz",
+    "countryName": "BELIZE",
+    "countryNameTr": "BELIZE",
+    "countryId": "182",
     "city": "belize_city",
+    "cityName": "BELIZE CITY",
+    "cityNameTr": "BELIZE CITY",
+    "cityGroup": "BELIZE",
+    "cityGroupTr": "BELIZE",
+    "cityId": "665",
     "districtId": "11924",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:52:09.929Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:57:05.194Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

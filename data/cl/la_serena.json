@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "cl",
+    "countryName": "CHILE",
+    "countryNameTr": "SILI",
+    "countryId": "200",
     "city": "la_serena",
+    "cityName": "LA SERENA",
+    "cityNameTr": "LA SERENA",
+    "cityGroup": "CHILE",
+    "cityGroupTr": "SILI",
+    "cityId": "809",
     "districtId": "16202",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:01:50.831Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:58:35.580Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

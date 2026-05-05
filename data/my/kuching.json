@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "my",
+    "countryName": "MALAYSIA",
+    "countryNameTr": "MALEZYA",
+    "countryId": "107",
     "city": "kuching",
+    "cityName": "KUCHING",
+    "cityNameTr": "KUCHING",
+    "cityGroup": "MALAYSIA",
+    "cityGroupTr": "MALEZYA",
+    "cityId": "768",
     "districtId": "15328",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:24:21.024Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:26:48.898Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

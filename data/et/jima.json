@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "et",
+    "countryName": "ETHIOPIA",
+    "countryNameTr": "ETYOPYA",
+    "countryId": "95",
     "city": "jima",
+    "cityName": "JIMA",
+    "cityNameTr": "JIMA",
+    "cityGroup": "ETHIOPIA",
+    "cityGroupTr": "ETYOPYA",
+    "cityId": "697",
     "districtId": "12802",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:21:35.431Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:11:00.251Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

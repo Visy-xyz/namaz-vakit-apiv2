@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "br",
+    "countryName": "BRAZIL",
+    "countryNameTr": "BREZILYA",
+    "countryId": "146",
     "city": "sao_carlos_sao_poulo",
+    "cityName": "SAO CARLOS (Sao Poulo)",
+    "cityNameTr": "SAO CARLOS (Sao Poulo)",
+    "cityGroup": "BRAZIL",
+    "cityGroupTr": "BREZILYA",
+    "cityId": "672",
     "districtId": "12106",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:44:03.443Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:54:30.234Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

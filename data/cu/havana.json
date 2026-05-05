@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "cu",
+    "countryName": "CUBA",
+    "countryNameTr": "KUBA",
+    "countryId": "209",
     "city": "havana",
+    "cityName": "HAVANA",
+    "cityNameTr": "HAVANA",
+    "cityGroup": "CUBA",
+    "cityGroupTr": "KUBA",
+    "cityId": "748",
     "districtId": "15147",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:12:04.963Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:07:13.212Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

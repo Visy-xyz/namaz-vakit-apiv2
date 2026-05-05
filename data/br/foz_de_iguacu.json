@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "br",
+    "countryName": "BRAZIL",
+    "countryNameTr": "BREZILYA",
+    "countryId": "146",
     "city": "foz_de_iguacu",
+    "cityName": "FOZ DE IGUACU",
+    "cityNameTr": "FOZ DE IGUACU",
+    "cityGroup": "BRAZIL",
+    "cityGroupTr": "BREZILYA",
+    "cityId": "672",
     "districtId": "12201",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:41:51.393Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:52:08.639Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

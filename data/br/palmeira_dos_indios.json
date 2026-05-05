@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "br",
+    "countryName": "BRAZIL",
+    "countryNameTr": "BREZILYA",
+    "countryId": "146",
     "city": "palmeira_dos_indios",
+    "cityName": "PALMEIRA DOS INDIOS",
+    "cityNameTr": "PALMEIRA DOS INDIOS",
+    "cityGroup": "BRAZIL",
+    "cityGroupTr": "BREZILYA",
+    "cityId": "672",
     "districtId": "12138",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:43:02.646Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:53:25.384Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

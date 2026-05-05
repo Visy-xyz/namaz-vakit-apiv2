@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "uz",
+    "countryName": "UZBEKISTAN",
+    "countryNameTr": "OZBEKISTAN",
+    "countryId": "131",
     "city": "semerkand",
+    "cityName": "SEMERKAND",
+    "cityNameTr": "SEMERKAND",
+    "cityGroup": "UZBEKISTAN",
+    "cityGroupTr": "OZBEKISTAN",
+    "cityId": "791",
     "districtId": "15762",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:36:40.285Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T04:15:36.371Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

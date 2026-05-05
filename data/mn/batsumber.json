@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "mn",
+    "countryName": "MONGOLIA",
+    "countryNameTr": "MOGOLISTAN",
+    "countryId": "60",
     "city": "batsumber",
+    "cityName": "BATSUMBER",
+    "cityNameTr": "BATSUMBER",
+    "cityGroup": "MONGOLIA",
+    "cityGroupTr": "MOGOLISTAN",
+    "cityId": "777",
     "districtId": "15509",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:02:03.396Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:21:18.557Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

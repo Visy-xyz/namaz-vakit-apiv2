@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "qa",
+    "countryName": "KATAR",
+    "countryNameTr": "KATAR",
+    "countryId": "94",
     "city": "ar_rayyan",
+    "cityName": "AR RAYYAN",
+    "cityNameTr": "AR RAYYAN",
+    "cityGroup": "KATAR",
+    "cityGroupTr": "KATAR",
+    "cityId": "740",
     "districtId": "14877",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:21:19.136Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:34:03.556Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

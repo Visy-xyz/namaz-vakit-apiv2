@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "kg",
+    "countryName": "KIRGIZHSTAN",
+    "countryNameTr": "KIRGIZISTAN",
+    "countryId": "168",
     "city": "bashkaindy",
+    "cityName": "BASHKAINDY",
+    "cityNameTr": "BASHKAINDY",
+    "cityGroup": "KIRGIZHSTAN",
+    "cityGroupTr": "KIRGIZISTAN",
+    "cityId": "743",
     "districtId": "15039",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:49:47.386Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:12:07.513Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

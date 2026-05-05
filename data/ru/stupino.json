@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ru",
+    "countryName": "RUSSIA",
+    "countryNameTr": "RUSYA",
+    "countryId": "207",
     "city": "stupino",
+    "cityName": "STUPINO",
+    "cityNameTr": "STUPINO",
+    "cityGroup": "RUSSIA",
+    "cityGroupTr": "RUSYA",
+    "cityId": "805",
     "districtId": "16174",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:09:37.479Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:40:22.542Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

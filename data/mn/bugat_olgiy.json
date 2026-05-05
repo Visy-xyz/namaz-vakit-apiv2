@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "mn",
+    "countryName": "MONGOLIA",
+    "countryNameTr": "MOGOLISTAN",
+    "countryId": "60",
     "city": "bugat_olgiy",
+    "cityName": "BUGAT (Olgiy)",
+    "cityNameTr": "BUGAT (Olgiy)",
+    "cityGroup": "MONGOLIA",
+    "cityGroupTr": "MOGOLISTAN",
+    "cityId": "777",
     "districtId": "15483",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:02:21.703Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:21:37.653Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "iq",
+    "countryName": "IRAQ",
+    "countryNameTr": "IRAK",
+    "countryId": "124",
     "city": "as_samawa",
+    "cityName": "AS SAMAWA",
+    "cityNameTr": "AS SAMAWA",
+    "cityGroup": "IRAQ",
+    "cityGroupTr": "IRAK",
+    "cityId": "726",
     "districtId": "14164",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:31:56.763Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:20:21.995Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "kz",
+    "countryName": "KAZAKHSTAN",
+    "countryNameTr": "KAZAKISTAN",
+    "countryId": "92",
     "city": "turgen",
+    "cityName": "TURGEN ",
+    "cityNameTr": "TURGEN ",
+    "cityGroup": "KAZAKHSTAN",
+    "cityGroupTr": "KAZAKISTAN",
+    "cityId": "741",
     "districtId": "14909",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:20:52.883Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:18:19.982Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

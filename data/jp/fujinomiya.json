@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "jp",
+    "countryName": "JAPAN",
+    "countryNameTr": "JAPONYA",
+    "countryId": "116",
     "city": "fujinomiya",
+    "cityName": "FUJINOMIYA",
+    "cityNameTr": "FUJINOMIYA",
+    "cityGroup": "JAPAN",
+    "cityGroupTr": "JAPONYA",
+    "cityId": "736",
     "districtId": "14736",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:26:24.588Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:22:53.836Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

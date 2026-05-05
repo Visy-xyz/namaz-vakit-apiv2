@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vercel dev",
+    "sync:locations": "node scripts/sync-location-metadata.mjs",
     "build:catalog": "node scripts/build-prayer-catalog.mjs",
+    "fetch:v2": "node scripts/fetch-countries-allv2.mjs",
     "fetch:yearly": "node scripts/fetch-yearly.mjs",
     "fetch:europe": "node scripts/fetch-europe.mjs"
   },

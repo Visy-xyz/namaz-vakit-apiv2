@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "jp",
+    "countryName": "JAPAN",
+    "countryNameTr": "JAPONYA",
+    "countryId": "116",
     "city": "nara",
+    "cityName": "NARA",
+    "cityNameTr": "NARA",
+    "cityGroup": "JAPAN",
+    "cityGroupTr": "JAPONYA",
+    "cityId": "736",
     "districtId": "14704",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:28:14.530Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:24:50.100Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

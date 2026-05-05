@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "kg",
+    "countryName": "KIRGIZHSTAN",
+    "countryNameTr": "KIRGIZISTAN",
+    "countryId": "168",
     "city": "akmuz",
+    "cityName": "AK-MUZ",
+    "cityNameTr": "AK-MUZ",
+    "cityGroup": "KIRGIZHSTAN",
+    "cityGroupTr": "KIRGIZISTAN",
+    "cityId": "743",
     "districtId": "15033",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:49:35.884Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:11:55.472Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

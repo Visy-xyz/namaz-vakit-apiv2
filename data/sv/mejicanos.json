@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "sv",
+    "countryName": "EL SALVADOR",
+    "countryNameTr": "EL SALVADOR",
+    "countryId": "165",
     "city": "mejicanos",
+    "cityName": "MEJICANOS",
+    "cityNameTr": "MEJICANOS",
+    "cityGroup": "EL SALVADOR",
+    "cityGroupTr": "EL SALVADOR",
+    "cityId": "692",
     "districtId": "12722",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:48:35.268Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:43:19.007Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "kz",
+    "countryName": "KAZAKHSTAN",
+    "countryNameTr": "KAZAKISTAN",
+    "countryId": "92",
     "city": "zholymbet",
+    "cityName": "ZHOLYMBET",
+    "cityNameTr": "ZHOLYMBET",
+    "cityGroup": "KAZAKHSTAN",
+    "cityGroupTr": "KAZAKISTAN",
+    "cityId": "741",
     "districtId": "14895",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:21:07.528Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:18:35.585Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

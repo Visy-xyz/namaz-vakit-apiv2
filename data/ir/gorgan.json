@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ir",
+    "countryName": "IRAN",
+    "countryNameTr": "IRAN",
+    "countryId": "202",
     "city": "gorgan",
+    "cityName": "GORGAN",
+    "cityNameTr": "GORGAN",
+    "cityGroup": "IRAN",
+    "cityGroupTr": "IRAN",
+    "cityId": "727",
     "districtId": "14182",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:03:01.084Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:21:16.978Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

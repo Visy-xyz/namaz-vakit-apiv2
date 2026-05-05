@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "jp",
+    "countryName": "JAPAN",
+    "countryNameTr": "JAPONYA",
+    "countryId": "116",
     "city": "akashi",
+    "cityName": "AKASHI",
+    "cityNameTr": "AKASHI",
+    "cityGroup": "JAPAN",
+    "cityGroupTr": "JAPONYA",
+    "cityId": "736",
     "districtId": "14718",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:26:04.383Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:22:33.144Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

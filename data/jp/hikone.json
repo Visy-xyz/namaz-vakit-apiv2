@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "jp",
+    "countryName": "JAPAN",
+    "countryNameTr": "JAPONYA",
+    "countryId": "116",
     "city": "hikone",
+    "cityName": "HIKONE",
+    "cityNameTr": "HIKONE",
+    "cityGroup": "JAPAN",
+    "cityGroupTr": "JAPONYA",
+    "cityId": "736",
     "districtId": "14751",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:26:51.207Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:23:21.675Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

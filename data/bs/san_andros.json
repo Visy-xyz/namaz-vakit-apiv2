@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "bs",
+    "countryName": "BAHAMAS",
+    "countryNameTr": "BAHAMALAR",
+    "countryId": "54",
     "city": "san_andros",
+    "cityName": "SAN ANDROS",
+    "cityNameTr": "SAN ANDROS",
+    "cityGroup": "BAHAMAS",
+    "cityGroupTr": "BAHAMALAR",
+    "cityId": "659",
     "districtId": "11662",
     "year": 2026,
-    "fetchedAt": "2026-05-04T09:54:34.319Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:55:59.437Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

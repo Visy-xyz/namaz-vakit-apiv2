@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ge",
+    "countryName": "GEORGIA",
+    "countryNameTr": "GURCISTAN",
+    "countryId": "62",
     "city": "sagareco",
+    "cityName": "SAGARECO",
+    "cityNameTr": "SAGARECO",
+    "cityGroup": "GEORGIA",
+    "cityGroupTr": "GURCISTAN",
+    "cityId": "716",
     "districtId": "33302",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:10:22.814Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:12:09.718Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

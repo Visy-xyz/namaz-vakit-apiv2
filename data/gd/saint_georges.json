@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "gd",
+    "countryName": "GRENADA",
+    "countryNameTr": "GRENADA",
+    "countryId": "58",
     "city": "saint_georges",
+    "cityName": "SAINT GEORGES",
+    "cityNameTr": "SAINT GEORGES",
+    "cityGroup": "GRENADA",
+    "cityGroupTr": "GRENADA",
+    "cityId": "709",
     "districtId": "13451",
     "year": 2026,
-    "fetchedAt": "2026-05-04T09:55:52.242Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:11:24.536Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

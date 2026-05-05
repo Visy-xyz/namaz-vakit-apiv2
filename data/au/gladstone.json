@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "au",
+    "countryName": "AUSTRALIA",
+    "countryNameTr": "AVUSTRALYA",
+    "countryId": "59",
     "city": "gladstone",
+    "cityName": "GLADSTONE",
+    "cityNameTr": "GLADSTONE",
+    "cityGroup": "AUSTRALIA",
+    "cityGroupTr": "AVUSTRALYA",
+    "cityId": "656",
     "districtId": "11231",
     "year": 2026,
-    "fetchedAt": "2026-05-04T09:57:52.545Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:43:11.237Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

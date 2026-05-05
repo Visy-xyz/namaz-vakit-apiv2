@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ar",
+    "countryName": "ARGENTINA",
+    "countryNameTr": "ARJANTIN",
+    "countryId": "199",
     "city": "concordia",
+    "cityName": "CONCORDIA",
+    "cityNameTr": "CONCORDIA",
+    "cityGroup": "ARGENTINA",
+    "cityGroupTr": "ARJANTIN",
+    "cityId": "653",
     "districtId": "11154",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:00:17.090Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:39:40.016Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

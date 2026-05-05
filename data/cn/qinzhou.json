@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "cn",
+    "countryName": "CHINA",
+    "countryNameTr": "CIN",
+    "countryId": "61",
     "city": "qinzhou",
+    "cityName": "QINZHOU",
+    "cityNameTr": "QINZHOU",
+    "cityGroup": "CHINA",
+    "cityGroupTr": "CIN",
+    "cityId": "684",
     "districtId": "12540",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:07:39.232Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:03:31.611Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

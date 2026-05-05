@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ph",
+    "countryName": "PHILIPPINES",
+    "countryNameTr": "FILIPINLER",
+    "countryId": "126",
     "city": "iloilo",
+    "cityName": "ILOILO",
+    "cityNameTr": "ILOILO",
+    "cityGroup": "PHILIPPINES",
+    "cityGroupTr": "FILIPINLER",
+    "cityId": "701",
     "districtId": "12839",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:32:51.869Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:31:54.932Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

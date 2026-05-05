@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "kz",
+    "countryName": "KAZAKHSTAN",
+    "countryNameTr": "KAZAKISTAN",
+    "countryId": "92",
     "city": "arys",
+    "cityName": "ARYS",
+    "cityNameTr": "ARYS",
+    "cityGroup": "KAZAKHSTAN",
+    "cityGroupTr": "KAZAKISTAN",
+    "cityId": "741",
     "districtId": "14911",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:18:08.586Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:15:29.721Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "bo",
+    "countryName": "BOLIVYA",
+    "countryNameTr": "BOLIVYA",
+    "countryId": "83",
     "city": "portachuel_santa_cruz",
+    "cityName": "PORTACHUEL (Santa Cruz)",
+    "cityNameTr": "PORTACHUEL (Santa Cruz)",
+    "cityGroup": "BOLIVYA",
+    "cityGroupTr": "BOLIVYA",
+    "cityId": "669",
     "districtId": "11962",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:15:40.586Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:50:17.225Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

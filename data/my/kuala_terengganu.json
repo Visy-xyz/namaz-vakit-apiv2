@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "my",
+    "countryName": "MALAYSIA",
+    "countryNameTr": "MALEZYA",
+    "countryId": "107",
     "city": "kuala_terengganu",
+    "cityName": "KUALA TERENGGANU",
+    "cityNameTr": "KUALA TERENGGANU",
+    "cityGroup": "MALAYSIA",
+    "cityGroupTr": "MALEZYA",
+    "cityId": "768",
     "districtId": "15326",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:24:17.678Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:26:45.374Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "kudus",
+    "countryName": "KUDUS",
+    "countryNameTr": "KUDUS",
+    "countryId": "206",
     "city": "kudus",
+    "cityName": "KUDUS",
+    "cityNameTr": "KUDUS",
+    "cityGroup": "KUDUS",
+    "cityGroupTr": "KUDUS",
+    "cityId": "749",
     "districtId": "15148",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:04:37.799Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:14:51.458Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "hk",
+    "countryName": "HONG KONG",
+    "countryNameTr": "HONG KONG",
+    "countryId": "113",
     "city": "hong_kong",
+    "cityName": "HONG KONG",
+    "cityNameTr": "HONG KONG",
+    "cityGroup": "HONG KONG",
+    "cityGroupTr": "HONG KONG",
+    "cityId": "724",
     "districtId": "14001",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:25:35.873Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:13:36.389Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "br",
+    "countryName": "BRAZIL",
+    "countryNameTr": "BREZILYA",
+    "countryId": "146",
     "city": "rio_claro_sp",
+    "cityName": "RIO CLARO (S.P.)",
+    "cityNameTr": "RIO CLARO (S.P.)",
+    "cityGroup": "BRAZIL",
+    "cityGroupTr": "BREZILYA",
+    "cityId": "672",
     "districtId": "12146",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:43:41.891Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:54:07.628Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

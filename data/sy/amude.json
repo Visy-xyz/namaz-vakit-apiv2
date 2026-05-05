@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "sy",
+    "countryName": "SYRIA",
+    "countryNameTr": "SURIYE",
+    "countryId": "191",
     "city": "amude",
+    "cityName": "AMUDE",
+    "cityNameTr": "AMUDE",
+    "cityGroup": "SYRIA",
+    "cityGroupTr": "SURIYE",
+    "cityId": "818",
     "districtId": "16794",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:57:53.110Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:43:44.879Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

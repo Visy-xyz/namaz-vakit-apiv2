@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "gy",
+    "countryName": "GUYANA",
+    "countryNameTr": "GUYANA",
+    "countryId": "82",
     "city": "new_amsterdam",
+    "cityName": "NEW AMSTERDAM",
+    "cityNameTr": "NEW AMSTERDAM",
+    "cityGroup": "GUYANA",
+    "cityGroupTr": "GUYANA",
+    "cityId": "717",
     "districtId": "13561",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:15:09.787Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:13:32.929Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

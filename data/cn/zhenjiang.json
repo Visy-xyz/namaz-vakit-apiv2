@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "cn",
+    "countryName": "CHINA",
+    "countryNameTr": "CIN",
+    "countryId": "61",
     "city": "zhenjiang",
+    "cityName": "ZHENJIANG",
+    "cityNameTr": "ZHENJIANG",
+    "cityGroup": "CHINA",
+    "cityGroupTr": "CIN",
+    "cityId": "684",
     "districtId": "12414",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:09:29.819Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:05:29.117Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

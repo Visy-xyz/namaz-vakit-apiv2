@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "au",
+    "countryName": "AUSTRALIA",
+    "countryNameTr": "AVUSTRALYA",
+    "countryId": "59",
     "city": "moss_vale",
+    "cityName": "MOSS VALE",
+    "cityNameTr": "MOSS VALE",
+    "cityGroup": "AUSTRALIA",
+    "cityGroupTr": "AVUSTRALYA",
+    "cityId": "656",
     "districtId": "11357",
     "year": 2026,
-    "fetchedAt": "2026-05-04T09:59:27.705Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:44:52.452Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

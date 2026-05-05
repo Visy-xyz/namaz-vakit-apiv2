@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "co",
+    "countryName": "KOLOMBIYA",
+    "countryNameTr": "KOLOMBIYA",
+    "countryId": "57",
     "city": "pasto",
+    "cityName": "PASTO",
+    "cityNameTr": "PASTO",
+    "cityGroup": "KOLOMBIYA",
+    "cityGroupTr": "KOLOMBIYA",
+    "cityId": "744",
     "districtId": "15098",
     "year": 2026,
-    "fetchedAt": "2026-05-04T09:55:26.610Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:06:28.284Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

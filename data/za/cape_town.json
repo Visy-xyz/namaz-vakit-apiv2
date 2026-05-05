@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "za",
+    "countryName": "SOUTH AFRICA",
+    "countryNameTr": "GUNEY AFRIKA",
+    "countryId": "67",
     "city": "cape_town",
+    "cityName": "CAPE TOWN",
+    "cityNameTr": "CAPE TOWN",
+    "cityGroup": "SOUTH AFRICA",
+    "cityGroupTr": "GUNEY AFRIKA",
+    "cityId": "714",
     "districtId": "13496",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:11:15.051Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T04:17:50.154Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

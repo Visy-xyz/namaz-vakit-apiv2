@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "kg",
+    "countryName": "KIRGIZHSTAN",
+    "countryNameTr": "KIRGIZISTAN",
+    "countryId": "168",
     "city": "oytalosh",
+    "cityName": "OYTAL(Osh)",
+    "cityNameTr": "OYTAL(Osh)",
+    "cityGroup": "KIRGIZHSTAN",
+    "cityGroupTr": "KIRGIZISTAN",
+    "cityId": "743",
     "districtId": "15051",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:50:34.963Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:12:57.355Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

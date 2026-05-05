@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "br",
+    "countryName": "BRAZIL",
+    "countryNameTr": "BREZILYA",
+    "countryId": "146",
     "city": "traipu",
+    "cityName": "TRAIPU",
+    "cityNameTr": "TRAIPU",
+    "cityGroup": "BRAZIL",
+    "cityGroupTr": "BREZILYA",
+    "cityId": "672",
     "districtId": "12166",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:44:42.943Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:55:12.273Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

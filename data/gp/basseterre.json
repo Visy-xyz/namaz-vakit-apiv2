@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "gp",
+    "countryName": "GUADELOPE",
+    "countryNameTr": "GUADELOPE",
+    "countryId": "171",
     "city": "basseterre",
+    "cityName": "BASSE-TERRE",
+    "cityNameTr": "BASSE-TERRE",
+    "cityGroup": "GUADELOPE",
+    "cityGroupTr": "GUADELOPE",
+    "cityId": "711",
     "districtId": "13453",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:51:06.643Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:12:58.921Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "sy",
+    "countryName": "SYRIA",
+    "countryNameTr": "SURIYE",
+    "countryId": "191",
     "city": "mabatli",
+    "cityName": "MA'BATLI",
+    "cityNameTr": "MA'BATLI",
+    "cityGroup": "SYRIA",
+    "cityGroupTr": "SURIYE",
+    "cityId": "818",
     "districtId": "19009",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:58:24.158Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:44:12.604Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

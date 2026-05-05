@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "br",
+    "countryName": "BRAZIL",
+    "countryNameTr": "BREZILYA",
+    "countryId": "146",
     "city": "itaguai",
+    "cityName": "ITAGUAI",
+    "cityNameTr": "ITAGUAI",
+    "cityGroup": "BRAZIL",
+    "cityGroupTr": "BREZILYA",
+    "cityId": "672",
     "districtId": "12152",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:42:14.138Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:52:33.266Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ru",
+    "countryName": "RUSSIA",
+    "countryNameTr": "RUSYA",
+    "countryId": "207",
     "city": "apatity",
+    "cityName": "APATITY",
+    "cityNameTr": "APATITY",
+    "cityGroup": "RUSSIA",
+    "cityGroupTr": "RUSYA",
+    "cityId": "805",
     "districtId": "16053",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:04:51.664Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:35:21.583Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

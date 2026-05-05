@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ml",
+    "countryName": "MALI",
+    "countryNameTr": "MALI",
+    "countryId": "152",
     "city": "bamako",
+    "cityName": "BAMAKO",
+    "cityNameTr": "BAMAKO",
+    "cityGroup": "MALI",
+    "cityGroupTr": "MALI",
+    "cityId": "769",
     "districtId": "15345",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:45:47.986Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:20:33.458Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

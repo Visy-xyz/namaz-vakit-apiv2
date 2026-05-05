@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "pa",
+    "countryName": "PANAMA",
+    "countryNameTr": "PANAMA",
+    "countryId": "89",
     "city": "bocas_del_toro",
+    "cityName": "BOCAS DEL TORO",
+    "cityNameTr": "BOCAS DEL TORO",
+    "cityGroup": "PANAMA",
+    "cityGroupTr": "PANAMA",
+    "cityId": "794",
     "districtId": "15797",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:16:56.671Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:30:19.620Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

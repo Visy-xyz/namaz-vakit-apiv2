@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ru",
+    "countryName": "RUSSIA",
+    "countryNameTr": "RUSYA",
+    "countryId": "207",
     "city": "naziya",
+    "cityName": "NAZIYA ",
+    "cityNameTr": "NAZIYA ",
+    "cityGroup": "RUSSIA",
+    "cityGroupTr": "RUSYA",
+    "cityId": "805",
     "districtId": "16015",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:07:45.107Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:38:22.474Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

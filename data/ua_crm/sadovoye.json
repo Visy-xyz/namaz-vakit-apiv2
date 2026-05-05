@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ua_crm",
+    "countryName": "UKRAINE-KRYM",
+    "countryNameTr": "UKRAYNA-KIRIM",
+    "countryId": "29",
     "city": "sadovoye",
+    "cityName": "SADOVOYE ",
+    "cityNameTr": "SADOVOYE ",
+    "cityGroup": "UKRAINE-KRYM",
+    "cityGroupTr": "UKRAYNA-KIRIM",
+    "cityId": "833",
     "districtId": "16506",
     "year": 2026,
-    "fetchedAt": "2026-05-04T09:37:32.180Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T04:13:41.443Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

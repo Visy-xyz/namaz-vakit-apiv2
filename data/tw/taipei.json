@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "tw",
+    "countryName": "TAIWAN",
+    "countryNameTr": "TAYVAN",
+    "countryId": "108",
     "city": "taipei",
+    "cityName": "TAIPEI",
+    "cityNameTr": "TAIPEI",
+    "cityGroup": "TAIWAN",
+    "cityGroupTr": "TAYVAN",
+    "cityId": "825",
     "districtId": "16364",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:25:01.852Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T04:12:46.002Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

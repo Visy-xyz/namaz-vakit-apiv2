@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "cn",
+    "countryName": "CHINA",
+    "countryNameTr": "CIN",
+    "countryId": "61",
     "city": "enshi",
+    "cityName": "ENSHI",
+    "cityNameTr": "ENSHI",
+    "cityGroup": "CHINA",
+    "cityGroupTr": "CIN",
+    "cityId": "684",
     "districtId": "12462",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:04:53.013Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:00:37.308Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

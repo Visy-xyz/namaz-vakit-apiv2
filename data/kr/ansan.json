@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "kr",
+    "countryName": "SOUTH KOREA",
+    "countryNameTr": "GUNEY KORE",
+    "countryId": "128",
     "city": "ansan",
+    "cityName": "ANSAN",
+    "cityNameTr": "ANSAN",
+    "cityGroup": "SOUTH KOREA",
+    "cityGroupTr": "GUNEY KORE",
+    "cityId": "715",
     "districtId": "13503",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:34:19.408Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:13:44.360Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

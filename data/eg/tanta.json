@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "eg",
+    "countryName": "EGYPT",
+    "countryNameTr": "MISIR",
+    "countryId": "189",
     "city": "tanta",
+    "cityName": "TANTA",
+    "cityNameTr": "TANTA",
+    "cityGroup": "EGYPT",
+    "cityGroupTr": "MISIR",
+    "cityId": "776",
     "districtId": "15473",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:57:43.570Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:10:35.972Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

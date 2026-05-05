@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "et",
+    "countryName": "ETHIOPIA",
+    "countryNameTr": "ETYOPYA",
+    "countryId": "95",
     "city": "harer",
+    "cityName": "HARER",
+    "cityNameTr": "HARER",
+    "cityGroup": "ETHIOPIA",
+    "cityGroupTr": "ETYOPYA",
+    "cityId": "697",
     "districtId": "12801",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:21:33.843Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:10:58.519Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

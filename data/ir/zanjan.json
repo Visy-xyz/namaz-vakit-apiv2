@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ir",
+    "countryName": "IRAN",
+    "countryNameTr": "IRAN",
+    "countryId": "202",
     "city": "zanjan",
+    "cityName": "ZANJAN",
+    "cityNameTr": "ZANJAN",
+    "cityGroup": "IRAN",
+    "cityGroupTr": "IRAN",
+    "cityId": "727",
     "districtId": "14192",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:03:48.890Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:22:08.751Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "au",
+    "countryName": "AUSTRALIA",
+    "countryNameTr": "AVUSTRALYA",
+    "countryId": "59",
     "city": "maitland",
+    "cityName": "MAITLAND",
+    "cityNameTr": "MAITLAND",
+    "cityGroup": "AUSTRALIA",
+    "cityGroupTr": "AVUSTRALYA",
+    "cityId": "656",
     "districtId": "11252",
     "year": 2026,
-    "fetchedAt": "2026-05-04T09:58:54.811Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:44:16.225Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

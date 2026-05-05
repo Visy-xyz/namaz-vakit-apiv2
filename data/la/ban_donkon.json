@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "la",
+    "countryName": "LAOS",
+    "countryNameTr": "LAOS",
+    "countryId": "134",
     "city": "ban_donkon",
+    "cityName": "BAN DONKON",
+    "cityNameTr": "BAN DONKON",
+    "cityGroup": "LAOS",
+    "cityGroupTr": "LAOS",
+    "cityId": "753",
     "districtId": "15163",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:37:12.722Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:18:37.313Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

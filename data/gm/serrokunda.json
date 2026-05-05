@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "gm",
+    "countryName": "GAMBIYA",
+    "countryNameTr": "GAMBIYA",
+    "countryId": "109",
     "city": "serrokunda",
+    "cityName": "SERROKUNDA",
+    "cityNameTr": "SERROKUNDA",
+    "cityGroup": "GAMBIYA",
+    "cityGroupTr": "GAMBIYA",
+    "cityId": "706",
     "districtId": "13436",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:25:05.079Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:12:47.910Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

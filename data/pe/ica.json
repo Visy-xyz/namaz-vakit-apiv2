@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "pe",
+    "countryName": "PERU",
+    "countryNameTr": "PERU",
+    "countryId": "69",
     "city": "ica",
+    "cityName": "ICA",
+    "cityNameTr": "ICA",
+    "cityGroup": "PERU",
+    "cityGroupTr": "PERU",
+    "cityId": "797",
     "districtId": "15835",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:12:24.250Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:30:56.368Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "so",
+    "countryName": "SOMALIA",
+    "countryNameTr": "SOMALI",
+    "countryId": "150",
     "city": "horgeisa",
+    "cityName": "HORGEISA",
+    "cityNameTr": "HORGEISA",
+    "cityGroup": "SOMALIA",
+    "cityGroupTr": "SOMALI",
+    "cityId": "814",
     "districtId": "16737",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:45:28.530Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:43:06.865Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

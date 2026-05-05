@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "kg",
+    "countryName": "KIRGIZHSTAN",
+    "countryNameTr": "KIRGIZISTAN",
+    "countryId": "168",
     "city": "semenovka",
+    "cityName": "SEMENOVKA",
+    "cityNameTr": "SEMENOVKA",
+    "cityGroup": "KIRGIZHSTAN",
+    "cityGroupTr": "KIRGIZISTAN",
+    "cityId": "743",
     "districtId": "15031",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:50:46.200Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:13:08.148Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

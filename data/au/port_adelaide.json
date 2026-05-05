@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "au",
+    "countryName": "AUSTRALIA",
+    "countryNameTr": "AVUSTRALYA",
+    "countryId": "59",
     "city": "port_adelaide",
+    "cityName": "PORT ADELAIDE",
+    "cityNameTr": "PORT ADELAIDE",
+    "cityGroup": "AUSTRALIA",
+    "cityGroupTr": "AVUSTRALYA",
+    "cityId": "656",
     "districtId": "11311",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:00:10.151Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:45:37.879Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

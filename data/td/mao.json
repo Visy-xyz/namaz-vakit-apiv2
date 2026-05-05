@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "td",
+    "countryName": "CAD",
+    "countryNameTr": "CAD",
+    "countryId": "156",
     "city": "mao",
+    "cityName": "MAO",
+    "cityNameTr": "MAO",
+    "cityGroup": "CAD",
+    "cityGroupTr": "CAD",
+    "cityId": "679",
     "districtId": "12289",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:46:39.106Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:44:48.850Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

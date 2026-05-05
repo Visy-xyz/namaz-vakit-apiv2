@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ps",
+    "countryName": "FILISTIN",
+    "countryNameTr": "FILISTIN",
+    "countryId": "204",
     "city": "alhalil_wb",
+    "cityName": "AL-HALIL (W.B.)",
+    "cityNameTr": "AL-HALIL (W.B.)",
+    "cityGroup": "FILISTIN",
+    "cityGroupTr": "FILISTIN",
+    "cityId": "702",
     "districtId": "12871",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:04:07.915Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:33:32.417Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

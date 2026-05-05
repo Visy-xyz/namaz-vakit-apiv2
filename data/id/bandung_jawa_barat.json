@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "id",
+    "countryName": "INDONESIA",
+    "countryNameTr": "ENDONEZYA",
+    "countryId": "117",
     "city": "bandung_jawa_barat",
+    "cityName": "BANDUNG (JAWA BARAT)",
+    "cityNameTr": "BANDUNG (JAWA BARAT)",
+    "cityGroup": "INDONESIA",
+    "cityGroupTr": "ENDONEZYA",
+    "cityId": "693",
     "districtId": "12731",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:30:00.318Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:15:14.370Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

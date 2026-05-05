@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "nz",
+    "countryName": "NEW ZEALAND",
+    "countryNameTr": "YENI ZELANDA",
+    "countryId": "193",
     "city": "wainuiomata",
+    "cityName": "WAINUIOMATA",
+    "cityNameTr": "WAINUIOMATA",
+    "cityGroup": "NEW ZEALAND",
+    "cityGroupTr": "YENI ZELANDA",
+    "cityId": "843",
     "districtId": "16620",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:59:23.913Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:29:57.165Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

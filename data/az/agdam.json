@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "az",
+    "countryName": "AZERBAIJAN",
+    "countryNameTr": "AZERBAYCAN",
+    "countryId": "5",
     "city": "agdam",
+    "cityName": "AGDAM",
+    "cityNameTr": "AGDAM",
+    "cityGroup": "AZERBAIJAN",
+    "cityGroupTr": "AZERBAYCAN",
+    "cityId": "658",
     "districtId": "11639",
     "year": 2026,
-    "fetchedAt": "2026-05-04T09:35:55.656Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:47:26.245Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "id",
+    "countryName": "INDONESIA",
+    "countryNameTr": "ENDONEZYA",
+    "countryId": "117",
     "city": "jambi",
+    "cityName": "JAMBI",
+    "cityNameTr": "JAMBI",
+    "cityGroup": "INDONESIA",
+    "cityGroupTr": "ENDONEZYA",
+    "cityId": "693",
     "districtId": "12768",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:30:25.961Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:15:42.212Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

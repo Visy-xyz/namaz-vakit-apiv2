@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "cn",
+    "countryName": "CHINA",
+    "countryNameTr": "CIN",
+    "countryId": "61",
     "city": "nanchang",
+    "cityName": "NANCHANG",
+    "cityNameTr": "NANCHANG",
+    "cityGroup": "CHINA",
+    "cityGroupTr": "CIN",
+    "cityId": "684",
     "districtId": "12584",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:07:08.581Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:03:00.247Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

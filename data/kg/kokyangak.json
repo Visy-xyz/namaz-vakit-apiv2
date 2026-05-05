@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "kg",
+    "countryName": "KIRGIZHSTAN",
+    "countryNameTr": "KIRGIZISTAN",
+    "countryId": "168",
     "city": "kokyangak",
+    "cityName": "KOK-YANGAK ",
+    "cityNameTr": "KOK-YANGAK ",
+    "cityGroup": "KIRGIZHSTAN",
+    "cityGroupTr": "KIRGIZISTAN",
+    "cityId": "743",
     "districtId": "15050",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:50:20.188Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:12:41.889Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

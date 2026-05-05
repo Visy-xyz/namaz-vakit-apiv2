@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ao",
+    "countryName": "ANGOLA",
+    "countryNameTr": "ANGOLA",
+    "countryId": "140",
     "city": "lucapa",
+    "cityName": "LUCAPA",
+    "cityNameTr": "LUCAPA",
+    "cityGroup": "ANGOLA",
+    "cityGroupTr": "ANGOLA",
+    "cityId": "650",
     "districtId": "11136",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:39:13.872Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:39:07.550Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

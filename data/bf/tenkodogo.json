@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "bf",
+    "countryName": "BURKINA FASO",
+    "countryNameTr": "BURKINA FASO",
+    "countryId": "91",
     "city": "tenkodogo",
+    "cityName": "TENKODOGO",
+    "cityNameTr": "TENKODOGO",
+    "cityGroup": "BURKINA FASO",
+    "cityGroupTr": "BURKINA FASO",
+    "cityId": "675",
     "districtId": "12261",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:17:34.858Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:48:54.870Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "do",
+    "countryName": "DOMINIK CUMHURIYETI",
+    "countryNameTr": "DOMINIK CUMHURIYETI",
+    "countryId": "72",
     "city": "la_romana",
+    "cityName": "LA ROMANA",
+    "cityNameTr": "LA ROMANA",
+    "cityGroup": "DOMINIK CUMHURIYETI",
+    "cityGroupTr": "DOMINIK CUMHURIYETI",
+    "cityId": "689",
     "districtId": "12680",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:13:04.491Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:08:09.330Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

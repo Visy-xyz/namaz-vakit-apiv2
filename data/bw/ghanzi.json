@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "bw",
+    "countryName": "BOTSWANA",
+    "countryNameTr": "BOTSVANA",
+    "countryId": "167",
     "city": "ghanzi",
+    "cityName": "GHANZI",
+    "cityNameTr": "GHANZI",
+    "cityGroup": "BOTSWANA",
+    "cityGroupTr": "BOTSVANA",
+    "cityId": "671",
     "districtId": "12035",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:49:20.984Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:56:08.071Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

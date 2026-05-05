@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "id",
+    "countryName": "INDONESIA",
+    "countryNameTr": "ENDONEZYA",
+    "countryId": "117",
     "city": "mataram",
+    "cityName": "MATARAM",
+    "cityNameTr": "MATARAM",
+    "cityGroup": "INDONESIA",
+    "cityGroupTr": "ENDONEZYA",
+    "cityId": "693",
     "districtId": "12744",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:30:37.231Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:15:54.344Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

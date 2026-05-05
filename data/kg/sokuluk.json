@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "kg",
+    "countryName": "KIRGIZHSTAN",
+    "countryNameTr": "KIRGIZISTAN",
+    "countryId": "168",
     "city": "sokuluk",
+    "cityName": "SOKULUK",
+    "cityNameTr": "SOKULUK",
+    "cityGroup": "KIRGIZHSTAN",
+    "cityGroupTr": "KIRGIZISTAN",
+    "cityId": "743",
     "districtId": "15022",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:50:49.666Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:13:11.710Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

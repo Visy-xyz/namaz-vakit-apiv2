@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "br",
+    "countryName": "BRAZIL",
+    "countryNameTr": "BREZILYA",
+    "countryId": "146",
     "city": "sao_jose_dos_pinhais",
+    "cityName": "SAO JOSE DOS PINHAIS",
+    "cityNameTr": "SAO JOSE DOS PINHAIS",
+    "cityGroup": "BRAZIL",
+    "cityGroupTr": "BREZILYA",
+    "cityId": "672",
     "districtId": "12109",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:44:10.016Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:54:37.603Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

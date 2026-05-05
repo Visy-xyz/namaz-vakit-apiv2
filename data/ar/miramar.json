@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ar",
+    "countryName": "ARGENTINA",
+    "countryNameTr": "ARJANTIN",
+    "countryId": "199",
     "city": "miramar",
+    "cityName": "MIRAMAR",
+    "cityNameTr": "MIRAMAR",
+    "cityGroup": "ARGENTINA",
+    "cityGroupTr": "ARJANTIN",
+    "cityId": "653",
     "districtId": "11169",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:00:46.764Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:40:11.501Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

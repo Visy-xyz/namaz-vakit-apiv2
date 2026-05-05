@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "kh",
+    "countryName": "KAMBOCYA",
+    "countryNameTr": "KAMBOCYA",
+    "countryId": "161",
     "city": "phnom_penh",
+    "cityName": "PHNOM PENH",
+    "cityNameTr": "PHNOM PENH",
+    "cityGroup": "KAMBOCYA",
+    "cityGroupTr": "KAMBOCYA",
+    "cityId": "737",
     "districtId": "14847",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:48:10.672Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:13:32.352Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

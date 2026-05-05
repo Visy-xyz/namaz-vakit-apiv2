@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "pe",
+    "countryName": "PERU",
+    "countryNameTr": "PERU",
+    "countryId": "69",
     "city": "trujillo",
+    "cityName": "TRUJILLO",
+    "cityNameTr": "TRUJILLO",
+    "cityGroup": "PERU",
+    "cityGroupTr": "PERU",
+    "cityId": "797",
     "districtId": "15841",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:12:40.455Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:31:13.569Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "gp",
+    "countryName": "GUADELOPE",
+    "countryNameTr": "GUADELOPE",
+    "countryId": "171",
     "city": "ponteapitre",
+    "cityName": "PONTE-A-PITRE",
+    "cityNameTr": "PONTE-A-PITRE",
+    "cityGroup": "GUADELOPE",
+    "cityGroupTr": "GUADELOPE",
+    "cityId": "711",
     "districtId": "13454",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:51:08.278Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:13:00.647Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "pa",
+    "countryName": "PANAMA",
+    "countryNameTr": "PANAMA",
+    "countryId": "89",
     "city": "colon",
+    "cityName": "COLON",
+    "cityNameTr": "COLON",
+    "cityGroup": "PANAMA",
+    "cityGroupTr": "PANAMA",
+    "cityId": "794",
     "districtId": "15800",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:17:03.135Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:30:26.468Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

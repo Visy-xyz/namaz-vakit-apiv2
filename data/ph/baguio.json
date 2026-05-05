@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ph",
+    "countryName": "PHILIPPINES",
+    "countryNameTr": "FILIPINLER",
+    "countryId": "126",
     "city": "baguio",
+    "cityName": "BAGUIO",
+    "cityNameTr": "BAGUIO",
+    "cityGroup": "PHILIPPINES",
+    "cityGroupTr": "FILIPINLER",
+    "cityId": "701",
     "districtId": "12832",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:32:32.545Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:31:34.203Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

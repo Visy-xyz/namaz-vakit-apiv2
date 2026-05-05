@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "jp",
+    "countryName": "JAPAN",
+    "countryNameTr": "JAPONYA",
+    "countryId": "116",
     "city": "kashiwa",
+    "cityName": "KASHIWA",
+    "cityNameTr": "KASHIWA",
+    "cityGroup": "JAPAN",
+    "cityGroupTr": "JAPONYA",
+    "cityId": "736",
     "districtId": "14762",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:27:13.972Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:23:46.084Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

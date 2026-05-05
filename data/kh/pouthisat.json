@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "kh",
+    "countryName": "KAMBOCYA",
+    "countryNameTr": "KAMBOCYA",
+    "countryId": "161",
     "city": "pouthisat",
+    "cityName": "POUTHISAT",
+    "cityNameTr": "POUTHISAT",
+    "cityGroup": "KAMBOCYA",
+    "cityGroupTr": "KAMBOCYA",
+    "cityId": "737",
     "districtId": "14849",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:48:12.346Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:13:34.061Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

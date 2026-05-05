@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ru",
+    "countryName": "RUSSIA",
+    "countryNameTr": "RUSYA",
+    "countryId": "207",
     "city": "svobodnyy",
+    "cityName": "SVOBODNYY",
+    "cityNameTr": "SVOBODNYY",
+    "cityGroup": "RUSSIA",
+    "cityGroupTr": "RUSYA",
+    "cityId": "805",
     "districtId": "16142",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:09:42.330Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:40:27.739Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

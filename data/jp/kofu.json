@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "jp",
+    "countryName": "JAPAN",
+    "countryNameTr": "JAPONYA",
+    "countryId": "116",
     "city": "kofu",
+    "cityName": "KOFU",
+    "cityNameTr": "KOFU",
+    "cityGroup": "JAPAN",
+    "cityGroupTr": "JAPONYA",
+    "cityId": "736",
     "districtId": "14769",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:27:30.464Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:24:03.351Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

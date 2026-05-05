@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "au",
+    "countryName": "AUSTRALIA",
+    "countryNameTr": "AVUSTRALYA",
+    "countryId": "59",
     "city": "alice_well",
+    "cityName": "ALICE WELL",
+    "cityNameTr": "ALICE WELL",
+    "cityGroup": "AUSTRALIA",
+    "cityGroupTr": "AVUSTRALYA",
+    "cityId": "656",
     "districtId": "11417",
     "year": 2026,
-    "fetchedAt": "2026-05-04T09:56:00.269Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:41:11.574Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

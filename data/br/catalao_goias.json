@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "br",
+    "countryName": "BRAZIL",
+    "countryNameTr": "BREZILYA",
+    "countryId": "146",
     "city": "catalao_goias",
+    "cityName": "CATALAO (Goias)",
+    "cityNameTr": "CATALAO (Goias)",
+    "cityGroup": "BRAZIL",
+    "cityGroupTr": "BREZILYA",
+    "cityId": "672",
     "districtId": "12056",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:41:28.518Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:51:44.326Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

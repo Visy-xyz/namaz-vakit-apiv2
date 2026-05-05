@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "tt",
+    "countryName": "TRINIDAT VE TOBAGO",
+    "countryNameTr": "TRINIDAT VE TOBAGO",
+    "countryId": "96",
     "city": "arima",
+    "cityName": "ARIMA",
+    "cityNameTr": "ARIMA",
+    "cityGroup": "TRINIDAT VE TOBAGO",
+    "cityGroupTr": "TRINIDAT VE TOBAGO",
+    "cityId": "828",
     "districtId": "16376",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:21:43.721Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T04:12:25.403Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

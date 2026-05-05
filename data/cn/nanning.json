@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "cn",
+    "countryName": "CHINA",
+    "countryNameTr": "CIN",
+    "countryId": "61",
     "city": "nanning",
+    "cityName": "NANNING",
+    "cityNameTr": "NANNING",
+    "cityGroup": "CHINA",
+    "cityGroupTr": "CIN",
+    "cityId": "684",
     "districtId": "12525",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:07:13.415Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:03:05.444Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

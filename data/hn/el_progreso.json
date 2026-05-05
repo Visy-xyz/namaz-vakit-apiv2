@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "hn",
+    "countryName": "HONDURAS",
+    "countryNameTr": "HONDURAS",
+    "countryId": "105",
     "city": "el_progreso",
+    "cityName": "EL PROGRESO",
+    "cityNameTr": "EL PROGRESO",
+    "cityGroup": "HONDURAS",
+    "cityGroupTr": "HONDURAS",
+    "cityId": "723",
     "districtId": "13998",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:23:06.436Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:13:48.485Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

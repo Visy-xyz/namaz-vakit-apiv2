@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "in",
+    "countryName": "INDIA",
+    "countryNameTr": "HINDISTAN",
+    "countryId": "187",
     "city": "barddhaman",
+    "cityName": "BARDDHAMAN",
+    "cityNameTr": "BARDDHAMAN",
+    "cityGroup": "INDIA",
+    "cityGroupTr": "HINDISTAN",
+    "cityId": "719",
     "districtId": "13585",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:54:00.240Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:17:08.297Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

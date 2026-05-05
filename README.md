@@ -89,6 +89,20 @@ npm run build:catalog
 npx vercel dev
 ```
 
+After changing location data or importing a Diyanet city export:
+
+```bash
+node scripts/sync-location-metadata.mjs --all-cities C:\Users\visyy\Downloads\all_cities.json --base-city-normalizations C:\Users\visyy\OneDrive\Desktop\namaz-vakit-api\data\city-normalizations.json
+node scripts/build-prayer-catalog.mjs
+```
+
+This rebuilds:
+
+- `countries-all.json`
+- `data/city-normalizations.json`
+- `data/country-normalizations.json`
+- `generated/prayer-catalog.json`
+
 ---
 
 ## Deployment Notes

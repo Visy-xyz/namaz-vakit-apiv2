@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ph",
+    "countryName": "PHILIPPINES",
+    "countryNameTr": "FILIPINLER",
+    "countryId": "126",
     "city": "davao",
+    "cityName": "DAVAO",
+    "cityNameTr": "DAVAO",
+    "cityGroup": "PHILIPPINES",
+    "cityGroupTr": "FILIPINLER",
+    "cityId": "701",
     "districtId": "12838",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:32:48.665Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:31:51.447Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

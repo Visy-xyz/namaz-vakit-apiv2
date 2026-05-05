@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "mx",
+    "countryName": "MEXICO",
+    "countryNameTr": "MEKSIKA",
+    "countryId": "53",
     "city": "cuernavaca",
+    "cityName": "CUERNAVACA",
+    "cityNameTr": "CUERNAVACA",
+    "cityGroup": "MEXICO",
+    "cityGroupTr": "MEKSIKA",
+    "cityId": "774",
     "districtId": "15451",
     "year": 2026,
-    "fetchedAt": "2026-05-04T09:38:55.254Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:24:28.309Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "sn",
+    "countryName": "SENEGAL",
+    "countryNameTr": "SENEGAL",
+    "countryId": "102",
     "city": "dakar",
+    "cityName": "DAKAR",
+    "cityNameTr": "DAKAR",
+    "cityGroup": "SENEGAL",
+    "cityGroupTr": "SENEGAL",
+    "cityId": "807",
     "districtId": "16183",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:22:44.794Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:42:47.849Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

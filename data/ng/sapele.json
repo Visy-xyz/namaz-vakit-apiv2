@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ng",
+    "countryName": "NIGERIA",
+    "countryNameTr": "NIJERYA",
+    "countryId": "127",
     "city": "sapele",
+    "cityName": "SAPELE",
+    "cityNameTr": "SAPELE",
+    "cityGroup": "NIGERIA",
+    "cityGroupTr": "NIJERYA",
+    "cityId": "786",
     "districtId": "15578",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:34:11.138Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:28:38.152Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

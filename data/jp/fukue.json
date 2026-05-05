@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "jp",
+    "countryName": "JAPAN",
+    "countryNameTr": "JAPONYA",
+    "countryId": "116",
     "city": "fukue",
+    "cityName": "FUKUE",
+    "cityNameTr": "FUKUE",
+    "cityGroup": "JAPAN",
+    "cityGroupTr": "JAPONYA",
+    "cityId": "736",
     "districtId": "14739",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:26:29.593Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:22:58.990Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

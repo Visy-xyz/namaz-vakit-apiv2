@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "dj",
+    "countryName": "CIBUTI",
+    "countryNameTr": "CIBUTI",
+    "countryId": "160",
     "city": "obock",
+    "cityName": "OBOCK",
+    "cityNameTr": "OBOCK",
+    "cityGroup": "CIBUTI",
+    "cityGroupTr": "CIBUTI",
+    "cityId": "683",
     "districtId": "12365",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:48:02.322Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:07:57.147Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

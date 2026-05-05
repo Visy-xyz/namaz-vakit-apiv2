@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "pg",
+    "countryName": "PAPUA YENI GINE",
+    "countryNameTr": "PAPUA YENI GINE",
+    "countryId": "185",
     "city": "buna",
+    "cityName": "BUNA",
+    "cityNameTr": "BUNA",
+    "cityGroup": "PAPUA YENI GINE",
+    "cityGroupTr": "PAPUA YENI GINE",
+    "cityId": "795",
     "districtId": "15808",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:52:38.490Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:31:17.049Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

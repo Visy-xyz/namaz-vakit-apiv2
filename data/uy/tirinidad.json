@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "uy",
+    "countryName": "URUGUAY",
+    "countryNameTr": "URUGUAY",
+    "countryId": "201",
     "city": "tirinidad",
+    "cityName": "TIRINIDAD",
+    "cityNameTr": "TIRINIDAD",
+    "cityGroup": "URUGUAY",
+    "cityGroupTr": "URUGUAY",
+    "cityId": "836",
     "districtId": "16551",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:02:39.639Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T04:14:28.760Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

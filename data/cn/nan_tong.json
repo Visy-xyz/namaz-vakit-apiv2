@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "cn",
+    "countryName": "CHINA",
+    "countryNameTr": "CIN",
+    "countryId": "61",
     "city": "nan_tong",
+    "cityName": "NAN TONG",
+    "cityNameTr": "NAN TONG",
+    "cityGroup": "CHINA",
+    "cityGroupTr": "CIN",
+    "cityId": "684",
     "districtId": "12527",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:07:06.896Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:02:58.510Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ar",
+    "countryName": "ARGENTINA",
+    "countryNameTr": "ARJANTIN",
+    "countryId": "199",
     "city": "resistencia",
+    "cityName": "RESISTENCIA",
+    "cityNameTr": "RESISTENCIA",
+    "cityGroup": "ARGENTINA",
+    "cityGroupTr": "ARJANTIN",
+    "cityId": "653",
     "districtId": "11197",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:00:59.844Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:40:25.533Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

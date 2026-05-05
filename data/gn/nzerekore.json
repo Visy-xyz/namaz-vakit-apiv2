@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "gn",
+    "countryName": "GUINEA",
+    "countryNameTr": "GINE",
+    "countryId": "111",
     "city": "nzerekore",
+    "cityName": "NZEREKORE",
+    "cityNameTr": "NZEREKORE",
+    "cityGroup": "GUINEA",
+    "cityGroupTr": "GINE",
+    "cityId": "708",
     "districtId": "13450",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:25:30.936Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:12:56.724Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

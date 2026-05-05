@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "in",
+    "countryName": "INDIA",
+    "countryNameTr": "HINDISTAN",
+    "countryId": "187",
     "city": "jamshedpur",
+    "cityName": "JAMSHEDPUR",
+    "cityNameTr": "JAMSHEDPUR",
+    "cityGroup": "INDIA",
+    "cityGroupTr": "HINDISTAN",
+    "cityId": "719",
     "districtId": "13597",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:55:26.661Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:18:28.100Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

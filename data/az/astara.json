@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "az",
+    "countryName": "AZERBAIJAN",
+    "countryNameTr": "AZERBAYCAN",
+    "countryId": "5",
     "city": "astara",
+    "cityName": "ASTARA",
+    "cityNameTr": "ASTARA",
+    "cityGroup": "AZERBAIJAN",
+    "cityGroupTr": "AZERBAYCAN",
+    "cityId": "658",
     "districtId": "11642",
     "year": 2026,
-    "fetchedAt": "2026-05-04T09:36:01.195Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:47:31.506Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

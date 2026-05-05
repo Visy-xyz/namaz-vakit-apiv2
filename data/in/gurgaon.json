@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "in",
+    "countryName": "INDIA",
+    "countryNameTr": "HINDISTAN",
+    "countryId": "187",
     "city": "gurgaon",
+    "cityName": "GURGAON",
+    "cityNameTr": "GURGAON",
+    "cityGroup": "INDIA",
+    "cityGroupTr": "HINDISTAN",
+    "cityId": "719",
     "districtId": "13607",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:55:02.365Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:18:02.063Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

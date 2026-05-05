@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "cn",
+    "countryName": "CHINA",
+    "countryNameTr": "CIN",
+    "countryId": "61",
     "city": "chengde",
+    "cityName": "CHENGDE",
+    "cityNameTr": "CHENGDE",
+    "cityGroup": "CHINA",
+    "cityGroupTr": "CIN",
+    "cityId": "684",
     "districtId": "12441",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:04:15.596Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:59:57.282Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "gn",
+    "countryName": "GUINEA",
+    "countryNameTr": "GINE",
+    "countryId": "111",
     "city": "kankan",
+    "cityName": "KANKAN",
+    "cityNameTr": "KANKAN",
+    "cityGroup": "GUINEA",
+    "cityGroupTr": "GINE",
+    "cityId": "708",
     "districtId": "13449",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:25:26.130Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:12:51.377Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

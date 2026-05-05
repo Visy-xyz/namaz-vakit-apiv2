@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "vn",
+    "countryName": "VIETNAM",
+    "countryNameTr": "VIETNAM",
+    "countryId": "135",
     "city": "haiphong",
+    "cityName": "HAIPHONG",
+    "cityNameTr": "HAIPHONG",
+    "cityGroup": "VIETNAM",
+    "cityGroupTr": "VIETNAM",
+    "cityId": "840",
     "districtId": "16601",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:37:34.083Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T04:17:00.965Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

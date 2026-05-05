@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "nz",
+    "countryName": "NEW ZEALAND",
+    "countryNameTr": "YENI ZELANDA",
+    "countryId": "193",
     "city": "whakatane",
+    "cityName": "WHAKATANE",
+    "cityNameTr": "WHAKATANE",
+    "cityGroup": "NEW ZEALAND",
+    "cityGroupTr": "YENI ZELANDA",
+    "cityId": "843",
     "districtId": "16635",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:59:32.258Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:30:05.794Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

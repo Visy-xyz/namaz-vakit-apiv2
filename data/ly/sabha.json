@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ly",
+    "countryName": "LIBYA",
+    "countryNameTr": "LIBYA",
+    "countryId": "203",
     "city": "sabha",
+    "cityName": "SABHA",
+    "cityNameTr": "SABHA",
+    "cityGroup": "LIBYA",
+    "cityGroupTr": "LIBYA",
+    "cityId": "757",
     "districtId": "15184",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:04:01.515Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:19:33.744Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

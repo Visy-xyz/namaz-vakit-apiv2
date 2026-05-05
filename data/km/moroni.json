@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "km",
+    "countryName": "KOMORLAR",
+    "countryNameTr": "KOMORLAR",
+    "countryId": "88",
     "city": "moroni",
+    "cityName": "MORONI",
+    "cityNameTr": "MORONI",
+    "cityGroup": "KOMORLAR",
+    "cityGroupTr": "KOMORLAR",
+    "cityId": "745",
     "districtId": "15112",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:16:55.056Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:13:39.210Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

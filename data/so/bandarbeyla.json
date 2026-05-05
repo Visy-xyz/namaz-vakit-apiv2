@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "so",
+    "countryName": "SOMALIA",
+    "countryNameTr": "SOMALI",
+    "countryId": "150",
     "city": "bandarbeyla",
+    "cityName": "BANDARBEYLA",
+    "cityNameTr": "BANDARBEYLA",
+    "cityGroup": "SOMALIA",
+    "cityGroupTr": "SOMALI",
+    "cityId": "814",
     "districtId": "16271",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:45:20.373Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:42:58.244Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

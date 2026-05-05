@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "bs",
+    "countryName": "BAHAMAS",
+    "countryNameTr": "BAHAMALAR",
+    "countryId": "54",
     "city": "marsh_harbour",
+    "cityName": "MARSH HARBOUR",
+    "cityNameTr": "MARSH HARBOUR",
+    "cityGroup": "BAHAMAS",
+    "cityGroupTr": "BAHAMALAR",
+    "cityId": "659",
     "districtId": "11658",
     "year": 2026,
-    "fetchedAt": "2026-05-04T09:54:26.101Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:55:50.822Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

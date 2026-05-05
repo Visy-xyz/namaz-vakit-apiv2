@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "pe",
+    "countryName": "PERU",
+    "countryNameTr": "PERU",
+    "countryId": "69",
     "city": "lima",
+    "cityName": "LIMA",
+    "cityNameTr": "LIMA",
+    "cityGroup": "PERU",
+    "cityGroupTr": "PERU",
+    "cityId": "797",
     "districtId": "15837",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:12:27.449Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:30:59.791Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ru",
+    "countryName": "RUSSIA",
+    "countryNameTr": "RUSYA",
+    "countryId": "207",
     "city": "petrodvorets",
+    "cityName": "PETRODVORETS",
+    "cityNameTr": "PETRODVORETS",
+    "cityGroup": "RUSSIA",
+    "cityGroupTr": "RUSYA",
+    "cityId": "805",
     "districtId": "16090",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:08:27.701Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:39:07.382Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

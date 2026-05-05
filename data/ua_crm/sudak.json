@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ua_crm",
+    "countryName": "UKRAINE-KRYM",
+    "countryNameTr": "UKRAYNA-KIRIM",
+    "countryId": "29",
     "city": "sudak",
+    "cityName": "SUDAK",
+    "cityNameTr": "SUDAK",
+    "cityGroup": "UKRAINE-KRYM",
+    "cityGroupTr": "UKRAYNA-KIRIM",
+    "cityId": "833",
     "districtId": "16525",
     "year": 2026,
-    "fetchedAt": "2026-05-04T09:37:37.396Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T04:13:48.317Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

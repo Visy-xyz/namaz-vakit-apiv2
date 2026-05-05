@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "mx",
+    "countryName": "MEXICO",
+    "countryNameTr": "MEKSIKA",
+    "countryId": "53",
     "city": "celaya",
+    "cityName": "CELAYA",
+    "cityNameTr": "CELAYA",
+    "cityGroup": "MEXICO",
+    "cityGroupTr": "MEKSIKA",
+    "cityId": "774",
     "districtId": "15371",
     "year": 2026,
-    "fetchedAt": "2026-05-04T09:38:26.052Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:23:58.858Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

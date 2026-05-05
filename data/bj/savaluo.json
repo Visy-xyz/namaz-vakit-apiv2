@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "bj",
+    "countryName": "BENIN",
+    "countryNameTr": "BENIN",
+    "countryId": "181",
     "city": "savaluo",
+    "cityName": "SAVALUO",
+    "cityNameTr": "SAVALUO",
+    "cityGroup": "BENIN",
+    "cityGroupTr": "BENIN",
+    "cityId": "666",
     "districtId": "11937",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:52:06.592Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:49:32.961Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

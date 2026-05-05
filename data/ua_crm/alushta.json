@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ua_crm",
+    "countryName": "UKRAINE-KRYM",
+    "countryNameTr": "UKRAYNA-KIRIM",
+    "countryId": "29",
     "city": "alushta",
+    "cityName": "ALUSHTA",
+    "cityNameTr": "ALUSHTA",
+    "cityGroup": "UKRAINE-KRYM",
+    "cityGroupTr": "UKRAYNA-KIRIM",
+    "cityId": "833",
     "districtId": "16515",
     "year": 2026,
-    "fetchedAt": "2026-05-04T09:36:59.056Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T04:13:10.105Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

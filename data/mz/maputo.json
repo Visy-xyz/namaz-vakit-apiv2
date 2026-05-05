@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "mz",
+    "countryName": "MOZAMBIK",
+    "countryNameTr": "MOZAMBIK",
+    "countryId": "151",
     "city": "maputo",
+    "cityName": "MAPUTO",
+    "cityNameTr": "MAPUTO",
+    "cityGroup": "MOZAMBIK",
+    "cityGroupTr": "MOZAMBIK",
+    "cityId": "782",
     "districtId": "15548",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:45:38.260Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:27:19.871Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "id",
+    "countryName": "INDONESIA",
+    "countryNameTr": "ENDONEZYA",
+    "countryId": "117",
     "city": "tanjungkarangt",
+    "cityName": "TANJUNGKARANG-T.",
+    "cityNameTr": "TANJUNGKARANG-T.",
+    "cityGroup": "INDONESIA",
+    "cityGroupTr": "ENDONEZYA",
+    "cityId": "693",
     "districtId": "12766",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:31:10.468Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:16:31.799Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

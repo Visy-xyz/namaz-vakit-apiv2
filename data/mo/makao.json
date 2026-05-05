@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "mo",
+    "countryName": "MAKAO",
+    "countryNameTr": "MAKAO",
+    "countryId": "100",
     "city": "makao",
+    "cityName": "MAKAO",
+    "cityNameTr": "MAKAO",
+    "cityGroup": "MAKAO",
+    "cityGroupTr": "MAKAO",
+    "cityId": "764",
     "districtId": "15273",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:22:19.401Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:22:54.723Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

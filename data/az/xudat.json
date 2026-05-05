@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "az",
+    "countryName": "AZERBAIJAN",
+    "countryNameTr": "AZERBAYCAN",
+    "countryId": "5",
     "city": "xudat",
+    "cityName": "XUDAT",
+    "cityNameTr": "XUDAT",
+    "cityGroup": "AZERBAIJAN",
+    "cityGroupTr": "AZERBAYCAN",
+    "cityId": "658",
     "districtId": "11630",
     "year": 2026,
-    "fetchedAt": "2026-05-04T09:36:47.331Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:48:20.227Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

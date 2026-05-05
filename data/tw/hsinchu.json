@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "tw",
+    "countryName": "TAIWAN",
+    "countryNameTr": "TAYVAN",
+    "countryId": "108",
     "city": "hsinchu",
+    "cityName": "HSIN-CHU",
+    "cityNameTr": "HSIN-CHU",
+    "cityGroup": "TAIWAN",
+    "cityGroupTr": "TAYVAN",
+    "cityId": "825",
     "districtId": "16362",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:24:50.592Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T04:12:33.992Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

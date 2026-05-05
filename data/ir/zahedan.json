@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ir",
+    "countryName": "IRAN",
+    "countryNameTr": "IRAN",
+    "countryId": "202",
     "city": "zahedan",
+    "cityName": "ZAHEDAN",
+    "cityNameTr": "ZAHEDAN",
+    "cityGroup": "IRAN",
+    "cityGroupTr": "IRAN",
+    "cityId": "727",
     "districtId": "14191",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:03:47.268Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:22:07.027Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

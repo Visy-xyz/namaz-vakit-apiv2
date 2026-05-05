@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "et",
+    "countryName": "ETHIOPIA",
+    "countryNameTr": "ETYOPYA",
+    "countryId": "95",
     "city": "dese",
+    "cityName": "DESE",
+    "cityNameTr": "DESE",
+    "cityGroup": "ETHIOPIA",
+    "cityGroupTr": "ETYOPYA",
+    "cityId": "697",
     "districtId": "12799",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:21:28.892Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:10:53.346Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

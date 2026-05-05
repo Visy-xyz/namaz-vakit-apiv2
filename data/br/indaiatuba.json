@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "br",
+    "countryName": "BRAZIL",
+    "countryNameTr": "BREZILYA",
+    "countryId": "146",
     "city": "indaiatuba",
+    "cityName": "INDAIATUBA",
+    "cityNameTr": "INDAIATUBA",
+    "cityGroup": "BRAZIL",
+    "cityGroupTr": "BREZILYA",
+    "cityId": "672",
     "districtId": "12183",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:42:10.885Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:52:29.807Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

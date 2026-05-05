@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ar",
+    "countryName": "ARGENTINA",
+    "countryNameTr": "ARJANTIN",
+    "countryId": "199",
     "city": "godoy_cruz",
+    "cityName": "GODOY CRUZ",
+    "cityNameTr": "GODOY CRUZ",
+    "cityGroup": "ARGENTINA",
+    "cityGroupTr": "ARJANTIN",
+    "cityId": "653",
     "districtId": "11199",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:00:28.517Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:39:52.290Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

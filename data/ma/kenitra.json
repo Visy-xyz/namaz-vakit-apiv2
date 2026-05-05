@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ma",
+    "countryName": "MOROCCO",
+    "countryNameTr": "FAS",
+    "countryId": "145",
     "city": "kenitra",
+    "cityName": "KENITRA",
+    "cityNameTr": "KENITRA",
+    "cityGroup": "MOROCCO",
+    "cityGroupTr": "FAS",
+    "cityId": "698",
     "districtId": "12812",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:40:16.291Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:19:47.867Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

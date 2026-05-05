@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "sy",
+    "countryName": "SYRIA",
+    "countryNameTr": "SURIYE",
+    "countryId": "191",
     "city": "aleppo",
+    "cityName": "ALEPPO",
+    "cityNameTr": "HALEP",
+    "cityGroup": "SYRIA",
+    "cityGroupTr": "SURIYE",
+    "cityId": "818",
     "districtId": "16305",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:58:14.100Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:43:43.142Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

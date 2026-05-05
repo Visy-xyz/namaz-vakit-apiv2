@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ml",
+    "countryName": "MALI",
+    "countryNameTr": "MALI",
+    "countryId": "152",
     "city": "gao",
+    "cityName": "GAO",
+    "cityNameTr": "GAO",
+    "cityGroup": "MALI",
+    "cityGroupTr": "MALI",
+    "cityId": "769",
     "districtId": "15346",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:45:49.687Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:20:35.222Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

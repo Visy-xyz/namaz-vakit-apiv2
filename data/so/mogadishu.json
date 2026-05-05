@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "so",
+    "countryName": "SOMALIA",
+    "countryNameTr": "SOMALI",
+    "countryId": "150",
     "city": "mogadishu",
+    "cityName": "MOGADISHU",
+    "cityNameTr": "MOGADISHU",
+    "cityGroup": "SOMALIA",
+    "cityGroupTr": "SOMALI",
+    "cityId": "814",
     "districtId": "16273",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:45:31.796Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:43:10.280Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

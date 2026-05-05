@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "eg",
+    "countryName": "EGYPT",
+    "countryNameTr": "MISIR",
+    "countryId": "189",
     "city": "banha",
+    "cityName": "BANHA",
+    "cityNameTr": "BANHA",
+    "cityGroup": "EGYPT",
+    "cityGroupTr": "MISIR",
+    "cityId": "776",
     "districtId": "15456",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:57:20.786Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:10:10.963Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

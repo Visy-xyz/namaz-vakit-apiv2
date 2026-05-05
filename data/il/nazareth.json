@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "il",
+    "countryName": "ISRAEL",
+    "countryNameTr": "ISRAIL",
+    "countryId": "205",
     "city": "nazareth",
+    "cityName": "NAZARETH",
+    "cityNameTr": "NAZARETH",
+    "cityGroup": "ISRAEL",
+    "cityGroupTr": "ISRAIL",
+    "cityId": "730",
     "districtId": "14268",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:04:31.287Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:16:43.974Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

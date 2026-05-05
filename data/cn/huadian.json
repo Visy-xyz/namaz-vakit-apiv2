@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "cn",
+    "countryName": "CHINA",
+    "countryNameTr": "CIN",
+    "countryId": "61",
     "city": "huadian",
+    "cityName": "HUADIAN",
+    "cityNameTr": "HUADIAN",
+    "cityGroup": "CHINA",
+    "cityGroupTr": "CIN",
+    "cityId": "684",
     "districtId": "12478",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:05:38.692Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:01:25.845Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

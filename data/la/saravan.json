@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "la",
+    "countryName": "LAOS",
+    "countryNameTr": "LAOS",
+    "countryId": "134",
     "city": "saravan",
+    "cityName": "SARAVAN",
+    "cityNameTr": "SARAVAN",
+    "cityGroup": "LAOS",
+    "cityGroupTr": "LAOS",
+    "cityId": "753",
     "districtId": "15168",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:37:19.421Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:18:44.223Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

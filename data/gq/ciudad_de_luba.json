@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "gq",
+    "countryName": "EKVATOR GINESI",
+    "countryNameTr": "EKVATOR GINESI",
+    "countryId": "63",
     "city": "ciudad_de_luba",
+    "cityName": "CIUDAD DE LUBA",
+    "cityNameTr": "CIUDAD DE LUBA",
+    "cityGroup": "EKVATOR GINESI",
+    "cityGroupTr": "EKVATOR GINESI",
+    "cityId": "691",
     "districtId": "12714",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:10:40.252Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:13:02.372Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

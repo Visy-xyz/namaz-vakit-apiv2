@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ar",
+    "countryName": "ARGENTINA",
+    "countryNameTr": "ARJANTIN",
+    "countryId": "199",
     "city": "bariloche",
+    "cityName": "BARILOCHE",
+    "cityNameTr": "BARILOCHE",
+    "cityGroup": "ARGENTINA",
+    "cityGroupTr": "ARJANTIN",
+    "cityId": "653",
     "districtId": "11147",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:00:03.671Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:39:25.858Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

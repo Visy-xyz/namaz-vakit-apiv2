@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "iq",
+    "countryName": "IRAQ",
+    "countryNameTr": "IRAK",
+    "countryId": "124",
     "city": "koysinjaq",
+    "cityName": "KOYSİNJAQ",
+    "cityNameTr": "KOYSANCAK",
+    "cityGroup": "IRAQ",
+    "cityGroupTr": "IRAK",
+    "cityId": "726",
     "districtId": "16771",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:32:14.554Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:20:42.162Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

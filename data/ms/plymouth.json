@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ms",
+    "countryName": "MONTSERRAT (U.K.)",
+    "countryNameTr": "MONTSERRAT (U.K.)",
+    "countryId": "147",
     "city": "plymouth",
+    "cityName": "PLYMOUTH",
+    "cityNameTr": "PLYMOUTH",
+    "cityGroup": "MONTSERRAT (U.K.)",
+    "cityGroupTr": "MONTSERRAT (U.K.)",
+    "cityId": "780",
     "districtId": "15545",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:45:06.568Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:23:25.989Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

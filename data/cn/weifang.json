@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "cn",
+    "countryName": "CHINA",
+    "countryNameTr": "CIN",
+    "countryId": "61",
     "city": "weifang",
+    "cityName": "WEIFANG",
+    "cityNameTr": "WEIFANG",
+    "cityGroup": "CHINA",
+    "cityGroupTr": "CIN",
+    "cityId": "684",
     "districtId": "12576",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:08:26.440Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:04:22.565Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

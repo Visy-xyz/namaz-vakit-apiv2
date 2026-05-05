@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ar",
+    "countryName": "ARGENTINA",
+    "countryNameTr": "ARJANTIN",
+    "countryId": "199",
     "city": "rio_cuarto",
+    "cityName": "RIO CUARTO",
+    "cityNameTr": "RIO CUARTO",
+    "cityGroup": "ARGENTINA",
+    "cityGroupTr": "ARJANTIN",
+    "cityId": "653",
     "districtId": "11177",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:01:01.467Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:40:27.294Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

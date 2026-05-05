@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "jp",
+    "countryName": "JAPAN",
+    "countryNameTr": "JAPONYA",
+    "countryId": "116",
     "city": "hachioji",
+    "cityName": "HACHIOJI",
+    "cityNameTr": "HACHIOJI",
+    "cityGroup": "JAPAN",
+    "cityGroupTr": "JAPONYA",
+    "cityId": "736",
     "districtId": "14744",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:26:39.654Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:23:09.385Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

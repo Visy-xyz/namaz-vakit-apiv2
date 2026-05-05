@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "gh",
+    "countryName": "GHANA",
+    "countryNameTr": "GANA",
+    "countryId": "143",
     "city": "bolgatanga",
+    "cityName": "BOLGATANGA",
+    "cityNameTr": "BOLGATANGA",
+    "cityGroup": "GHANA",
+    "cityGroupTr": "GANA",
+    "cityId": "707",
     "districtId": "13437",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:39:53.156Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:12:30.533Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

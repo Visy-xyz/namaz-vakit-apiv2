@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ge",
+    "countryName": "GEORGIA",
+    "countryNameTr": "GURCISTAN",
+    "countryId": "62",
     "city": "tbilisi",
+    "cityName": "TBILISI",
+    "cityNameTr": "TIFLIS",
+    "cityGroup": "GEORGIA",
+    "cityGroupTr": "GURCISTAN",
+    "cityId": "716",
     "districtId": "13554",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:10:33.831Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:12:20.085Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

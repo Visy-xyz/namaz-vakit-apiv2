@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "az",
+    "countryName": "AZERBAIJAN",
+    "countryNameTr": "AZERBAYCAN",
+    "countryId": "5",
     "city": "askeran_xankandi",
+    "cityName": "ASKERAN (XANKANDI)",
+    "cityNameTr": "ASKERAN (XANKANDI)",
+    "cityGroup": "AZERBAIJAN",
+    "cityGroupTr": "AZERBAYCAN",
+    "cityId": "658",
     "districtId": "11620",
     "year": 2026,
-    "fetchedAt": "2026-05-04T09:35:59.446Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:47:29.715Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

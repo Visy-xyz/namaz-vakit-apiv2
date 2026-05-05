@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "bo",
+    "countryName": "BOLIVYA",
+    "countryNameTr": "BOLIVYA",
+    "countryId": "83",
     "city": "chimore",
+    "cityName": "CHIMORE",
+    "cityNameTr": "CHIMORE",
+    "cityGroup": "BOLIVYA",
+    "cityGroupTr": "BOLIVYA",
+    "cityId": "669",
     "districtId": "11953",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:15:19.481Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:49:54.517Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

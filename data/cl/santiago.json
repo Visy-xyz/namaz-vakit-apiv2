@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "cl",
+    "countryName": "CHILE",
+    "countryNameTr": "SILI",
+    "countryId": "200",
     "city": "santiago",
+    "cityName": "SANTIAGO",
+    "cityNameTr": "SANTIAGO",
+    "cityGroup": "CHILE",
+    "cityGroupTr": "SILI",
+    "cityId": "809",
     "districtId": "16190",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:02:04.907Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:58:49.539Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

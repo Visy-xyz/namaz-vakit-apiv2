@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ar",
+    "countryName": "ARGENTINA",
+    "countryNameTr": "ARJANTIN",
+    "countryId": "199",
     "city": "san_isidro",
+    "cityName": "SAN ISIDRO",
+    "cityNameTr": "SAN ISIDRO",
+    "cityGroup": "ARGENTINA",
+    "cityGroupTr": "ARJANTIN",
+    "cityId": "653",
     "districtId": "11183",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:01:13.028Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:40:39.588Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

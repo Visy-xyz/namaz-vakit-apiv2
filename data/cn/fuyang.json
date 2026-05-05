@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "cn",
+    "countryName": "CHINA",
+    "countryNameTr": "CIN",
+    "countryId": "61",
     "city": "fuyang",
+    "cityName": "FUYANG",
+    "cityNameTr": "FUYANG",
+    "cityGroup": "CHINA",
+    "cityGroupTr": "CIN",
+    "cityId": "684",
     "districtId": "12466",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:05:06.107Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:00:51.152Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

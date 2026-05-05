@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "nc",
+    "countryName": "YENI KALEDONYA",
+    "countryNameTr": "YENI KALEDONYA",
+    "countryId": "115",
     "city": "koumac",
+    "cityName": "KOUMAC",
+    "cityNameTr": "KOUMAC",
+    "cityGroup": "YENI KALEDONYA",
+    "cityGroupTr": "YENI KALEDONYA",
+    "cityId": "842",
     "districtId": "16613",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:25:53.149Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:27:39.328Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

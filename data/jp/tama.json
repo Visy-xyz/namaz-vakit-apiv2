@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "jp",
+    "countryName": "JAPAN",
+    "countryNameTr": "JAPONYA",
+    "countryId": "116",
     "city": "tama",
+    "cityName": "TAMA",
+    "cityNameTr": "TAMA",
+    "cityGroup": "JAPAN",
+    "cityGroupTr": "JAPONYA",
+    "cityId": "736",
     "districtId": "14772",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:29:17.065Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:10:58.745Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

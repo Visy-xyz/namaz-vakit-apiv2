@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ru",
+    "countryName": "RUSSIA",
+    "countryNameTr": "RUSYA",
+    "countryId": "207",
     "city": "alekseyevskoye",
+    "cityName": "ALEKSEYEVSKOYE",
+    "cityNameTr": "ALEKSEYEVSKOYE",
+    "cityGroup": "RUSSIA",
+    "cityGroupTr": "RUSYA",
+    "cityId": "805",
     "districtId": "15963",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:04:46.218Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:35:16.454Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

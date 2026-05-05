@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "af",
+    "countryName": "AFGHANISTAN",
+    "countryNameTr": "AFGANISTAN",
+    "countryId": "166",
     "city": "feyzabad",
+    "cityName": "FEYZABAD",
+    "cityNameTr": "FEYZABAD",
+    "cityGroup": "AFGHANISTAN",
+    "cityGroupTr": "AFGANISTAN",
+    "cityId": "647",
     "districtId": "9958",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:48:51.566Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:37:49.071Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

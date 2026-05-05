@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "py",
+    "countryName": "PARAGUAY",
+    "countryNameTr": "PARAGUAY",
+    "countryId": "194",
     "city": "coronel_oviedo",
+    "cityName": "CORONEL OVIEDO",
+    "cityNameTr": "CORONEL OVIEDO",
+    "cityGroup": "PARAGUAY",
+    "cityGroupTr": "PARAGUAY",
+    "cityId": "796",
     "districtId": "15818",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:59:40.550Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:33:58.372Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

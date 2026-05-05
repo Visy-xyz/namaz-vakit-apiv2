@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "tm",
+    "countryName": "TURKMENISTAN",
+    "countryNameTr": "TURKMENISTAN",
+    "countryId": "159",
     "city": "sakar_chaga",
+    "cityName": "SAKAR CHAGA ",
+    "cityNameTr": "SAKAR CHAGA ",
+    "cityGroup": "TURKMENISTAN",
+    "cityGroupTr": "TURKMENISTAN",
+    "cityId": "830",
     "districtId": "16406",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:47:42.501Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:46:42.144Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

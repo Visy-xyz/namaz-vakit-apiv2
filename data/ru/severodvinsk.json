@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ru",
+    "countryName": "RUSSIA",
+    "countryNameTr": "RUSYA",
+    "countryId": "207",
     "city": "severodvinsk",
+    "cityName": "SEVERODVINSK",
+    "cityNameTr": "SEVERODVINSK",
+    "cityGroup": "RUSSIA",
+    "cityGroupTr": "RUSYA",
+    "cityId": "805",
     "districtId": "16103",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:09:14.624Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:39:58.306Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ir",
+    "countryName": "IRAN",
+    "countryNameTr": "IRAN",
+    "countryId": "202",
     "city": "divandarreh",
+    "cityName": "DIVANDARREH",
+    "cityNameTr": "DIVANDARE",
+    "cityGroup": "IRAN",
+    "cityGroupTr": "IRAN",
+    "cityId": "727",
     "districtId": "16780",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:02:59.406Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:21:15.216Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

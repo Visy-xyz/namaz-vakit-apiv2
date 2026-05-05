@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "za",
+    "countryName": "SOUTH AFRICA",
+    "countryNameTr": "GUNEY AFRIKA",
+    "countryId": "67",
     "city": "worcester",
+    "cityName": "WORCESTER",
+    "cityNameTr": "WORCESTER",
+    "cityGroup": "SOUTH AFRICA",
+    "cityGroupTr": "GUNEY AFRIKA",
+    "cityId": "714",
     "districtId": "13490",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:11:58.093Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T04:18:37.042Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

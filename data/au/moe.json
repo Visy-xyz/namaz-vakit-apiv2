@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "au",
+    "countryName": "AUSTRALIA",
+    "countryNameTr": "AVUSTRALYA",
+    "countryId": "59",
     "city": "moe",
+    "cityName": "MOE",
+    "cityNameTr": "MOE",
+    "cityGroup": "AUSTRALIA",
+    "cityGroupTr": "AVUSTRALYA",
+    "cityId": "656",
     "districtId": "11258",
     "year": 2026,
-    "fetchedAt": "2026-05-04T09:59:12.836Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:44:36.415Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

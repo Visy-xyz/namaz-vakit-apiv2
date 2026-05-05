@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "yt",
+    "countryName": "MAYOTTE",
+    "countryNameTr": "MAYOTTE",
+    "countryId": "157",
     "city": "mamoudzou",
+    "cityName": "MAMOUDZOU",
+    "cityNameTr": "MAMOUDZOU",
+    "cityGroup": "MAYOTTE",
+    "cityGroupTr": "MAYOTTE",
+    "cityId": "773",
     "districtId": "15356",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:46:47.133Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T04:17:43.253Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

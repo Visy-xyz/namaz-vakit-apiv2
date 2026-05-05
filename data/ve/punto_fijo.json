@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ve",
+    "countryName": "VENEZUELA",
+    "countryNameTr": "VENEZUELA",
+    "countryId": "186",
     "city": "punto_fijo",
+    "cityName": "PUNTO FIJO",
+    "cityNameTr": "PUNTO FIJO",
+    "cityGroup": "VENEZUELA",
+    "cityGroupTr": "VENEZUELA",
+    "cityId": "839",
     "districtId": "16577",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:53:30.648Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T04:16:38.628Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

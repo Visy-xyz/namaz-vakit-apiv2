@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ae",
+    "countryName": "UNITED ARAB EMIRATES",
+    "countryNameTr": "BIRLESIK ARAP EMIRLIGI",
+    "countryId": "93",
     "city": "abu_dhabi",
+    "cityName": "ABU DHABI",
+    "cityNameTr": "ABU DHABI",
+    "cityGroup": "UNITED ARAB EMIRATES",
+    "cityGroupTr": "BIRLESIK ARAP EMIRLIGI",
+    "cityId": "668",
     "districtId": "11942",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:21:09.006Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:37:35.063Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

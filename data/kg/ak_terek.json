@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "kg",
+    "countryName": "KIRGIZHSTAN",
+    "countryNameTr": "KIRGIZISTAN",
+    "countryId": "168",
     "city": "ak_terek",
+    "cityName": "AK TEREK",
+    "cityNameTr": "AK TEREK",
+    "cityGroup": "KIRGIZHSTAN",
+    "cityGroupTr": "KIRGIZISTAN",
+    "cityId": "743",
     "districtId": "15024",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:49:32.555Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:11:52.005Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

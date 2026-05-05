@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "in",
+    "countryName": "INDIA",
+    "countryNameTr": "HINDISTAN",
+    "countryId": "187",
     "city": "adilabad",
+    "cityName": "ADILABAD",
+    "cityNameTr": "ADILABAD",
+    "cityGroup": "INDIA",
+    "cityGroupTr": "HINDISTAN",
+    "cityId": "719",
     "districtId": "13671",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:53:43.598Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:16:50.922Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "az",
+    "countryName": "AZERBAIJAN",
+    "countryNameTr": "AZERBAYCAN",
+    "countryId": "5",
     "city": "mingacevir",
+    "cityName": "MINGACEVIR",
+    "cityNameTr": "MINGACEVIR",
+    "cityGroup": "AZERBAIJAN",
+    "cityGroupTr": "AZERBAYCAN",
+    "cityId": "658",
     "districtId": "11625",
     "year": 2026,
-    "fetchedAt": "2026-05-04T09:36:25.990Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:47:50.595Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

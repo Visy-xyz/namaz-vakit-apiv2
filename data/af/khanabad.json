@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "af",
+    "countryName": "AFGHANISTAN",
+    "countryNameTr": "AFGANISTAN",
+    "countryId": "166",
     "city": "khanabad",
+    "cityName": "KHANABAD",
+    "cityNameTr": "KHANABAD",
+    "cityGroup": "AFGHANISTAN",
+    "cityGroupTr": "AFGANISTAN",
+    "cityId": "647",
     "districtId": "9961",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:49:01.178Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:37:59.475Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

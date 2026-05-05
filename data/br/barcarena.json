@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "br",
+    "countryName": "BRAZIL",
+    "countryNameTr": "BREZILYA",
+    "countryId": "146",
     "city": "barcarena",
+    "cityName": "BARCARENA",
+    "cityNameTr": "BARCARENA",
+    "cityGroup": "BRAZIL",
+    "cityGroupTr": "BREZILYA",
+    "cityId": "672",
     "districtId": "12177",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:40:54.461Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:51:09.577Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

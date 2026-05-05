@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "br",
+    "countryName": "BRAZIL",
+    "countryNameTr": "BREZILYA",
+    "countryId": "146",
     "city": "sena_madureira",
+    "cityName": "SENA MADUREIRA",
+    "cityNameTr": "SENA MADUREIRA",
+    "cityGroup": "BRAZIL",
+    "cityGroupTr": "BREZILYA",
+    "cityId": "672",
     "districtId": "12130",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:44:24.865Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:54:53.240Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

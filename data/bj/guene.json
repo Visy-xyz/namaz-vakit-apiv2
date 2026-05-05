@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "bj",
+    "countryName": "BENIN",
+    "countryNameTr": "BENIN",
+    "countryId": "181",
     "city": "guene",
+    "cityName": "GUENE",
+    "cityNameTr": "GUENE",
+    "cityGroup": "BENIN",
+    "cityGroupTr": "BENIN",
+    "cityId": "666",
     "districtId": "11931",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:51:53.219Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:49:19.185Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

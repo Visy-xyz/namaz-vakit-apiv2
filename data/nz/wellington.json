@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "nz",
+    "countryName": "NEW ZEALAND",
+    "countryNameTr": "YENI ZELANDA",
+    "countryId": "193",
     "city": "wellington",
+    "cityName": "WELLINGTON",
+    "cityNameTr": "WELLINGTON",
+    "cityGroup": "NEW ZEALAND",
+    "cityGroupTr": "YENI ZELANDA",
+    "cityId": "843",
     "districtId": "16638",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:59:30.621Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:30:04.064Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

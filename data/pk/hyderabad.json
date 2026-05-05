@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "pk",
+    "countryName": "PAKISTAN",
+    "countryNameTr": "PAKISTAN",
+    "countryId": "77",
     "city": "hyderabad",
+    "cityName": "HYDERABAD",
+    "cityNameTr": "HYDERABAD",
+    "cityGroup": "PAKISTAN",
+    "cityGroupTr": "PAKISTAN",
+    "cityId": "792",
     "districtId": "15775",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:14:03.398Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:32:43.269Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

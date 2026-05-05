@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "td",
+    "countryName": "CAD",
+    "countryNameTr": "CAD",
+    "countryId": "156",
     "city": "bongor",
+    "cityName": "BONGOR",
+    "cityNameTr": "BONGOR",
+    "cityGroup": "CAD",
+    "cityGroupTr": "CAD",
+    "cityId": "679",
     "districtId": "12285",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:46:30.851Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:44:40.183Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

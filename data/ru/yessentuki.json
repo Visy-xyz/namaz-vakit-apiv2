@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ru",
+    "countryName": "RUSSIA",
+    "countryNameTr": "RUSYA",
+    "countryId": "207",
     "city": "yessentuki",
+    "cityName": "YESSENTUKI",
+    "cityNameTr": "YESSENTUKI",
+    "cityGroup": "RUSSIA",
+    "cityGroupTr": "RUSYA",
+    "cityId": "805",
     "districtId": "16063",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:10:59.076Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:41:47.526Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "iq",
+    "countryName": "IRAQ",
+    "countryNameTr": "IRAK",
+    "countryId": "124",
     "city": "suleymaniye",
+    "cityName": "SULEYMANIYE",
+    "cityNameTr": "SULEYMANIYE",
+    "cityGroup": "IRAQ",
+    "cityGroupTr": "IRAK",
+    "cityId": "726",
     "districtId": "14158",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:32:24.385Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:20:52.520Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

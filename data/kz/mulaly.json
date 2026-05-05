@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "kz",
+    "countryName": "KAZAKHSTAN",
+    "countryNameTr": "KAZAKISTAN",
+    "countryId": "92",
     "city": "mulaly",
+    "cityName": "MULALY",
+    "cityNameTr": "MULALY",
+    "cityGroup": "KAZAKHSTAN",
+    "cityGroupTr": "KAZAKISTAN",
+    "cityId": "741",
     "districtId": "14955",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:19:54.826Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:17:19.156Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

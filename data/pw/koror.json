@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "pw",
+    "countryName": "PALAU",
+    "countryNameTr": "PALAU",
+    "countryId": "149",
     "city": "koror",
+    "cityName": "KOROR",
+    "cityNameTr": "KOROR",
+    "cityGroup": "PALAU",
+    "cityGroupTr": "PALAU",
+    "cityId": "793",
     "districtId": "15794",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:45:18.725Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:33:51.463Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

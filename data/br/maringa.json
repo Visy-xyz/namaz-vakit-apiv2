@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "br",
+    "countryName": "BRAZIL",
+    "countryNameTr": "BREZILYA",
+    "countryId": "146",
     "city": "maringa",
+    "cityName": "MARINGA",
+    "cityNameTr": "MARINGA",
+    "cityGroup": "BRAZIL",
+    "cityGroupTr": "BREZILYA",
+    "cityId": "672",
     "districtId": "12080",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:42:41.599Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:53:02.386Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

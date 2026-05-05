@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "br",
+    "countryName": "BRAZIL",
+    "countryNameTr": "BREZILYA",
+    "countryId": "146",
     "city": "limeira",
+    "cityName": "LIMEIRA",
+    "cityNameTr": "LIMEIRA",
+    "cityGroup": "BRAZIL",
+    "cityGroupTr": "BREZILYA",
+    "cityId": "672",
     "districtId": "12075",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:42:30.125Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:52:49.941Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

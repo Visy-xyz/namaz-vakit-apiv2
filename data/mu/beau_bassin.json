@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "mu",
+    "countryName": "MAURITIUS ADASI",
+    "countryNameTr": "MAURITIUS ADASI",
+    "countryId": "164",
     "city": "beau_bassin",
+    "cityName": "BEAU BASSIN",
+    "cityNameTr": "BEAU BASSIN",
+    "cityGroup": "MAURITIUS ADASI",
+    "cityGroupTr": "MAURITIUS ADASI",
+    "cityId": "772",
     "districtId": "15355",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:48:30.398Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:23:27.735Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

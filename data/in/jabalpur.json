@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "in",
+    "countryName": "INDIA",
+    "countryNameTr": "HINDISTAN",
+    "countryId": "187",
     "city": "jabalpur",
+    "cityName": "JABALPUR",
+    "cityNameTr": "JABALPUR",
+    "cityGroup": "INDIA",
+    "cityGroupTr": "HINDISTAN",
+    "cityId": "719",
     "districtId": "13615",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:55:18.525Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:18:19.425Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

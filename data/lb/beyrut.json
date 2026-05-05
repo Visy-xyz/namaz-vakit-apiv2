@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "lb",
+    "countryName": "LEBANON",
+    "countryNameTr": "LUBNAN",
+    "countryId": "42",
     "city": "beyrut",
+    "cityName": "BEYRUT",
+    "cityNameTr": "BEYRUT",
+    "cityGroup": "LUBNAN",
+    "cityGroupTr": "LUBNAN",
+    "cityId": "760",
     "districtId": "15216",
     "year": 2026,
-    "fetchedAt": "2026-05-04T09:37:44.079Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:18:51.140Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

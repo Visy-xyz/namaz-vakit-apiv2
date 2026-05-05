@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ar",
+    "countryName": "ARGENTINA",
+    "countryNameTr": "ARJANTIN",
+    "countryId": "199",
     "city": "san_miguel_de_tucuman",
+    "cityName": "SAN MIGUEL DE TUCUMAN",
+    "cityNameTr": "SAN MIGUEL DE TUCUMAN",
+    "cityGroup": "ARGENTINA",
+    "cityGroupTr": "ARJANTIN",
+    "cityId": "653",
     "districtId": "11188",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:01:18.076Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:40:44.780Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

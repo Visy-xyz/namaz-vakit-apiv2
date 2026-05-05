@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "tj",
+    "countryName": "TAJIKISTAN",
+    "countryNameTr": "TACIKISTAN",
+    "countryId": "101",
     "city": "dusembe",
+    "cityName": "DUSEMBE",
+    "cityNameTr": "DUSEMBE",
+    "cityGroup": "TAJIKISTAN",
+    "cityGroupTr": "TACIKISTAN",
+    "cityId": "822",
     "districtId": "16334",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:22:24.007Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:45:34.704Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

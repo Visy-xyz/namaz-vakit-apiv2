@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ir",
+    "countryName": "IRAN",
+    "countryNameTr": "IRAN",
+    "countryId": "202",
     "city": "shiraz",
+    "cityName": "SHIRAZ",
+    "cityNameTr": "SHIRAZ",
+    "cityGroup": "IRAN",
+    "cityGroupTr": "IRAN",
+    "cityId": "727",
     "districtId": "14172",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:03:39.003Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:21:57.496Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

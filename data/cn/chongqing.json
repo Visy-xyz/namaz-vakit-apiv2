@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "cn",
+    "countryName": "CHINA",
+    "countryNameTr": "CIN",
+    "countryId": "61",
     "city": "chongqing",
+    "cityName": "CHONGQING",
+    "cityNameTr": "CHONGQING",
+    "cityGroup": "CHINA",
+    "cityGroupTr": "CIN",
+    "cityId": "684",
     "districtId": "12445",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:04:22.142Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:00:04.433Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

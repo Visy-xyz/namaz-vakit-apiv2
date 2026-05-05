@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "cn",
+    "countryName": "CHINA",
+    "countryNameTr": "CIN",
+    "countryId": "61",
     "city": "chanzhou",
+    "cityName": "CHANZHOU",
+    "cityNameTr": "CHANZHOU",
+    "cityGroup": "CHINA",
+    "cityGroupTr": "CIN",
+    "cityId": "684",
     "districtId": "12436",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:04:12.319Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:59:53.816Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

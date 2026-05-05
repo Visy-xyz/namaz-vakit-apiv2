@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "br",
+    "countryName": "BRAZIL",
+    "countryNameTr": "BREZILYA",
+    "countryId": "146",
     "city": "montenegro_rgs",
+    "cityName": "MONTENEGRO (R.G.S.)",
+    "cityNameTr": "MONTENEGRO (R.G.S.)",
+    "cityGroup": "BRAZIL",
+    "cityGroupTr": "BREZILYA",
+    "cityId": "672",
     "districtId": "12082",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:42:48.041Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:53:09.783Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

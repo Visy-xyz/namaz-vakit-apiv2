@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ge",
+    "countryName": "GEORGIA",
+    "countryNameTr": "GURCISTAN",
+    "countryId": "62",
     "city": "gori",
+    "cityName": "GORI",
+    "cityNameTr": "GORI",
+    "cityGroup": "GEORGIA",
+    "cityGroupTr": "GURCISTAN",
+    "cityId": "716",
     "districtId": "13541",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:10:00.531Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:11:45.400Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

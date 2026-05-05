@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "la",
+    "countryName": "LAOS",
+    "countryNameTr": "LAOS",
+    "countryId": "134",
     "city": "vientiane",
+    "cityName": "VIENTIANE",
+    "cityNameTr": "VIENTIANE",
+    "cityGroup": "LAOS",
+    "cityGroupTr": "LAOS",
+    "cityId": "753",
     "districtId": "15162",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:37:21.027Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:18:45.959Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

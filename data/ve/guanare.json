@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ve",
+    "countryName": "VENEZUELA",
+    "countryNameTr": "VENEZUELA",
+    "countryId": "186",
     "city": "guanare",
+    "cityName": "GUANARE",
+    "cityNameTr": "GUANARE",
+    "cityGroup": "VENEZUELA",
+    "cityGroupTr": "VENEZUELA",
+    "cityId": "839",
     "districtId": "16569",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:53:10.980Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T04:16:19.525Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

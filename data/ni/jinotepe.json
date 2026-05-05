@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ni",
+    "countryName": "NIKARAGUA",
+    "countryNameTr": "NIKARAGUA",
+    "countryId": "141",
     "city": "jinotepe",
+    "cityName": "JINOTEPE",
+    "cityNameTr": "JINOTEPE",
+    "cityGroup": "NIKARAGUA",
+    "cityGroupTr": "NIKARAGUA",
+    "cityId": "787",
     "districtId": "15606",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:39:34.454Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:28:55.325Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

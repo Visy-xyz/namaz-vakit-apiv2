@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "co",
+    "countryName": "KOLOMBIYA",
+    "countryNameTr": "KOLOMBIYA",
+    "countryId": "57",
     "city": "floridablance",
+    "cityName": "FLORIDABLANCE",
+    "cityNameTr": "FLORIDABLANCE",
+    "cityGroup": "KOLOMBIYA",
+    "cityGroupTr": "KOLOMBIYA",
+    "cityId": "744",
     "districtId": "15076",
     "year": 2026,
-    "fetchedAt": "2026-05-04T09:55:10.217Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:06:10.942Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

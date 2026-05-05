@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "bo",
+    "countryName": "BOLIVYA",
+    "countryNameTr": "BOLIVYA",
+    "countryId": "83",
     "city": "villa_tunari",
+    "cityName": "VILLA TUNARI",
+    "cityNameTr": "VILLA TUNARI",
+    "cityGroup": "BOLIVYA",
+    "cityGroupTr": "BOLIVYA",
+    "cityId": "669",
     "districtId": "11977",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:16:04.728Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:50:43.375Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

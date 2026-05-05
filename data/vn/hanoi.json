@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "vn",
+    "countryName": "VIETNAM",
+    "countryNameTr": "VIETNAM",
+    "countryId": "135",
     "city": "hanoi",
+    "cityName": "HANOI",
+    "cityNameTr": "HANOI",
+    "cityGroup": "VIETNAM",
+    "cityGroupTr": "VIETNAM",
+    "cityId": "840",
     "districtId": "16605",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:37:35.728Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T04:17:03.247Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

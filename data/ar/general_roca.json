@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ar",
+    "countryName": "ARGENTINA",
+    "countryNameTr": "ARJANTIN",
+    "countryId": "199",
     "city": "general_roca",
+    "cityName": "GENERAL ROCA",
+    "cityNameTr": "GENERAL ROCA",
+    "cityGroup": "ARGENTINA",
+    "cityGroupTr": "ARJANTIN",
+    "cityId": "653",
     "districtId": "11159",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:00:23.635Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:39:46.963Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "an",
+    "countryName": "HOLLANDA ANTILLERI",
+    "countryNameTr": "HOLLANDA ANTILLERI",
+    "countryId": "66",
     "city": "willemstad",
+    "cityName": "WILLEMSTAD",
+    "cityNameTr": "WILLEMSTAD",
+    "cityGroup": "HOLLANDA ANTILLERI",
+    "cityGroupTr": "HOLLANDA ANTILLERI",
+    "cityId": "722",
     "districtId": "13981",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:11:08.676Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:38:53.851Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "pg",
+    "countryName": "PAPUA YENI GINE",
+    "countryNameTr": "PAPUA YENI GINE",
+    "countryId": "185",
     "city": "vanimo",
+    "cityName": "VANIMO",
+    "cityNameTr": "VANIMO",
+    "cityGroup": "PAPUA YENI GINE",
+    "cityGroupTr": "PAPUA YENI GINE",
+    "cityId": "795",
     "districtId": "15814",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:52:48.217Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:31:27.347Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "pn",
+    "countryName": "PITCAIRN ADASI",
+    "countryNameTr": "PITCAIRN ADASI",
+    "countryId": "183",
     "city": "adamstown",
+    "cityName": "ADAMSTOWN",
+    "cityNameTr": "ADAMSTOWN",
+    "cityGroup": "PITCAIRN ADASI",
+    "cityGroupTr": "PITCAIRN ADASI",
+    "cityId": "798",
     "districtId": "15842",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:52:21.937Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:33:21.360Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

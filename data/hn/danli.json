@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "hn",
+    "countryName": "HONDURAS",
+    "countryNameTr": "HONDURAS",
+    "countryId": "105",
     "city": "danli",
+    "cityName": "DANLI",
+    "cityNameTr": "DANLI",
+    "cityGroup": "HONDURAS",
+    "cityGroupTr": "HONDURAS",
+    "cityId": "723",
     "districtId": "13985",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:23:04.621Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:13:46.759Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

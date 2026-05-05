@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "bs",
+    "countryName": "BAHAMAS",
+    "countryNameTr": "BAHAMALAR",
+    "countryId": "54",
     "city": "matthew_town",
+    "cityName": "MATTHEW TOWN",
+    "cityNameTr": "MATTHEW TOWN",
+    "cityGroup": "BAHAMAS",
+    "cityGroupTr": "BAHAMALAR",
+    "cityId": "659",
     "districtId": "11659",
     "year": 2026,
-    "fetchedAt": "2026-05-04T09:54:27.703Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:55:52.549Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

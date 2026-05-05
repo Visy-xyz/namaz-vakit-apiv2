@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "iq",
+    "countryName": "IRAQ",
+    "countryNameTr": "IRAK",
+    "countryId": "124",
     "city": "an_najaf",
+    "cityName": "AN NAJAF",
+    "cityNameTr": "AN NAJAF",
+    "cityGroup": "IRAQ",
+    "cityGroupTr": "IRAK",
+    "cityId": "726",
     "districtId": "14159",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:31:51.960Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:20:16.764Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

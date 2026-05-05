@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "id",
+    "countryName": "INDONESIA",
+    "countryNameTr": "ENDONEZYA",
+    "countryId": "117",
     "city": "palu",
+    "cityName": "PALU",
+    "cityNameTr": "PALU",
+    "cityGroup": "INDONESIA",
+    "cityGroupTr": "ENDONEZYA",
+    "cityId": "693",
     "districtId": "12747",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:30:45.298Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:16:03.113Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "gy",
+    "countryName": "GUYANA",
+    "countryNameTr": "GUYANA",
+    "countryId": "82",
     "city": "linden",
+    "cityName": "LINDEN",
+    "cityNameTr": "LINDEN",
+    "cityGroup": "GUYANA",
+    "cityGroupTr": "GUYANA",
+    "cityId": "717",
     "districtId": "13560",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:15:08.121Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:13:31.208Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

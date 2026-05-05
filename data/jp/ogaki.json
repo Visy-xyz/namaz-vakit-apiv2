@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "jp",
+    "countryName": "JAPAN",
+    "countryNameTr": "JAPONYA",
+    "countryId": "116",
     "city": "ogaki",
+    "cityName": "OGAKI",
+    "cityNameTr": "OGAKI",
+    "cityGroup": "JAPAN",
+    "cityGroupTr": "JAPONYA",
+    "cityId": "736",
     "districtId": "14701",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:28:27.916Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T01:30:03.915Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

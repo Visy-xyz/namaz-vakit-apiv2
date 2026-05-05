@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "br",
+    "countryName": "BRAZIL",
+    "countryNameTr": "BREZILYA",
+    "countryId": "146",
     "city": "igaci",
+    "cityName": "IGACI",
+    "cityNameTr": "IGACI",
+    "cityGroup": "BRAZIL",
+    "cityGroupTr": "BREZILYA",
+    "cityId": "672",
     "districtId": "12139",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:42:06.033Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:52:24.654Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ir",
+    "countryName": "IRAN",
+    "countryNameTr": "IRAN",
+    "countryId": "202",
     "city": "amol",
+    "cityName": "AMOL",
+    "cityNameTr": "AMOL",
+    "cityGroup": "IRAN",
+    "cityGroupTr": "IRAN",
+    "cityId": "727",
     "districtId": "14185",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:02:42.899Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:20:57.714Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

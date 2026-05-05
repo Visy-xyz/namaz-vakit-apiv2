@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "et",
+    "countryName": "ETHIOPIA",
+    "countryNameTr": "ETYOPYA",
+    "countryId": "95",
     "city": "bahir_dar",
+    "cityName": "BAHIR DAR",
+    "cityNameTr": "BAHIR DAR",
+    "cityGroup": "ETHIOPIA",
+    "cityGroupTr": "ETYOPYA",
+    "cityId": "697",
     "districtId": "12798",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:21:27.275Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:10:51.615Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

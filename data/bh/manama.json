@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "bh",
+    "countryName": "BAHRAIN",
+    "countryNameTr": "BAHREYN",
+    "countryId": "132",
     "city": "manama",
+    "cityName": "MANAMA",
+    "cityNameTr": "MANAMA",
+    "cityGroup": "BAHRAIN",
+    "cityGroupTr": "BAHREYN",
+    "cityId": "660",
     "districtId": "11667",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:37:04.540Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:49:00.071Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

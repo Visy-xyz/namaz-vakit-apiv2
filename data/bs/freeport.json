@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "bs",
+    "countryName": "BAHAMAS",
+    "countryNameTr": "BAHAMALAR",
+    "countryId": "54",
     "city": "freeport",
+    "cityName": "FREEPORT",
+    "cityNameTr": "FREEPORT",
+    "cityGroup": "BAHAMAS",
+    "cityGroupTr": "BAHAMALAR",
+    "cityId": "659",
     "districtId": "11654",
     "year": 2026,
-    "fetchedAt": "2026-05-04T09:54:19.688Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:55:43.928Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "pk",
+    "countryName": "PAKISTAN",
+    "countryNameTr": "PAKISTAN",
+    "countryId": "77",
     "city": "gujrat",
+    "cityName": "GUJRAT",
+    "cityNameTr": "GUJRAT",
+    "cityGroup": "PAKISTAN",
+    "cityGroupTr": "PAKISTAN",
+    "cityId": "792",
     "districtId": "15772",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:14:01.734Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:32:41.532Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "cr",
+    "countryName": "KOSTARIKA",
+    "countryNameTr": "KOSTARIKA",
+    "countryId": "162",
     "city": "heredia",
+    "cityName": "HEREDIA",
+    "cityNameTr": "HEREDIA",
+    "cityGroup": "KOSTARIKA",
+    "cityGroupTr": "KOSTARIKA",
+    "cityId": "747",
     "districtId": "15130",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:48:20.592Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:06:57.637Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

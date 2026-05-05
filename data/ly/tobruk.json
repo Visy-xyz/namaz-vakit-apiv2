@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ly",
+    "countryName": "LIBYA",
+    "countryNameTr": "LIBYA",
+    "countryId": "203",
     "city": "tobruk",
+    "cityName": "TOBRUK",
+    "cityNameTr": "TOBRUK",
+    "cityGroup": "LIBYA",
+    "cityGroupTr": "LIBYA",
+    "cityId": "757",
     "districtId": "15187",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:04:03.126Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:19:35.488Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

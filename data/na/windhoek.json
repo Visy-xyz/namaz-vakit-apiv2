@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "na",
+    "countryName": "NAMIBYA",
+    "countryNameTr": "NAMIBYA",
+    "countryId": "196",
     "city": "windhoek",
+    "cityName": "WINDHOEK",
+    "cityNameTr": "WINDHOEK",
+    "cityGroup": "NAMIBYA",
+    "cityGroupTr": "NAMIBYA",
+    "cityId": "783",
     "districtId": "15559",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:59:52.135Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:27:37.030Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

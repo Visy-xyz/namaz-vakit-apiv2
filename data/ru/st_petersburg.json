@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ru",
+    "countryName": "RUSSIA",
+    "countryNameTr": "RUSYA",
+    "countryId": "207",
     "city": "st_petersburg",
+    "cityName": "St. PETERSBURG",
+    "cityNameTr": "St. PETERSBURG",
+    "cityGroup": "RUSSIA",
+    "cityGroupTr": "RUSYA",
+    "cityId": "805",
     "districtId": "16141",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:09:34.174Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:40:19.059Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "au",
+    "countryName": "AUSTRALIA",
+    "countryNameTr": "AVUSTRALYA",
+    "countryId": "59",
     "city": "mundiwindi",
+    "cityName": "MUNDIWINDI",
+    "cityNameTr": "MUNDIWINDI",
+    "cityGroup": "AUSTRALIA",
+    "cityGroupTr": "AVUSTRALYA",
+    "cityId": "656",
     "districtId": "11265",
     "year": 2026,
-    "fetchedAt": "2026-05-04T09:59:34.207Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:44:59.729Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

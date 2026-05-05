@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "sr",
+    "countryName": "SURINAM",
+    "countryNameTr": "SURINAM",
+    "countryId": "172",
     "city": "brokopondo",
+    "cityName": "BROKOPONDO",
+    "cityNameTr": "BROKOPONDO",
+    "cityGroup": "SURINAM",
+    "cityGroupTr": "SURINAM",
+    "cityId": "817",
     "districtId": "16297",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:51:09.922Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:43:13.764Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

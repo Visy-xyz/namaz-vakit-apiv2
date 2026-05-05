@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "br",
+    "countryName": "BRAZIL",
+    "countryNameTr": "BREZILYA",
+    "countryId": "146",
     "city": "porto_alegre_rgs",
+    "cityName": "PORTO ALEGRE (R.G.S.)",
+    "cityNameTr": "PORTO ALEGRE (R.G.S.)",
+    "cityGroup": "BRAZIL",
+    "cityGroupTr": "BREZILYA",
+    "cityId": "672",
     "districtId": "12195",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:43:25.657Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:53:50.373Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

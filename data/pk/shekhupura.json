@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "pk",
+    "countryName": "PAKISTAN",
+    "countryNameTr": "PAKISTAN",
+    "countryId": "77",
     "city": "shekhupura",
+    "cityName": "SHEKHUPURA",
+    "cityNameTr": "SHEKHUPURA",
+    "cityGroup": "PAKISTAN",
+    "cityGroupTr": "PAKISTAN",
+    "cityId": "792",
     "districtId": "15784",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:14:32.290Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:33:14.393Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

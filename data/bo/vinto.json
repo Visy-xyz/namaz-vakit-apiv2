@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "bo",
+    "countryName": "BOLIVYA",
+    "countryNameTr": "BOLIVYA",
+    "countryId": "83",
     "city": "vinto",
+    "cityName": "VINTO",
+    "cityNameTr": "VINTO",
+    "cityGroup": "BOLIVYA",
+    "cityGroupTr": "BOLIVYA",
+    "cityId": "669",
     "districtId": "11975",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:16:07.923Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:50:46.926Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

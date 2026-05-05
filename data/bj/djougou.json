@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "bj",
+    "countryName": "BENIN",
+    "countryNameTr": "BENIN",
+    "countryId": "181",
     "city": "djougou",
+    "cityName": "DJOUGOU",
+    "cityNameTr": "DJOUGOU",
+    "cityGroup": "BENIN",
+    "cityGroupTr": "BENIN",
+    "cityId": "666",
     "districtId": "11927",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:51:51.563Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:49:17.417Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

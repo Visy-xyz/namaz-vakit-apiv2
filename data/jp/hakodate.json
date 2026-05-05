@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "jp",
+    "countryName": "JAPAN",
+    "countryNameTr": "JAPONYA",
+    "countryId": "116",
     "city": "hakodate",
+    "cityName": "HAKODATE",
+    "cityNameTr": "HAKODATE",
+    "cityGroup": "JAPAN",
+    "cityGroupTr": "JAPONYA",
+    "cityId": "736",
     "districtId": "14746",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:26:42.943Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:23:12.847Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

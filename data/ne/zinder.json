@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ne",
+    "countryName": "NIJER",
+    "countryNameTr": "NIJER",
+    "countryId": "84",
     "city": "zinder",
+    "cityName": "ZINDER",
+    "cityNameTr": "ZINDER",
+    "cityGroup": "NIJER",
+    "cityGroupTr": "NIJER",
+    "cityId": "785",
     "districtId": "15569",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:16:22.469Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:27:55.067Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

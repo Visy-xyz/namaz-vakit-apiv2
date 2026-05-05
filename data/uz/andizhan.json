@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "uz",
+    "countryName": "UZBEKISTAN",
+    "countryNameTr": "OZBEKISTAN",
+    "countryId": "131",
     "city": "andizhan",
+    "cityName": "ANDIZHAN",
+    "cityNameTr": "ANDIZHAN",
+    "cityGroup": "UZBEKISTAN",
+    "cityGroupTr": "OZBEKISTAN",
+    "cityId": "791",
     "districtId": "15758",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:35:39.932Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T04:14:32.204Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

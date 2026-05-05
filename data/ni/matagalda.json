@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ni",
+    "countryName": "NIKARAGUA",
+    "countryNameTr": "NIKARAGUA",
+    "countryId": "141",
     "city": "matagalda",
+    "cityName": "MATAGALDA",
+    "cityNameTr": "MATAGALDA",
+    "cityGroup": "NIKARAGUA",
+    "cityGroupTr": "NIKARAGUA",
+    "cityId": "787",
     "districtId": "15614",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:39:43.300Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:29:03.903Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

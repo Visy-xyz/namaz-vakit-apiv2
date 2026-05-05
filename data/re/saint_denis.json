@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "re",
+    "countryName": "REUNION",
+    "countryNameTr": "REUNION",
+    "countryId": "112",
     "city": "saint_denis",
+    "cityName": "SAINT DENIS",
+    "cityNameTr": "SAINT DENIS",
+    "cityGroup": "REUNION",
+    "cityGroupTr": "REUNION",
+    "cityId": "802",
     "districtId": "15911",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:25:32.569Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:34:08.771Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

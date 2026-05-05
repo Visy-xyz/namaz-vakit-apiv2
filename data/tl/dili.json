@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "tl",
+    "countryName": "DOGU TIMOR",
+    "countryNameTr": "DOGU TIMOR",
+    "countryId": "176",
     "city": "dili",
+    "cityName": "DILI",
+    "cityNameTr": "DILI",
+    "cityGroup": "DOGU TIMOR",
+    "cityGroupTr": "DOGU TIMOR",
+    "cityId": "687",
     "districtId": "12673",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:51:35.098Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:45:57.188Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "py",
+    "countryName": "PARAGUAY",
+    "countryNameTr": "PARAGUAY",
+    "countryId": "194",
     "city": "villarrica",
+    "cityName": "VILLARRICA",
+    "cityNameTr": "VILLARRICA",
+    "cityGroup": "PARAGUAY",
+    "cityGroupTr": "PARAGUAY",
+    "cityId": "796",
     "districtId": "15820",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:59:43.874Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:34:01.804Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

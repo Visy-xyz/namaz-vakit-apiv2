@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "mx",
+    "countryName": "MEXICO",
+    "countryNameTr": "MEKSIKA",
+    "countryId": "53",
     "city": "guadalajara",
+    "cityName": "GUADALAJARA",
+    "cityNameTr": "GUADALAJARA",
+    "cityGroup": "MEXICO",
+    "cityGroupTr": "MEKSIKA",
+    "cityId": "774",
     "districtId": "15391",
     "year": 2026,
-    "fetchedAt": "2026-05-04T09:39:03.418Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:24:36.862Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

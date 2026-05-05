@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "af",
+    "countryName": "AFGHANISTAN",
+    "countryNameTr": "AFGANISTAN",
+    "countryId": "166",
     "city": "meymaneh",
+    "cityName": "MEYMANEH",
+    "cityNameTr": "MEYMANEH",
+    "cityGroup": "AFGHANISTAN",
+    "cityGroupTr": "AFGANISTAN",
+    "cityId": "647",
     "districtId": "9965",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:49:07.779Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:38:32.263Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

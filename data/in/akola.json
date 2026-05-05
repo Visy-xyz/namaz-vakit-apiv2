@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "in",
+    "countryName": "INDIA",
+    "countryNameTr": "HINDISTAN",
+    "countryId": "187",
     "city": "akola",
+    "cityName": "AKOLA",
+    "cityNameTr": "AKOLA",
+    "cityGroup": "INDIA",
+    "cityGroupTr": "HINDISTAN",
+    "cityId": "719",
     "districtId": "13572",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:53:50.309Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:16:57.914Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

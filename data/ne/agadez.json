@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ne",
+    "countryName": "NIJER",
+    "countryNameTr": "NIJER",
+    "countryId": "84",
     "city": "agadez",
+    "cityName": "AGADEZ",
+    "cityNameTr": "AGADEZ",
+    "cityGroup": "NIJER",
+    "cityGroupTr": "NIJER",
+    "cityId": "785",
     "districtId": "15571",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:16:11.114Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:27:42.973Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

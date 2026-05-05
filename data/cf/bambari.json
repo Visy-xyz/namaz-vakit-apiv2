@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "cf",
+    "countryName": "ORTA AFRIKA CUMHURIYETI",
+    "countryNameTr": "ORTA AFRIKA CUMHURIYETI",
+    "countryId": "80",
     "city": "bambari",
+    "cityName": "BAMBARI",
+    "cityNameTr": "BAMBARI",
+    "cityGroup": "ORTA AFRIKA CUMHURIYETI",
+    "cityGroupTr": "ORTA AFRIKA CUMHURIYETI",
+    "cityId": "790",
     "districtId": "15708",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:14:47.771Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:57:55.174Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

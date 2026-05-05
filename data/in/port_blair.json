@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "in",
+    "countryName": "INDIA",
+    "countryNameTr": "HINDISTAN",
+    "countryId": "187",
     "city": "port_blair",
+    "cityName": "PORT BLAIR",
+    "cityNameTr": "PORT BLAIR",
+    "cityGroup": "INDIA",
+    "cityGroupTr": "HINDISTAN",
+    "cityId": "719",
     "districtId": "13651",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:56:10.495Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:19:19.664Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "mm",
+    "countryName": "BURMA (MYANMAR)",
+    "countryNameTr": "MYANMAR",
+    "countryId": "154",
     "city": "mergui",
+    "cityName": "MERGUI",
+    "cityNameTr": "MERGUI",
+    "cityGroup": "MYANMAR",
+    "cityGroupTr": "MYANMAR",
+    "cityId": "676",
     "districtId": "12272",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:46:01.118Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:20:45.635Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

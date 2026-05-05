@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "gn",
+    "countryName": "GUINEA",
+    "countryNameTr": "GINE",
+    "countryId": "111",
     "city": "kindia",
+    "cityName": "KINDIA",
+    "cityNameTr": "KINDIA",
+    "cityGroup": "GUINEA",
+    "cityGroupTr": "GINE",
+    "cityId": "708",
     "districtId": "13447",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:25:27.732Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:12:53.166Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

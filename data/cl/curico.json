@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "cl",
+    "countryName": "CHILE",
+    "countryNameTr": "SILI",
+    "countryId": "200",
     "city": "curico",
+    "cityName": "CURICO",
+    "cityNameTr": "CURICO",
+    "cityGroup": "CHILE",
+    "cityGroupTr": "SILI",
+    "cityId": "809",
     "districtId": "16199",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:01:47.477Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:58:31.387Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

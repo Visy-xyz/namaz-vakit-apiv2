@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "br",
+    "countryName": "BRAZIL",
+    "countryNameTr": "BREZILYA",
+    "countryId": "146",
     "city": "sobral_cearal",
+    "cityName": "SOBRAL (Cearal)",
+    "cityNameTr": "SOBRAL (Cearal)",
+    "cityGroup": "BRAZIL",
+    "cityGroupTr": "BREZILYA",
+    "cityId": "672",
     "districtId": "12115",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:44:28.163Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:54:56.698Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

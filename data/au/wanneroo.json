@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "au",
+    "countryName": "AUSTRALIA",
+    "countryNameTr": "AVUSTRALYA",
+    "countryId": "59",
     "city": "wanneroo",
+    "cityName": "WANNEROO",
+    "cityNameTr": "WANNEROO",
+    "cityGroup": "AUSTRALIA",
+    "cityGroupTr": "AVUSTRALYA",
+    "cityId": "656",
     "districtId": "11349",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:01:28.461Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:47:00.206Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

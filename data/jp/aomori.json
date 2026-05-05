@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "jp",
+    "countryName": "JAPAN",
+    "countryNameTr": "JAPONYA",
+    "countryId": "116",
     "city": "aomori",
+    "cityName": "AOMORI",
+    "cityNameTr": "AOMORI",
+    "cityGroup": "JAPAN",
+    "cityGroupTr": "JAPONYA",
+    "cityId": "736",
     "districtId": "14721",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:26:09.577Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:22:38.311Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

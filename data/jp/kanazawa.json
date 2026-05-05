@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "jp",
+    "countryName": "JAPAN",
+    "countryNameTr": "JAPONYA",
+    "countryId": "116",
     "city": "kanazawa",
+    "cityName": "KANAZAWA",
+    "cityNameTr": "KANAZAWA",
+    "cityGroup": "JAPAN",
+    "cityGroupTr": "JAPONYA",
+    "cityId": "736",
     "districtId": "14765",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:27:12.355Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:23:44.358Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

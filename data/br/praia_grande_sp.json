@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "br",
+    "countryName": "BRAZIL",
+    "countryNameTr": "BREZILYA",
+    "countryId": "146",
     "city": "praia_grande_sp",
+    "cityName": "PRAIA GRANDE (S.P.)",
+    "cityNameTr": "PRAIA GRANDE (S.P.)",
+    "cityGroup": "BRAZIL",
+    "cityGroupTr": "BREZILYA",
+    "cityId": "672",
     "districtId": "12156",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:43:30.512Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:53:55.544Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

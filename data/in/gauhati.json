@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "in",
+    "countryName": "INDIA",
+    "countryNameTr": "HINDISTAN",
+    "countryId": "187",
     "city": "gauhati",
+    "cityName": "GAUHATI",
+    "cityNameTr": "GAUHATI",
+    "cityGroup": "INDIA",
+    "cityGroupTr": "HINDISTAN",
+    "cityId": "719",
     "districtId": "13603",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:54:52.809Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:17:55.161Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

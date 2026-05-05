@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "hk",
+    "countryName": "HONG KONG",
+    "countryNameTr": "HONG KONG",
+    "countryId": "113",
     "city": "aberdeen",
+    "cityName": "ABERDEEN",
+    "cityNameTr": "ABERDEEN",
+    "cityGroup": "HONG KONG",
+    "cityGroupTr": "HONG KONG",
+    "cityId": "724",
     "districtId": "13999",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:25:34.210Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:13:34.658Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

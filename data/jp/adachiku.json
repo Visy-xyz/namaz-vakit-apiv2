@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "jp",
+    "countryName": "JAPAN",
+    "countryNameTr": "JAPONYA",
+    "countryId": "116",
     "city": "adachiku",
+    "cityName": "ADACHI-KU ",
+    "cityNameTr": "ADACHI-KU ",
+    "cityGroup": "JAPAN",
+    "cityGroupTr": "JAPONYA",
+    "cityId": "736",
     "districtId": "14707",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:25:58.295Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:22:27.958Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

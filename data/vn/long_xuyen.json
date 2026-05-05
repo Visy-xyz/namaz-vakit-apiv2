@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "vn",
+    "countryName": "VIETNAM",
+    "countryNameTr": "VIETNAM",
+    "countryId": "135",
     "city": "long_xuyen",
+    "cityName": "LONG XUYEN",
+    "cityNameTr": "LONG XUYEN",
+    "cityGroup": "VIETNAM",
+    "cityGroupTr": "VIETNAM",
+    "cityId": "840",
     "districtId": "16589",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:37:42.266Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T04:17:10.413Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

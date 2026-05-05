@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "cn",
+    "countryName": "CHINA",
+    "countryNameTr": "CIN",
+    "countryId": "61",
     "city": "baoji",
+    "cityName": "BAOJI",
+    "cityNameTr": "BAOJI",
+    "cityGroup": "CHINA",
+    "cityGroupTr": "CIN",
+    "cityId": "684",
     "districtId": "12429",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:03:49.731Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:59:29.604Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

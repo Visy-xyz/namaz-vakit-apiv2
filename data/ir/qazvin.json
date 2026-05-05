@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ir",
+    "countryName": "IRAN",
+    "countryNameTr": "IRAN",
+    "countryId": "202",
     "city": "qazvin",
+    "cityName": "QAZVIN",
+    "cityNameTr": "QAZVIN",
+    "cityGroup": "IRAN",
+    "cityGroupTr": "IRAN",
+    "cityId": "727",
     "districtId": "14188",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:03:29.245Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:21:45.020Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

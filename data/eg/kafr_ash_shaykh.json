@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "eg",
+    "countryName": "EGYPT",
+    "countryNameTr": "MISIR",
+    "countryId": "189",
     "city": "kafr_ash_shaykh",
+    "cityName": "KAFR ASH SHAYKH",
+    "cityNameTr": "KAFR ASH SHAYKH",
+    "cityGroup": "EGYPT",
+    "cityGroupTr": "MISIR",
+    "cityId": "776",
     "districtId": "15470",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:57:32.264Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:10:25.596Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "mx",
+    "countryName": "MEXICO",
+    "countryNameTr": "MEKSIKA",
+    "countryId": "53",
     "city": "san_juan_del_rio",
+    "cityName": "SAN JUAN DEL RIO",
+    "cityNameTr": "SAN JUAN DEL RIO",
+    "cityGroup": "MEXICO",
+    "cityGroupTr": "MEKSIKA",
+    "cityId": "774",
     "districtId": "15425",
     "year": 2026,
-    "fetchedAt": "2026-05-04T09:53:36.236Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:25:43.192Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

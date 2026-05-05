@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "tm",
+    "countryName": "TURKMENISTAN",
+    "countryNameTr": "TURKMENISTAN",
+    "countryId": "159",
     "city": "ashgabat",
+    "cityName": "ASHGABAT",
+    "cityNameTr": "ASKABAT",
+    "cityGroup": "TURKMENISTAN",
+    "cityGroupTr": "TURKMENISTAN",
+    "cityId": "830",
     "districtId": "16408",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:47:01.849Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:45:58.928Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

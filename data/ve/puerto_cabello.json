@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ve",
+    "countryName": "VENEZUELA",
+    "countryNameTr": "VENEZUELA",
+    "countryId": "186",
     "city": "puerto_cabello",
+    "cityName": "PUERTO CABELLO",
+    "cityNameTr": "PUERTO CABELLO",
+    "cityGroup": "VENEZUELA",
+    "cityGroupTr": "VENEZUELA",
+    "cityId": "839",
     "districtId": "16559",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:53:26.548Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T04:16:35.032Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

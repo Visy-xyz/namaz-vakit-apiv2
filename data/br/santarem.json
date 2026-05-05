@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "br",
+    "countryName": "BRAZIL",
+    "countryNameTr": "BREZILYA",
+    "countryId": "146",
     "city": "santarem",
+    "cityName": "SANTAREM",
+    "cityNameTr": "SANTAREM",
+    "cityGroup": "BRAZIL",
+    "cityGroupTr": "BREZILYA",
+    "cityId": "672",
     "districtId": "12103",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:43:58.141Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:54:24.999Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ec",
+    "countryName": "EKVATOR",
+    "countryNameTr": "EKVATOR",
+    "countryId": "139",
     "city": "machala",
+    "cityName": "MACHALA",
+    "cityNameTr": "MACHALA",
+    "cityGroup": "EKVATOR",
+    "cityGroupTr": "EKVATOR",
+    "cityId": "690",
     "districtId": "12698",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:38:47.681Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:09:18.984Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "do",
+    "countryName": "DOMINIK CUMHURIYETI",
+    "countryNameTr": "DOMINIK CUMHURIYETI",
+    "countryId": "72",
     "city": "bani",
+    "cityName": "BANI",
+    "cityNameTr": "BANI",
+    "cityGroup": "DOMINIK CUMHURIYETI",
+    "cityGroupTr": "DOMINIK CUMHURIYETI",
+    "cityId": "689",
     "districtId": "12677",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:12:59.692Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:08:04.142Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

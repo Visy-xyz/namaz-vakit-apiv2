@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "kz",
+    "countryName": "KAZAKHSTAN",
+    "countryNameTr": "KAZAKISTAN",
+    "countryId": "92",
     "city": "mayakum",
+    "cityName": "MAYAKUM",
+    "cityNameTr": "MAYAKUM",
+    "cityGroup": "KAZAKHSTAN",
+    "cityGroupTr": "KAZAKISTAN",
+    "cityId": "741",
     "districtId": "14972",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:19:49.815Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:17:13.927Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

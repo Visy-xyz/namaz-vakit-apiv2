@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ne",
+    "countryName": "NIJER",
+    "countryNameTr": "NIJER",
+    "countryId": "84",
     "city": "tahoua",
+    "cityName": "TAHOUA",
+    "cityNameTr": "TAHOUA",
+    "cityGroup": "NIJER",
+    "cityGroupTr": "NIJER",
+    "cityId": "785",
     "districtId": "15567",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:16:17.662Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:27:49.826Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

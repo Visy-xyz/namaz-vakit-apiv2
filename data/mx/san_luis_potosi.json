@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "mx",
+    "countryName": "MEXICO",
+    "countryNameTr": "MEKSIKA",
+    "countryId": "53",
     "city": "san_luis_potosi",
+    "cityName": "SAN LUIS POTOSI",
+    "cityNameTr": "SAN LUIS POTOSI",
+    "cityGroup": "MEXICO",
+    "cityGroupTr": "MEKSIKA",
+    "cityId": "774",
     "districtId": "15426",
     "year": 2026,
-    "fetchedAt": "2026-05-04T09:53:37.829Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:25:44.911Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

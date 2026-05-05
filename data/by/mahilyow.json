@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "by",
+    "countryName": "BELARUS",
+    "countryNameTr": "BELARUS",
+    "countryId": "208",
     "city": "mahilyow",
+    "cityName": "MAHILYOW",
+    "cityNameTr": "MAHILYOW",
+    "cityGroup": "BELARUS",
+    "cityGroupTr": "BELARUS",
+    "cityId": "663",
     "districtId": "11689",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:11:34.406Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:56:40.979Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

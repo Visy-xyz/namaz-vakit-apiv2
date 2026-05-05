@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "nz",
+    "countryName": "NEW ZEALAND",
+    "countryNameTr": "YENI ZELANDA",
+    "countryId": "193",
     "city": "upper_hutt",
+    "cityName": "UPPER HUTT",
+    "cityNameTr": "UPPER HUTT",
+    "cityGroup": "NEW ZEALAND",
+    "cityGroupTr": "YENI ZELANDA",
+    "cityId": "843",
     "districtId": "16618",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:59:20.528Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:29:53.734Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

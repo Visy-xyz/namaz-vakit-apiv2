@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "er",
+    "countryName": "ERITRE",
+    "countryNameTr": "ERITRE",
+    "countryId": "175",
     "city": "adi_ugri",
+    "cityName": "ADI UGRI",
+    "cityNameTr": "ADI UGRI",
+    "cityGroup": "ERITRE",
+    "cityGroupTr": "ERITRE",
+    "cityId": "694",
     "districtId": "12778",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:51:25.133Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:10:37.700Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

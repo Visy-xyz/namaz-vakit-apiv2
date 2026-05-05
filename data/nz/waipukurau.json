@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "nz",
+    "countryName": "NEW ZEALAND",
+    "countryNameTr": "YENI ZELANDA",
+    "countryId": "193",
     "city": "waipukurau",
+    "cityName": "WAIPUKURAU",
+    "cityNameTr": "WAIPUKURAU",
+    "cityGroup": "NEW ZEALAND",
+    "cityGroupTr": "YENI ZELANDA",
+    "cityId": "843",
     "districtId": "16637",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:59:25.603Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:29:58.920Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

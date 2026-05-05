@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "nu",
+    "countryName": "NIUE",
+    "countryNameTr": "NIUE",
+    "countryId": "178",
     "city": "alofi",
+    "cityName": "ALOFI",
+    "cityNameTr": "ALOFI",
+    "cityGroup": "NIUE",
+    "cityGroupTr": "NIUE",
+    "cityId": "788",
     "districtId": "15617",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:51:43.304Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:29:19.406Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

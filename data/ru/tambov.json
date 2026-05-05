@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ru",
+    "countryName": "RUSSIA",
+    "countryNameTr": "RUSYA",
+    "countryId": "207",
     "city": "tambov",
+    "cityName": "TAMBOV",
+    "cityNameTr": "TAMBOV",
+    "cityGroup": "RUSSIA",
+    "cityGroupTr": "RUSYA",
+    "cityId": "805",
     "districtId": "16107",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:09:48.883Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:40:34.618Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

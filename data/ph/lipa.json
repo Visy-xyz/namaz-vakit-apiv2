@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ph",
+    "countryName": "PHILIPPINES",
+    "countryNameTr": "FILIPINLER",
+    "countryId": "126",
     "city": "lipa",
+    "cityName": "LIPA",
+    "cityNameTr": "LIPA",
+    "cityGroup": "PHILIPPINES",
+    "cityGroupTr": "FILIPINLER",
+    "cityId": "701",
     "districtId": "12843",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:32:59.076Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:32:01.824Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

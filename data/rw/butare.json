@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "rw",
+    "countryName": "RUANDA",
+    "countryNameTr": "RUANDA",
+    "countryId": "81",
     "city": "butare",
+    "cityName": "BUTARE",
+    "cityNameTr": "BUTARE",
+    "cityGroup": "RUANDA",
+    "cityGroupTr": "RUANDA",
+    "cityId": "804",
     "districtId": "15959",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:15:03.250Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:42:03.105Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

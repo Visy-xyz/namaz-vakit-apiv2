@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "au",
+    "countryName": "AUSTRALIA",
+    "countryNameTr": "AVUSTRALYA",
+    "countryId": "59",
     "city": "canberra",
+    "cityName": "CANBERRA",
+    "cityNameTr": "CANBERRA",
+    "cityGroup": "AUSTRALIA",
+    "cityGroupTr": "AVUSTRALYA",
+    "cityId": "656",
     "districtId": "11430",
     "year": 2026,
-    "fetchedAt": "2026-05-04T09:56:53.517Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:42:08.696Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

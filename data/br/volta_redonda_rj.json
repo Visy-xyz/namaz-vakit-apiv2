@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "br",
+    "countryName": "BRAZIL",
+    "countryNameTr": "BREZILYA",
+    "countryId": "146",
     "city": "volta_redonda_rj",
+    "cityName": "VOLTA REDONDA (R.J.)",
+    "cityNameTr": "VOLTA REDONDA (R.J.)",
+    "cityGroup": "BRAZIL",
+    "cityGroupTr": "BREZILYA",
+    "cityId": "672",
     "districtId": "12127",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:45:04.275Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:55:34.745Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

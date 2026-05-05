@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "sv",
+    "countryName": "EL SALVADOR",
+    "countryNameTr": "EL SALVADOR",
+    "countryId": "165",
     "city": "san_miguel",
+    "cityName": "SAN MIGUEL",
+    "cityNameTr": "SAN MIGUEL",
+    "cityGroup": "EL SALVADOR",
+    "cityGroupTr": "EL SALVADOR",
+    "cityId": "692",
     "districtId": "12717",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:48:38.585Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:43:22.467Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "do",
+    "countryName": "DOMINIK CUMHURIYETI",
+    "countryNameTr": "DOMINIK CUMHURIYETI",
+    "countryId": "72",
     "city": "barahona",
+    "cityName": "BARAHONA",
+    "cityNameTr": "BARAHONA",
+    "cityGroup": "DOMINIK CUMHURIYETI",
+    "cityGroupTr": "DOMINIK CUMHURIYETI",
+    "cityId": "689",
     "districtId": "12678",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:13:01.290Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:08:05.857Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

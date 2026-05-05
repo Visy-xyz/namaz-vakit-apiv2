@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "mn",
+    "countryName": "MONGOLIA",
+    "countryNameTr": "MOGOLISTAN",
+    "countryId": "60",
     "city": "tunkhelselenge",
+    "cityName": "TUNKHEL(SELENGE)",
+    "cityNameTr": "TUNKHEL(SELENGE)",
+    "cityGroup": "MONGOLIA",
+    "cityGroupTr": "MOGOLISTAN",
+    "cityId": "777",
     "districtId": "22186",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:03:21.242Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:22:39.196Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

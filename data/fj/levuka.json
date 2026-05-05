@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "fj",
+    "countryName": "FIJI",
+    "countryNameTr": "FIJI",
+    "countryId": "197",
     "city": "levuka",
+    "cityName": "LEVUKA",
+    "cityNameTr": "LEVUKA",
+    "cityGroup": "FIJI",
+    "cityGroupTr": "FIJI",
+    "cityId": "699",
     "districtId": "12820",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:59:55.405Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:11:10.597Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

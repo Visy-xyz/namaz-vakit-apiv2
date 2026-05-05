@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "kz",
+    "countryName": "KAZAKHSTAN",
+    "countryNameTr": "KAZAKISTAN",
+    "countryId": "92",
     "city": "sarqant",
+    "cityName": "SARQANT",
+    "cityNameTr": "SARQANT",
+    "cityGroup": "KAZAKHSTAN",
+    "cityGroupTr": "KAZAKISTAN",
+    "cityId": "741",
     "districtId": "14956",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:20:19.559Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:17:45.192Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

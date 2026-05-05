@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "in",
+    "countryName": "INDIA",
+    "countryNameTr": "HINDISTAN",
+    "countryId": "187",
     "city": "ichalkaranji",
+    "cityName": "ICHALKARANJI",
+    "cityNameTr": "ICHALKARANJI",
+    "cityGroup": "INDIA",
+    "cityGroupTr": "HINDISTAN",
+    "cityId": "719",
     "districtId": "13612",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:55:13.623Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:18:14.216Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

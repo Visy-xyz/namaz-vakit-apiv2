@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "sy",
+    "countryName": "SYRIA",
+    "countryNameTr": "SURIYE",
+    "countryId": "191",
     "city": "darh_obasi",
+    "cityName": "DARH OBASI",
+    "cityNameTr": "DARH OBASI",
+    "cityGroup": "SYRIA",
+    "cityGroupTr": "SURIYE",
+    "cityId": "818",
     "districtId": "33291",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:58:04.737Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:43:58.813Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

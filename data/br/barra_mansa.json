@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "br",
+    "countryName": "BRAZIL",
+    "countryNameTr": "BREZILYA",
+    "countryId": "146",
     "city": "barra_mansa",
+    "cityName": "BARRA MANSA",
+    "cityNameTr": "BARRA MANSA",
+    "cityGroup": "BRAZIL",
+    "cityGroupTr": "BREZILYA",
+    "cityId": "672",
     "districtId": "12160",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:40:58.134Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:51:13.119Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

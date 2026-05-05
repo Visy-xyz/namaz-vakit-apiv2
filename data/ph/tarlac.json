@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ph",
+    "countryName": "PHILIPPINES",
+    "countryNameTr": "FILIPINLER",
+    "countryId": "126",
     "city": "tarlac",
+    "cityName": "TARLAC",
+    "cityNameTr": "TARLAC",
+    "cityGroup": "PHILIPPINES",
+    "cityGroupTr": "FILIPINLER",
+    "cityId": "701",
     "districtId": "12861",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:33:26.163Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:32:29.442Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

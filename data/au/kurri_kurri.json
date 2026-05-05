@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "au",
+    "countryName": "AUSTRALIA",
+    "countryNameTr": "AVUSTRALYA",
+    "countryId": "59",
     "city": "kurri_kurri",
+    "cityName": "KURRI KURRI",
+    "cityNameTr": "KURRI KURRI",
+    "cityGroup": "AUSTRALIA",
+    "cityGroupTr": "AVUSTRALYA",
+    "cityId": "656",
     "districtId": "11337",
     "year": 2026,
-    "fetchedAt": "2026-05-04T09:58:40.154Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:44:00.463Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

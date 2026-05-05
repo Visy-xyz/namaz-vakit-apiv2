@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "by",
+    "countryName": "BELARUS",
+    "countryNameTr": "BELARUS",
+    "countryId": "208",
     "city": "grodno",
+    "cityName": "GRODNO",
+    "cityNameTr": "GRODNO",
+    "cityGroup": "BELARUS",
+    "cityGroupTr": "BELARUS",
+    "cityId": "663",
     "districtId": "11681",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:11:24.872Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:56:30.629Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

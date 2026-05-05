@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "my",
+    "countryName": "MALAYSIA",
+    "countryNameTr": "MALEZYA",
+    "countryId": "107",
     "city": "kota_tinggi_mersing",
+    "cityName": "KOTA TINGGI MERSING",
+    "cityNameTr": "KOTA TINGGI MERSING",
+    "cityGroup": "MALAYSIA",
+    "cityGroupTr": "MALEZYA",
+    "cityId": "768",
     "districtId": "15325",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:24:14.245Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:26:41.913Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

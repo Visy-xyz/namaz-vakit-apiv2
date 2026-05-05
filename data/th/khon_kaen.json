@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "th",
+    "countryName": "THAILAND",
+    "countryNameTr": "TAYLAND",
+    "countryId": "137",
     "city": "khon_kaen",
+    "cityName": "KHON KAEN",
+    "cityNameTr": "KHON KAEN",
+    "cityGroup": "THAILAND",
+    "cityGroupTr": "TAYLAND",
+    "cityId": "824",
     "districtId": "16357",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:38:10.691Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:45:13.871Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

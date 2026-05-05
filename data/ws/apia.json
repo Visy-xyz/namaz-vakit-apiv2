@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ws",
+    "countryName": "SAMOA",
+    "countryNameTr": "SAMOA",
+    "countryId": "198",
     "city": "apia",
+    "cityName": "APIA",
+    "cityNameTr": "APIA",
+    "cityGroup": "SAMOA",
+    "cityGroupTr": "SAMOA",
+    "cityId": "806",
     "districtId": "16182",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:59:58.678Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T04:17:31.227Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

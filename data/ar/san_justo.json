@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ar",
+    "countryName": "ARGENTINA",
+    "countryNameTr": "ARJANTIN",
+    "countryId": "199",
     "city": "san_justo",
+    "cityName": "SAN JUSTO",
+    "cityNameTr": "SAN JUSTO",
+    "cityGroup": "ARGENTINA",
+    "cityGroupTr": "ARJANTIN",
+    "cityId": "653",
     "districtId": "11175",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:01:16.412Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:40:43.060Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ru",
+    "countryName": "RUSSIA",
+    "countryNameTr": "RUSYA",
+    "countryId": "207",
     "city": "bataysk",
+    "cityName": "BATAYSK",
+    "cityNameTr": "BATAYSK",
+    "cityGroup": "RUSSIA",
+    "cityGroupTr": "RUSYA",
+    "cityId": "805",
     "districtId": "16050",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:05:08.896Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:35:38.984Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

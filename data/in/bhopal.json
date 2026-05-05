@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "in",
+    "countryName": "INDIA",
+    "countryNameTr": "HINDISTAN",
+    "countryId": "187",
     "city": "bhopal",
+    "cityName": "BHOPAL",
+    "cityNameTr": "BHOPAL",
+    "cityGroup": "INDIA",
+    "cityGroupTr": "HINDISTAN",
+    "cityId": "719",
     "districtId": "13580",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:54:10.376Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:17:18.779Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

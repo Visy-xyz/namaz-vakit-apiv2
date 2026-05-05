@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ru",
+    "countryName": "RUSSIA",
+    "countryNameTr": "RUSYA",
+    "countryId": "207",
     "city": "noyabrsk",
+    "cityName": "NOYABRSK",
+    "cityNameTr": "NOYABRSK",
+    "cityGroup": "RUSSIA",
+    "cityGroupTr": "RUSYA",
+    "cityId": "805",
     "districtId": "16034",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:08:09.895Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:38:48.422Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

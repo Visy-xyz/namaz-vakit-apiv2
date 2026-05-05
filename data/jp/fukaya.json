@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "jp",
+    "countryName": "JAPAN",
+    "countryNameTr": "JAPONYA",
+    "countryId": "116",
     "city": "fukaya",
+    "cityName": "FUKAYA",
+    "cityNameTr": "FUKAYA",
+    "cityGroup": "JAPAN",
+    "cityGroupTr": "JAPONYA",
+    "cityId": "736",
     "districtId": "14743",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:26:27.946Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:22:57.265Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

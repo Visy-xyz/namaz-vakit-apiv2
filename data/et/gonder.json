@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "et",
+    "countryName": "ETHIOPIA",
+    "countryNameTr": "ETYOPYA",
+    "countryId": "95",
     "city": "gonder",
+    "cityName": "GONDER",
+    "cityNameTr": "GONDER",
+    "cityGroup": "ETHIOPIA",
+    "cityGroupTr": "ETYOPYA",
+    "cityId": "697",
     "districtId": "12797",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:21:32.265Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:10:56.795Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

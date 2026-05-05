@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "az",
+    "countryName": "AZERBAIJAN",
+    "countryNameTr": "AZERBAYCAN",
+    "countryId": "5",
     "city": "sabirabad",
+    "cityName": "SABIRABAD",
+    "cityNameTr": "SABIRABAD",
+    "cityGroup": "AZERBAIJAN",
+    "cityGroupTr": "AZERBAYCAN",
+    "cityId": "658",
     "districtId": "11647",
     "year": 2026,
-    "fetchedAt": "2026-05-04T09:36:32.574Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:48:02.762Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

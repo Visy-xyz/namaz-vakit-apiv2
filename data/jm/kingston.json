@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "jm",
+    "countryName": "JAMAIKA",
+    "countryNameTr": "JAMAIKA",
+    "countryId": "119",
     "city": "kingston",
+    "cityName": "KINGSTON",
+    "cityNameTr": "KINGSTON",
+    "cityGroup": "JAMAIKA",
+    "cityGroupTr": "JAMAIKA",
+    "cityId": "735",
     "districtId": "14695",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:31:30.966Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:22:12.386Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

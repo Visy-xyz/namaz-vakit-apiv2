@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "kz",
+    "countryName": "KAZAKHSTAN",
+    "countryNameTr": "KAZAKISTAN",
+    "countryId": "92",
     "city": "kapal",
+    "cityName": "KAPAL ",
+    "cityNameTr": "KAPAL ",
+    "cityGroup": "KAZAKHSTAN",
+    "cityGroupTr": "KAZAKISTAN",
+    "cityId": "741",
     "districtId": "14951",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:19:01.969Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:16:23.941Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

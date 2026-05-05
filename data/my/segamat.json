@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "my",
+    "countryName": "MALAYSIA",
+    "countryNameTr": "MALEZYA",
+    "countryId": "107",
     "city": "segamat",
+    "cityName": "SEGAMAT",
+    "cityNameTr": "SEGAMAT",
+    "cityGroup": "MALAYSIA",
+    "cityGroupTr": "MALEZYA",
+    "cityId": "768",
     "districtId": "15334",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:24:34.439Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:27:02.668Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

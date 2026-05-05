@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "br",
+    "countryName": "BRAZIL",
+    "countryNameTr": "BREZILYA",
+    "countryId": "146",
     "city": "ribeirao_das_neves",
+    "cityName": "RIBEIRAO DAS NEVES",
+    "cityNameTr": "RIBEIRAO DAS NEVES",
+    "cityGroup": "BRAZIL",
+    "cityGroupTr": "BREZILYA",
+    "cityId": "672",
     "districtId": "12181",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:43:35.364Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:54:00.749Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

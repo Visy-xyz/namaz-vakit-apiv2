@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "jp",
+    "countryName": "JAPAN",
+    "countryNameTr": "JAPONYA",
+    "countryId": "116",
     "city": "ichihara",
+    "cityName": "ICHIHARA",
+    "cityNameTr": "ICHIHARA",
+    "cityGroup": "JAPAN",
+    "cityGroupTr": "JAPONYA",
+    "cityId": "736",
     "districtId": "14757",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:27:02.689Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:23:33.936Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

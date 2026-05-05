@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "cn",
+    "countryName": "CHINA",
+    "countryNameTr": "CIN",
+    "countryId": "61",
     "city": "guanzhu",
+    "cityName": "GUANZHU",
+    "cityNameTr": "GUANZHU",
+    "cityGroup": "CHINA",
+    "cityGroupTr": "CIN",
+    "cityId": "684",
     "districtId": "12388",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:05:17.623Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:01:03.252Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "eg",
+    "countryName": "EGYPT",
+    "countryNameTr": "MISIR",
+    "countryId": "189",
     "city": "al_ghardagah",
+    "cityName": "AL GHARDAGAH",
+    "cityNameTr": "AL GHARDAGAH",
+    "cityGroup": "EGYPT",
+    "cityGroupTr": "MISIR",
+    "cityId": "776",
     "districtId": "15457",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:57:09.253Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:09:58.838Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

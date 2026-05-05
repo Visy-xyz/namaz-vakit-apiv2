@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "bo",
+    "countryName": "BOLIVYA",
+    "countryNameTr": "BOLIVYA",
+    "countryId": "83",
     "city": "aiquile",
+    "cityName": "AIQUILE",
+    "cityNameTr": "AIQUILE",
+    "cityGroup": "BOLIVYA",
+    "cityGroupTr": "BOLIVYA",
+    "cityId": "669",
     "districtId": "11948",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:15:11.382Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:49:45.674Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

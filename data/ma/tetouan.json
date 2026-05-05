@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ma",
+    "countryName": "MOROCCO",
+    "countryNameTr": "FAS",
+    "countryId": "145",
     "city": "tetouan",
+    "cityName": "TETOUAN",
+    "cityNameTr": "TETOUAN",
+    "cityGroup": "MOROCCO",
+    "cityGroupTr": "FAS",
+    "cityId": "698",
     "districtId": "12811",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:40:33.628Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:20:07.168Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "bn",
+    "countryName": "BRUNEI",
+    "countryNameTr": "BRUNEI",
+    "countryId": "97",
     "city": "kuala_belait",
+    "cityName": "KUALA BELAIT",
+    "cityNameTr": "KUALA BELAIT",
+    "cityGroup": "BRUNEI",
+    "cityGroupTr": "BRUNEI",
+    "cityId": "673",
     "districtId": "12204",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:21:50.157Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:49:43.436Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

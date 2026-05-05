@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "sy",
+    "countryName": "SYRIA",
+    "countryNameTr": "SURIYE",
+    "countryId": "191",
     "city": "al_hasakah",
+    "cityName": "AL HASAKAH",
+    "cityNameTr": "HASEKE",
+    "cityGroup": "SYRIA",
+    "cityGroupTr": "SURIYE",
+    "cityId": "818",
     "districtId": "16784",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:58:17.558Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:43:37.963Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

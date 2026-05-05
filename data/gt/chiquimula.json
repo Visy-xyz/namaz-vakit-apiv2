@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "gt",
+    "countryName": "GUATEMALA",
+    "countryNameTr": "GUATEMALA",
+    "countryId": "99",
     "city": "chiquimula",
+    "cityName": "CHIQUIMULA",
+    "cityNameTr": "CHIQUIMULA",
+    "cityGroup": "GUATEMALA",
+    "cityGroupTr": "GUATEMALA",
+    "cityId": "713",
     "districtId": "13467",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:21:59.818Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:13:05.825Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

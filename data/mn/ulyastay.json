@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "mn",
+    "countryName": "MONGOLIA",
+    "countryNameTr": "MOGOLISTAN",
+    "countryId": "60",
     "city": "ulyastay",
+    "cityName": "ULYASTAY",
+    "cityNameTr": "ULYASTAY",
+    "cityGroup": "MONGOLIA",
+    "cityGroupTr": "MOGOLISTAN",
+    "cityId": "777",
     "districtId": "15520",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:03:28.105Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:22:46.071Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

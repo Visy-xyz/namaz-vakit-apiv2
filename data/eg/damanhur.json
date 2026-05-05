@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "eg",
+    "countryName": "EGYPT",
+    "countryNameTr": "MISIR",
+    "countryId": "189",
     "city": "damanhur",
+    "cityName": "DAMANHUR",
+    "cityNameTr": "DAMANHUR",
+    "cityGroup": "EGYPT",
+    "cityGroupTr": "MISIR",
+    "cityId": "776",
     "districtId": "15468",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:57:24.024Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:10:16.863Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

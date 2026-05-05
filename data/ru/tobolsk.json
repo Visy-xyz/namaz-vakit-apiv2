@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ru",
+    "countryName": "RUSSIA",
+    "countryNameTr": "RUSYA",
+    "countryId": "207",
     "city": "tobolsk",
+    "cityName": "TOBOLSK",
+    "cityNameTr": "TOBOLSK",
+    "cityGroup": "RUSSIA",
+    "cityGroupTr": "RUSYA",
+    "cityId": "805",
     "districtId": "17811",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:09:53.745Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:40:39.840Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

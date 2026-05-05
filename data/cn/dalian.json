@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "cn",
+    "countryName": "CHINA",
+    "countryNameTr": "CIN",
+    "countryId": "61",
     "city": "dalian",
+    "cityName": "DALIAN",
+    "cityNameTr": "DALIAN",
+    "cityGroup": "CHINA",
+    "cityGroupTr": "CIN",
+    "cityId": "684",
     "districtId": "12578",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:04:28.538Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:00:11.353Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

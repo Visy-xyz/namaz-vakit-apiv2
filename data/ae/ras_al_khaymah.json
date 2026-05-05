@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ae",
+    "countryName": "UNITED ARAB EMIRATES",
+    "countryNameTr": "BIRLESIK ARAP EMIRLIGI",
+    "countryId": "93",
     "city": "ras_al_khaymah",
+    "cityName": "RAS AL KHAYMAH",
+    "cityNameTr": "RAS AL KHAYMAH",
+    "cityGroup": "UNITED ARAB EMIRATES",
+    "cityGroupTr": "BIRLESIK ARAP EMIRLIGI",
+    "cityId": "668",
     "districtId": "11946",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:21:15.646Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:37:42.101Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

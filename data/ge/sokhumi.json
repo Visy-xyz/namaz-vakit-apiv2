@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ge",
+    "countryName": "GEORGIA",
+    "countryNameTr": "GURCISTAN",
+    "countryId": "62",
     "city": "sokhumi",
+    "cityName": "SOKHUMI",
+    "cityNameTr": "SOKHUMI",
+    "cityGroup": "GEORGIA",
+    "cityGroupTr": "GURCISTAN",
+    "cityId": "716",
     "districtId": "13556",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:10:30.830Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:12:18.363Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

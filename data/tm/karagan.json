@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "tm",
+    "countryName": "TURKMENISTAN",
+    "countryNameTr": "TURKMENISTAN",
+    "countryId": "159",
     "city": "karagan",
+    "cityName": "KARAGAN",
+    "cityNameTr": "KARAGAN",
+    "cityGroup": "TURKMENISTAN",
+    "cityGroupTr": "TURKMENISTAN",
+    "cityId": "830",
     "districtId": "16392",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:47:23.064Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:46:21.472Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

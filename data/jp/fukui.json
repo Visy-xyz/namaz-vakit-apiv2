@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "jp",
+    "countryName": "JAPAN",
+    "countryNameTr": "JAPONYA",
+    "countryId": "116",
     "city": "fukui",
+    "cityName": "FUKUI",
+    "cityNameTr": "FUKUI",
+    "cityGroup": "JAPAN",
+    "cityGroupTr": "JAPONYA",
+    "cityId": "736",
     "districtId": "14740",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:26:31.341Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:23:00.715Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "vn",
+    "countryName": "VIETNAM",
+    "countryNameTr": "VIETNAM",
+    "countryId": "135",
     "city": "ho_chi_minh_city",
+    "cityName": "HO CHI MINH CITY",
+    "cityNameTr": "HO CHI MINH CITY",
+    "cityGroup": "VIETNAM",
+    "cityGroupTr": "VIETNAM",
+    "cityId": "840",
     "districtId": "16584",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:37:37.380Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T04:17:05.118Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

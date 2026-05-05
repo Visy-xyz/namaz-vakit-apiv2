@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "in",
+    "countryName": "INDIA",
+    "countryNameTr": "HINDISTAN",
+    "countryId": "187",
     "city": "coimbatore",
+    "cityName": "COIMBATORE",
+    "cityNameTr": "COIMBATORE",
+    "cityGroup": "INDIA",
+    "cityGroupTr": "HINDISTAN",
+    "cityId": "719",
     "districtId": "13592",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:54:35.971Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:17:37.836Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

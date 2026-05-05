@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ye",
+    "countryName": "YEMEN",
+    "countryNameTr": "YEMEN",
+    "countryId": "148",
     "city": "taizz",
+    "cityName": "TAIZZ",
+    "cityNameTr": "TAIZZ",
+    "cityGroup": "YEMEN",
+    "cityGroupTr": "YEMEN",
+    "cityId": "841",
     "districtId": "16606",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:45:15.427Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T04:17:39.823Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

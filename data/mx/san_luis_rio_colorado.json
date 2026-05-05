@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "mx",
+    "countryName": "MEXICO",
+    "countryNameTr": "MEKSIKA",
+    "countryId": "53",
     "city": "san_luis_rio_colorado",
+    "cityName": "SAN LUIS RIO COLORADO",
+    "cityNameTr": "SAN LUIS RIO COLORADO",
+    "cityGroup": "MEXICO",
+    "cityGroupTr": "MEKSIKA",
+    "cityId": "774",
     "districtId": "15427",
     "year": 2026,
-    "fetchedAt": "2026-05-04T09:53:39.432Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:25:46.642Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

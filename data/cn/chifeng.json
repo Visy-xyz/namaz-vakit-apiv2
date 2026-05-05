@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "cn",
+    "countryName": "CHINA",
+    "countryNameTr": "CIN",
+    "countryId": "61",
     "city": "chifeng",
+    "cityName": "CHIFENG",
+    "cityNameTr": "CHIFENG",
+    "cityGroup": "CHINA",
+    "cityGroupTr": "CIN",
+    "cityId": "684",
     "districtId": "12444",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:04:20.534Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:00:02.560Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

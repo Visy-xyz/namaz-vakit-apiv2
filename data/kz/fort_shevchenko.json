@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "kz",
+    "countryName": "KAZAKHSTAN",
+    "countryNameTr": "KAZAKISTAN",
+    "countryId": "92",
     "city": "fort_shevchenko",
+    "cityName": "FORT SHEVCHENKO",
+    "cityNameTr": "FORT SHEVCHENKO",
+    "cityGroup": "KAZAKHSTAN",
+    "cityGroupTr": "KAZAKISTAN",
+    "cityId": "741",
     "districtId": "14992",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:18:50.405Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:16:11.803Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

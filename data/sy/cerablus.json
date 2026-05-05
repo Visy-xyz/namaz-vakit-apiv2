@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "sy",
+    "countryName": "SYRIA",
+    "countryNameTr": "SURIYE",
+    "countryId": "191",
     "city": "cerablus",
+    "cityName": "CERABLUS",
+    "cityNameTr": "CERABLUS",
+    "cityGroup": "SYRIA",
+    "cityGroupTr": "SURIYE",
+    "cityId": "818",
     "districtId": "20051",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:57:59.758Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:43:51.856Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

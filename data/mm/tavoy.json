@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "mm",
+    "countryName": "BURMA (MYANMAR)",
+    "countryNameTr": "MYANMAR",
+    "countryId": "154",
     "city": "tavoy",
+    "cityName": "TAVOY",
+    "cityNameTr": "TAVOY",
+    "cityGroup": "MYANMAR",
+    "cityGroupTr": "MYANMAR",
+    "cityId": "676",
     "districtId": "12271",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:46:11.048Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:20:56.032Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "cn",
+    "countryName": "CHINA",
+    "countryNameTr": "CIN",
+    "countryId": "61",
     "city": "shaoyang",
+    "cityName": "SHAOYANG",
+    "cityNameTr": "SHAOYANG",
+    "cityGroup": "CHINA",
+    "cityGroupTr": "CIN",
+    "cityId": "684",
     "districtId": "12553",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:08:03.729Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:03:57.541Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

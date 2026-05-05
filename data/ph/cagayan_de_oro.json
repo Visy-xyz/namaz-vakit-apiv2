@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ph",
+    "countryName": "PHILIPPINES",
+    "countryNameTr": "FILIPINLER",
+    "countryId": "126",
     "city": "cagayan_de_oro",
+    "cityName": "CAGAYAN DE ORO",
+    "cityNameTr": "CAGAYAN DE ORO",
+    "cityGroup": "PHILIPPINES",
+    "cityGroupTr": "FILIPINLER",
+    "cityId": "701",
     "districtId": "12836",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:32:40.592Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:31:42.816Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

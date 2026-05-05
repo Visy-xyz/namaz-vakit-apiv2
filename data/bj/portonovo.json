@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "bj",
+    "countryName": "BENIN",
+    "countryNameTr": "BENIN",
+    "countryId": "181",
     "city": "portonovo",
+    "cityName": "PORTO-NOVO",
+    "cityNameTr": "PORTO-NOVO",
+    "cityGroup": "BENIN",
+    "cityGroupTr": "BENIN",
+    "cityId": "666",
     "districtId": "11926",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:52:03.258Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:49:29.498Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

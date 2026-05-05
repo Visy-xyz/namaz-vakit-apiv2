@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "kg",
+    "countryName": "KIRGIZHSTAN",
+    "countryNameTr": "KIRGIZISTAN",
+    "countryId": "168",
     "city": "karabalta",
+    "cityName": "KARA-BALTA",
+    "cityNameTr": "KARA-BALTA",
+    "cityGroup": "KIRGIZHSTAN",
+    "cityGroupTr": "KIRGIZISTAN",
+    "cityId": "743",
     "districtId": "15019",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:50:02.144Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:12:23.014Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

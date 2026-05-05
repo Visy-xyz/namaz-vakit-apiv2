@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "hn",
+    "countryName": "HONDURAS",
+    "countryNameTr": "HONDURAS",
+    "countryId": "105",
     "city": "gracias",
+    "cityName": "GRACIAS",
+    "cityNameTr": "GRACIAS",
+    "cityGroup": "HONDURAS",
+    "cityGroupTr": "HONDURAS",
+    "cityId": "723",
     "districtId": "13984",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:23:08.155Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:13:50.222Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

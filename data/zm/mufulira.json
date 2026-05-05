@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "zm",
+    "countryName": "ZAMBIYA",
+    "countryNameTr": "ZAMBIYA",
+    "countryId": "158",
     "city": "mufulira",
+    "cityName": "MUFULIRA",
+    "cityNameTr": "MUFULIRA",
+    "cityGroup": "ZAMBIYA",
+    "cityGroupTr": "ZAMBIYA",
+    "cityId": "846",
     "districtId": "16690",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:46:58.635Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T04:18:49.087Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

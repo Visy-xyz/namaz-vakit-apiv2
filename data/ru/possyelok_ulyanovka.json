@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ru",
+    "countryName": "RUSSIA",
+    "countryNameTr": "RUSYA",
+    "countryId": "207",
     "city": "possyelok_ulyanovka",
+    "cityName": "POSSYELOK ULYANOVKA",
+    "cityNameTr": "POSSYELOK ULYANOVKA",
+    "cityGroup": "RUSSIA",
+    "cityGroupTr": "RUSYA",
+    "cityId": "805",
     "districtId": "16018",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:08:35.974Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:39:15.972Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

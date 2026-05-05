@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "bh",
+    "countryName": "BAHRAIN",
+    "countryNameTr": "BAHREYN",
+    "countryId": "132",
     "city": "ar_rifaalgharbi",
+    "cityName": "AR RIFA'ALGHARBI",
+    "cityNameTr": "AR RIFA'ALGHARBI",
+    "cityGroup": "BAHRAIN",
+    "cityGroupTr": "BAHREYN",
+    "cityId": "660",
     "districtId": "11668",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:37:02.904Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:48:58.352Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

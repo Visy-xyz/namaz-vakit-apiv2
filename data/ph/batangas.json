@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ph",
+    "countryName": "PHILIPPINES",
+    "countryNameTr": "FILIPINLER",
+    "countryId": "126",
     "city": "batangas",
+    "cityName": "BATANGAS",
+    "cityNameTr": "BATANGAS",
+    "cityGroup": "PHILIPPINES",
+    "cityGroupTr": "FILIPINLER",
+    "cityId": "701",
     "districtId": "12833",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:32:34.137Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:31:35.914Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

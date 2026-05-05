@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "cv",
+    "countryName": "YESIL BURUN",
+    "countryNameTr": "YESIL BURUN",
+    "countryId": "144",
     "city": "praia",
+    "cityName": "PRAIA",
+    "cityNameTr": "PRAIA",
+    "cityGroup": "YESIL BURUN",
+    "cityGroupTr": "YESIL BURUN",
+    "cityId": "844",
     "districtId": "16642",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:40:08.136Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:07:31.222Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "jm",
+    "countryName": "JAMAIKA",
+    "countryNameTr": "JAMAIKA",
+    "countryId": "119",
     "city": "montego_bay",
+    "cityName": "MONTEGO BAY",
+    "cityNameTr": "MONTEGO BAY",
+    "cityGroup": "JAMAIKA",
+    "cityGroupTr": "JAMAIKA",
+    "cityId": "735",
     "districtId": "14697",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:31:34.237Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:22:15.845Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

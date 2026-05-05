@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "bn",
+    "countryName": "BRUNEI",
+    "countryNameTr": "BRUNEI",
+    "countryId": "97",
     "city": "bandar_seri_begawan",
+    "cityName": "BANDAR SERI BEGAWAN",
+    "cityNameTr": "BANDAR SERI BEGAWAN",
+    "cityGroup": "BRUNEI",
+    "cityGroupTr": "BRUNEI",
+    "cityId": "673",
     "districtId": "12203",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:21:48.567Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:49:41.676Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "bj",
+    "countryName": "BENIN",
+    "countryNameTr": "BENIN",
+    "countryId": "181",
     "city": "parakou",
+    "cityName": "PARAKOU",
+    "cityNameTr": "PARAKOU",
+    "cityGroup": "BENIN",
+    "cityGroupTr": "BENIN",
+    "cityId": "666",
     "districtId": "11928",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:52:01.591Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:49:27.783Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

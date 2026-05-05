@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "mn",
+    "countryName": "MONGOLIA",
+    "countryNameTr": "MOGOLISTAN",
+    "countryId": "60",
     "city": "uujim",
+    "cityName": "UUJIM",
+    "cityNameTr": "UUJIM",
+    "cityGroup": "MONGOLIA",
+    "cityGroupTr": "MOGOLISTAN",
+    "cityId": "777",
     "districtId": "15494",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:03:31.453Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:22:49.536Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

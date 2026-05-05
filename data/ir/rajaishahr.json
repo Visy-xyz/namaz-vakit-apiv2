@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ir",
+    "countryName": "IRAN",
+    "countryNameTr": "IRAN",
+    "countryId": "202",
     "city": "rajaishahr",
+    "cityName": "RAJAISHAHR",
+    "cityNameTr": "RAJAISHAHR",
+    "cityGroup": "IRAN",
+    "cityGroupTr": "IRAN",
+    "cityId": "727",
     "districtId": "14184",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:03:30.841Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:21:48.520Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

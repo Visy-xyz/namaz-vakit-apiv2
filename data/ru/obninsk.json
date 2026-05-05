@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ru",
+    "countryName": "RUSSIA",
+    "countryNameTr": "RUSYA",
+    "countryId": "207",
     "city": "obninsk",
+    "cityName": "OBNINSK",
+    "cityNameTr": "OBNINSK",
+    "cityGroup": "RUSSIA",
+    "cityGroupTr": "RUSYA",
+    "cityId": "805",
     "districtId": "16088",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:08:13.121Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:38:51.842Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ec",
+    "countryName": "EKVATOR",
+    "countryNameTr": "EKVATOR",
+    "countryId": "139",
     "city": "tena",
+    "cityName": "TENA",
+    "cityNameTr": "TENA",
+    "cityGroup": "EKVATOR",
+    "cityGroupTr": "EKVATOR",
+    "cityId": "690",
     "districtId": "12709",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:39:02.481Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:09:34.597Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "az",
+    "countryName": "AZERBAIJAN",
+    "countryNameTr": "AZERBAYCAN",
+    "countryId": "5",
     "city": "baku",
+    "cityName": "BAKU",
+    "cityNameTr": "BAKU",
+    "cityGroup": "AZERBAIJAN",
+    "cityGroupTr": "AZERBAYCAN",
+    "cityId": "658",
     "districtId": "11631",
     "year": 2026,
-    "fetchedAt": "2026-05-04T09:36:02.924Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:47:33.239Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

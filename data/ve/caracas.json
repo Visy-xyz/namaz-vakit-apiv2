@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ve",
+    "countryName": "VENEZUELA",
+    "countryNameTr": "VENEZUELA",
+    "countryId": "186",
     "city": "caracas",
+    "cityName": "CARACAS",
+    "cityNameTr": "CARACAS",
+    "cityGroup": "VENEZUELA",
+    "cityGroupTr": "VENEZUELA",
+    "cityId": "839",
     "districtId": "16554",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:52:59.564Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T04:16:07.506Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ru",
+    "countryName": "RUSSIA",
+    "countryNameTr": "RUSYA",
+    "countryId": "207",
     "city": "vyritsa",
+    "cityName": "VYRITSA",
+    "cityNameTr": "VYRITSA",
+    "cityGroup": "RUSSIA",
+    "cityGroupTr": "RUSYA",
+    "cityId": "805",
     "districtId": "16019",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:10:52.663Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:41:40.573Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

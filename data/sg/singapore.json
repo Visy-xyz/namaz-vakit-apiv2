@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "sg",
+    "countryName": "SINGAPORE",
+    "countryNameTr": "SINGAPUR",
+    "countryId": "179",
     "city": "singapore",
+    "cityName": "SINGAPORE",
+    "cityNameTr": "SINGAPUR",
+    "cityGroup": "SINGAPORE",
+    "cityGroupTr": "SINGAPUR",
+    "cityId": "810",
     "districtId": "16214",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:51:44.940Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:42:42.632Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

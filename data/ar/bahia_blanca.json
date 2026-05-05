@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ar",
+    "countryName": "ARGENTINA",
+    "countryNameTr": "ARJANTIN",
+    "countryId": "199",
     "city": "bahia_blanca",
+    "cityName": "BAHIA BLANCA",
+    "cityNameTr": "BAHIA BLANCA",
+    "cityGroup": "ARGENTINA",
+    "cityGroupTr": "ARJANTIN",
+    "cityId": "653",
     "districtId": "11146",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:00:01.996Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:39:23.865Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

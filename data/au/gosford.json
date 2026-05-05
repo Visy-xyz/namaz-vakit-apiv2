@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "au",
+    "countryName": "AUSTRALIA",
+    "countryNameTr": "AVUSTRALYA",
+    "countryId": "59",
     "city": "gosford",
+    "cityName": "GOSFORD",
+    "cityNameTr": "GOSFORD",
+    "cityGroup": "AUSTRALIA",
+    "cityGroupTr": "AVUSTRALYA",
+    "cityId": "656",
     "districtId": "11233",
     "year": 2026,
-    "fetchedAt": "2026-05-04T09:57:58.974Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:43:18.271Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

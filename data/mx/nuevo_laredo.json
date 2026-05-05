@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "mx",
+    "countryName": "MEXICO",
+    "countryNameTr": "MEKSIKA",
+    "countryId": "53",
     "city": "nuevo_laredo",
+    "cityName": "NUEVO LAREDO",
+    "cityNameTr": "NUEVO LAREDO",
+    "cityGroup": "MEXICO",
+    "cityGroupTr": "MEKSIKA",
+    "cityId": "774",
     "districtId": "15414",
     "year": 2026,
-    "fetchedAt": "2026-05-04T09:53:15.278Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:25:20.777Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

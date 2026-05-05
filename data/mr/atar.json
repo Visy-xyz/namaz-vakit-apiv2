@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "mr",
+    "countryName": "MORITANYA",
+    "countryNameTr": "MORITANYA",
+    "countryId": "106",
     "city": "atar",
+    "cityName": "ATAR",
+    "cityNameTr": "ATAR",
+    "cityGroup": "MORITANYA",
+    "cityGroupTr": "MORITANYA",
+    "cityId": "781",
     "districtId": "16717",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:23:35.156Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:23:03.359Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

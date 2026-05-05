@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "kg",
+    "countryName": "KIRGIZHSTAN",
+    "countryNameTr": "KIRGIZISTAN",
+    "countryId": "168",
     "city": "pokrovkatalas",
+    "cityName": "POKROVKA(Talas)",
+    "cityNameTr": "POKROVKA(Talas)",
+    "cityGroup": "KIRGIZHSTAN",
+    "cityGroupTr": "KIRGIZISTAN",
+    "cityId": "743",
     "districtId": "15060",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:50:40.998Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:13:02.515Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

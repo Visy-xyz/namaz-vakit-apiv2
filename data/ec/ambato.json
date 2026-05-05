@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ec",
+    "countryName": "EKVATOR",
+    "countryNameTr": "EKVATOR",
+    "countryId": "139",
     "city": "ambato",
+    "cityName": "AMBATO",
+    "cityNameTr": "AMBATO",
+    "cityGroup": "EKVATOR",
+    "cityGroupTr": "EKVATOR",
+    "cityId": "690",
     "districtId": "12690",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:38:26.993Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:08:58.048Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "cn",
+    "countryName": "CHINA",
+    "countryNameTr": "CIN",
+    "countryId": "61",
     "city": "zhuzhou",
+    "cityName": "ZHUZHOU",
+    "cityNameTr": "ZHUZHOU",
+    "cityGroup": "CHINA",
+    "cityGroupTr": "CIN",
+    "cityId": "684",
     "districtId": "12419",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:09:36.358Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:05:36.010Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

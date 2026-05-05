@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "af",
+    "countryName": "AFGHANISTAN",
+    "countryNameTr": "AFGANISTAN",
+    "countryId": "166",
     "city": "kholm",
+    "cityName": "KHOLM",
+    "cityNameTr": "KHOLM",
+    "cityGroup": "AFGHANISTAN",
+    "cityGroupTr": "AFGANISTAN",
+    "cityId": "647",
     "districtId": "9962",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:49:02.831Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:38:01.191Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

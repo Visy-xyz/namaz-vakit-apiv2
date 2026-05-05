@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ph",
+    "countryName": "PHILIPPINES",
+    "countryNameTr": "FILIPINLER",
+    "countryId": "126",
     "city": "olongapo",
+    "cityName": "OLONGAPO",
+    "cityNameTr": "OLONGAPO",
+    "cityGroup": "PHILIPPINES",
+    "cityGroupTr": "FILIPINLER",
+    "cityId": "701",
     "districtId": "12846",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:33:09.685Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:32:12.242Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

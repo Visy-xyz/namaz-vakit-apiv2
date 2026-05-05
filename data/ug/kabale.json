@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ug",
+    "countryName": "UGANDA",
+    "countryNameTr": "UGANDA",
+    "countryId": "75",
     "city": "kabale",
+    "cityName": "KABALE",
+    "cityNameTr": "KABALE",
+    "cityGroup": "UGANDA",
+    "cityGroupTr": "UGANDA",
+    "cityId": "831",
     "districtId": "16421",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:13:38.998Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T04:13:56.924Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

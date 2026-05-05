@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "jo",
+    "countryName": "JORDAN",
+    "countryNameTr": "URDUN",
+    "countryId": "192",
     "city": "alaqabah",
+    "cityName": "AL-AQABAH",
+    "cityNameTr": "AL-AQABAH",
+    "cityGroup": "JORDAN",
+    "cityGroupTr": "URDUN",
+    "cityId": "835",
     "districtId": "16536",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:58:40.570Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:22:19.292Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

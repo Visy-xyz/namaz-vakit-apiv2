@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "uz",
+    "countryName": "UZBEKISTAN",
+    "countryNameTr": "OZBEKISTAN",
+    "countryId": "131",
     "city": "beruni",
+    "cityName": "BERUNI",
+    "cityNameTr": "BERUNI",
+    "cityGroup": "UZBEKISTAN",
+    "cityGroupTr": "OZBEKISTAN",
+    "cityId": "791",
     "districtId": "15745",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:35:43.169Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T04:14:35.642Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

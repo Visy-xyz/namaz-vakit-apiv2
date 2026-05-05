@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "sd",
+    "countryName": "SUDAN",
+    "countryNameTr": "SUDAN",
+    "countryId": "129",
     "city": "wad_madani",
+    "cityName": "WAD MADANI",
+    "cityNameTr": "WAD MADANI",
+    "cityGroup": "SUDAN",
+    "cityGroupTr": "SUDAN",
+    "cityId": "816",
     "districtId": "16293",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:35:33.500Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:42:39.153Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

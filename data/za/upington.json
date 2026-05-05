@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "za",
+    "countryName": "SOUTH AFRICA",
+    "countryNameTr": "GUNEY AFRIKA",
+    "countryId": "67",
     "city": "upington",
+    "cityName": "UPINGTON",
+    "cityNameTr": "UPINGTON",
+    "cityGroup": "SOUTH AFRICA",
+    "cityGroupTr": "GUNEY AFRIKA",
+    "cityId": "714",
     "districtId": "13485",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:11:53.299Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T04:18:31.848Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

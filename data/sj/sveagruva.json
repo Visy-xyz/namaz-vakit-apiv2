@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "sj",
+    "countryName": "SVALBARD",
+    "countryNameTr": "SVALBARD",
+    "countryId": "163",
     "city": "sveagruva",
+    "cityName": "SVEAGRUVA",
+    "cityNameTr": "SVEAGRUVA",
+    "cityGroup": "SVALBARD",
+    "cityGroupTr": "SVALBARD",
+    "cityId": "820",
     "districtId": "16318",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:48:28.749Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:42:46.109Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

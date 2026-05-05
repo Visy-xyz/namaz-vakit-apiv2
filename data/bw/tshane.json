@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "bw",
+    "countryName": "BOTSWANA",
+    "countryNameTr": "BOTSVANA",
+    "countryId": "167",
     "city": "tshane",
+    "cityName": "TSHANE",
+    "cityNameTr": "TSHANE",
+    "cityGroup": "BOTSWANA",
+    "cityGroupTr": "BOTSVANA",
+    "cityId": "671",
     "districtId": "12036",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:49:29.226Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:56:16.702Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

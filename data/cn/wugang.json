@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "cn",
+    "countryName": "CHINA",
+    "countryNameTr": "CIN",
+    "countryId": "61",
     "city": "wugang",
+    "cityName": "WUGANG",
+    "cityNameTr": "WUGANG",
+    "cityGroup": "CHINA",
+    "cityGroupTr": "CIN",
+    "cityId": "684",
     "districtId": "12565",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:08:29.654Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:04:26.211Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

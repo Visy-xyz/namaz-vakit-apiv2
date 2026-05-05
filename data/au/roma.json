@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "au",
+    "countryName": "AUSTRALIA",
+    "countryNameTr": "AVUSTRALYA",
+    "countryId": "59",
     "city": "roma",
+    "cityName": "ROMA",
+    "cityNameTr": "ROMA",
+    "cityGroup": "AUSTRALIA",
+    "cityGroupTr": "AVUSTRALYA",
+    "cityId": "656",
     "districtId": "11287",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:00:37.880Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:46:07.370Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

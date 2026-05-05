@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "to",
+    "countryName": "TONGA",
+    "countryNameTr": "TONGA",
+    "countryId": "130",
     "city": "nukualofa",
+    "cityName": "NUKUALOFA",
+    "cityNameTr": "NUKUALOFA",
+    "cityGroup": "TONGA",
+    "cityGroupTr": "TONGA",
+    "cityId": "827",
     "districtId": "16375",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:35:36.727Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:47:09.654Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

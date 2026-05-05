@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ir",
+    "countryName": "IRAN",
+    "countryNameTr": "IRAN",
+    "countryId": "202",
     "city": "azizabad",
+    "cityName": "AZIZABAD",
+    "cityNameTr": "AZIZABAD",
+    "cityGroup": "IRAN",
+    "cityGroupTr": "IRAN",
+    "cityId": "727",
     "districtId": "17812",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:02:47.890Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:21:02.898Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

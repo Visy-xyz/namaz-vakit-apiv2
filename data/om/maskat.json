@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "om",
+    "countryName": "UMMAN",
+    "countryNameTr": "UMMAN",
+    "countryId": "173",
     "city": "maskat",
+    "cityName": "MASKAT",
+    "cityNameTr": "MASKAT",
+    "cityGroup": "UMMAN",
+    "cityGroupTr": "UMMAN",
+    "cityId": "834",
     "districtId": "16527",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:51:13.257Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:30:09.252Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

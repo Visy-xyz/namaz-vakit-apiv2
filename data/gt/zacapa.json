@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "gt",
+    "countryName": "GUATEMALA",
+    "countryNameTr": "GUATEMALA",
+    "countryId": "99",
     "city": "zacapa",
+    "cityName": "ZACAPA",
+    "cityNameTr": "ZACAPA",
+    "cityGroup": "GUATEMALA",
+    "cityGroupTr": "GUATEMALA",
+    "cityId": "713",
     "districtId": "13465",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:22:17.804Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:13:25.722Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

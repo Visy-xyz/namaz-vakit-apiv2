@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "pk",
+    "countryName": "PAKISTAN",
+    "countryNameTr": "PAKISTAN",
+    "countryId": "77",
     "city": "jhang_sadar",
+    "cityName": "JHANG SADAR",
+    "cityNameTr": "JHANG SADAR",
+    "cityGroup": "PAKISTAN",
+    "cityGroupTr": "PAKISTAN",
+    "cityId": "792",
     "districtId": "15788",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:14:06.636Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:32:46.744Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

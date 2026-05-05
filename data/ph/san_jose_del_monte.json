@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ph",
+    "countryName": "PHILIPPINES",
+    "countryNameTr": "FILIPINLER",
+    "countryId": "126",
     "city": "san_jose_del_monte",
+    "cityName": "SAN JOSE DEL MONTE",
+    "cityNameTr": "SAN JOSE DEL MONTE",
+    "cityGroup": "PHILIPPINES",
+    "cityGroupTr": "FILIPINLER",
+    "cityId": "701",
     "districtId": "12847",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:33:19.579Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:32:22.554Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

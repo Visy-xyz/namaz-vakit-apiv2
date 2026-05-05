@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "cm",
+    "countryName": "CAMEROON",
+    "countryNameTr": "KAMERUN",
+    "countryId": "184",
     "city": "bamenda",
+    "cityName": "BAMENDA",
+    "cityNameTr": "BAMENDA",
+    "cityGroup": "CAMEROON",
+    "cityGroupTr": "KAMERUN",
+    "cityId": "738",
     "districtId": "14853",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:52:25.276Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:59:03.333Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

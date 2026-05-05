@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "jp",
+    "countryName": "JAPAN",
+    "countryNameTr": "JAPONYA",
+    "countryId": "116",
     "city": "ageo",
+    "cityName": "AGEO",
+    "cityNameTr": "AGEO",
+    "cityGroup": "JAPAN",
+    "cityGroupTr": "JAPONYA",
+    "cityId": "736",
     "districtId": "14708",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:26:00.758Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:22:29.686Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

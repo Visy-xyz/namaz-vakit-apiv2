@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ru",
+    "countryName": "RUSSIA",
+    "countryNameTr": "RUSYA",
+    "countryId": "207",
     "city": "gubakha",
+    "cityName": "GUBAKHA",
+    "cityNameTr": "GUBAKHA",
+    "cityGroup": "RUSSIA",
+    "cityGroupTr": "RUSYA",
+    "cityId": "805",
     "districtId": "16159",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:05:52.111Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:36:24.046Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

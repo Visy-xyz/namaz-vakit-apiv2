@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "la",
+    "countryName": "LAOS",
+    "countryNameTr": "LAOS",
+    "countryId": "134",
     "city": "louang_namtha",
+    "cityName": "LOUANG NAMTHA",
+    "cityNameTr": "LOUANG NAMTHA",
+    "cityGroup": "LAOS",
+    "cityGroupTr": "LAOS",
+    "cityId": "753",
     "districtId": "15166",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:37:14.429Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:18:39.026Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

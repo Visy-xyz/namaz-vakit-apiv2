@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "tn",
+    "countryName": "TUNUSIA",
+    "countryNameTr": "TUNUS",
+    "countryId": "118",
     "city": "bizerte",
+    "cityName": "BIZERTE",
+    "cityNameTr": "BIZERTE",
+    "cityGroup": "TUNUSIA",
+    "cityGroupTr": "TUNUS",
+    "cityId": "829",
     "districtId": "16386",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:31:19.199Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:46:57.585Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

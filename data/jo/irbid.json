@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "jo",
+    "countryName": "JORDAN",
+    "countryNameTr": "URDUN",
+    "countryId": "192",
     "city": "irbid",
+    "cityName": "IRBID",
+    "cityNameTr": "IRBID",
+    "cityGroup": "JORDAN",
+    "cityGroupTr": "URDUN",
+    "cityId": "835",
     "districtId": "16534",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:58:45.490Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:22:24.497Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

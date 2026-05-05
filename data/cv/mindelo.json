@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "cv",
+    "countryName": "YESIL BURUN",
+    "countryNameTr": "YESIL BURUN",
+    "countryId": "144",
     "city": "mindelo",
+    "cityName": "MINDELO",
+    "cityNameTr": "MINDELO",
+    "cityGroup": "YESIL BURUN",
+    "cityGroupTr": "YESIL BURUN",
+    "cityId": "844",
     "districtId": "16641",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:40:06.461Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:07:29.496Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "br",
+    "countryName": "BRAZIL",
+    "countryNameTr": "BREZILYA",
+    "countryId": "146",
     "city": "guaruja_sp",
+    "cityName": "GUARUJA (S.P.)",
+    "cityNameTr": "GUARUJA (S.P.)",
+    "cityGroup": "BRAZIL",
+    "cityGroupTr": "BREZILYA",
+    "cityId": "672",
     "districtId": "12154",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:42:02.828Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:52:21.187Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

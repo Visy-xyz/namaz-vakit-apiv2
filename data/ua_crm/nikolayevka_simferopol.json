@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ua_crm",
+    "countryName": "UKRAINE-KRYM",
+    "countryNameTr": "UKRAYNA-KIRIM",
+    "countryId": "29",
     "city": "nikolayevka_simferopol",
+    "cityName": "NIKOLAYEVKA (Simferopol)",
+    "cityNameTr": "NIKOLAYEVKA (Simferopol)",
+    "cityGroup": "UKRAINE-KRYM",
+    "cityGroupTr": "UKRAYNA-KIRIM",
+    "cityId": "833",
     "districtId": "16504",
     "year": 2026,
-    "fetchedAt": "2026-05-04T09:37:26.964Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T04:13:36.250Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

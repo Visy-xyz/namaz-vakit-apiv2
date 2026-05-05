@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ru",
+    "countryName": "RUSSIA",
+    "countryNameTr": "RUSYA",
+    "countryId": "207",
     "city": "pushkino_moskova",
+    "cityName": "PUSHKINO (Moskova)",
+    "cityNameTr": "PUSHKINO (Moskova)",
+    "cityGroup": "RUSSIA",
+    "cityGroupTr": "RUSYA",
+    "cityId": "805",
     "districtId": "15999",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:08:45.682Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:39:27.142Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

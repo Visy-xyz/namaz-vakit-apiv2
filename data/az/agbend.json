@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "az",
+    "countryName": "AZERBAIJAN",
+    "countryNameTr": "AZERBAYCAN",
+    "countryId": "5",
     "city": "agbend",
+    "cityName": "AGBEND",
+    "cityNameTr": "AGBEND",
+    "cityGroup": "AZERBAIJAN",
+    "cityGroupTr": "AZERBAYCAN",
+    "cityId": "658",
     "districtId": "27073",
     "year": 2026,
-    "fetchedAt": "2026-05-04T09:35:53.464Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:47:24.521Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

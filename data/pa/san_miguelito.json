@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "pa",
+    "countryName": "PANAMA",
+    "countryNameTr": "PANAMA",
+    "countryId": "89",
     "city": "san_miguelito",
+    "cityName": "SAN MIGUELITO",
+    "cityNameTr": "SAN MIGUELITO",
+    "cityGroup": "PANAMA",
+    "cityGroupTr": "PANAMA",
+    "cityId": "794",
     "districtId": "15805",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:17:12.729Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:30:37.460Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

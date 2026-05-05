@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "cf",
+    "countryName": "ORTA AFRIKA CUMHURIYETI",
+    "countryNameTr": "ORTA AFRIKA CUMHURIYETI",
+    "countryId": "80",
     "city": "duanda_djalle",
+    "cityName": "DUANDA DJALLE",
+    "cityNameTr": "DUANDA DJALLE",
+    "cityGroup": "ORTA AFRIKA CUMHURIYETI",
+    "cityGroupTr": "ORTA AFRIKA CUMHURIYETI",
+    "cityId": "790",
     "districtId": "15705",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:14:56.732Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:58:03.791Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

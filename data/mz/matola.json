@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "mz",
+    "countryName": "MOZAMBIK",
+    "countryNameTr": "MOZAMBIK",
+    "countryId": "151",
     "city": "matola",
+    "cityName": "MATOLA",
+    "cityNameTr": "MATOLA",
+    "cityGroup": "MOZAMBIK",
+    "cityGroupTr": "MOZAMBIK",
+    "cityId": "782",
     "districtId": "15550",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:45:39.879Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:27:21.587Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "th",
+    "countryName": "THAILAND",
+    "countryNameTr": "TAYLAND",
+    "countryId": "137",
     "city": "rayong",
+    "cityName": "RAYONG",
+    "cityNameTr": "RAYONG",
+    "cityGroup": "THAILAND",
+    "cityGroupTr": "TAYLAND",
+    "cityId": "824",
     "districtId": "16354",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:38:20.535Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:45:24.316Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

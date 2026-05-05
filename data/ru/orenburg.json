@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ru",
+    "countryName": "RUSSIA",
+    "countryNameTr": "RUSYA",
+    "countryId": "207",
     "city": "orenburg",
+    "cityName": "ORENBURG",
+    "cityNameTr": "ORENBURG",
+    "cityGroup": "RUSSIA",
+    "cityGroupTr": "RUSYA",
+    "cityId": "805",
     "districtId": "16089",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:08:19.621Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:38:58.789Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

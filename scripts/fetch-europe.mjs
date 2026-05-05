@@ -133,7 +133,7 @@ function buildCityList(countriesData) {
 
   for (const country of list) {
     const countryId = String(country.countryId);
-    const countryCode = COUNTRY_MAP[countryId];
+    const countryCode = String(country.countryCode || COUNTRY_MAP[countryId] || '').toLowerCase();
     if (!countryCode) continue;
     if (ONLY_CTRY && countryCode !== ONLY_CTRY) continue;
 

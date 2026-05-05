@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "cn",
+    "countryName": "CHINA",
+    "countryNameTr": "CIN",
+    "countryId": "61",
     "city": "beihai",
+    "cityName": "BEIHAI",
+    "cityNameTr": "BEIHAI",
+    "cityGroup": "CHINA",
+    "cityGroupTr": "CIN",
+    "cityId": "684",
     "districtId": "12431",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:03:53.920Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:59:33.105Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

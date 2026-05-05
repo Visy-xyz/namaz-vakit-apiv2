@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "py",
+    "countryName": "PARAGUAY",
+    "countryNameTr": "PARAGUAY",
+    "countryId": "194",
     "city": "ciudad_del_este",
+    "cityName": "CIUDAD DEL ESTE",
+    "cityNameTr": "CIUDAD DEL ESTE",
+    "cityGroup": "PARAGUAY",
+    "cityGroupTr": "PARAGUAY",
+    "cityId": "796",
     "districtId": "15819",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:59:37.263Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:33:54.941Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

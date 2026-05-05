@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "bs",
+    "countryName": "BAHAMAS",
+    "countryNameTr": "BAHAMALAR",
+    "countryId": "54",
     "city": "georgetown",
+    "cityName": "GEORGETOWN",
+    "cityNameTr": "GEORGETOWN",
+    "cityGroup": "BAHAMAS",
+    "cityGroupTr": "BAHAMALAR",
+    "cityId": "659",
     "districtId": "11657",
     "year": 2026,
-    "fetchedAt": "2026-05-04T09:54:24.499Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:55:49.095Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

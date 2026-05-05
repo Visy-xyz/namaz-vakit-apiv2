@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "uz",
+    "countryName": "UZBEKISTAN",
+    "countryNameTr": "OZBEKISTAN",
+    "countryId": "131",
     "city": "parkent",
+    "cityName": "PARKENT ",
+    "cityNameTr": "PARKENT ",
+    "cityGroup": "UZBEKISTAN",
+    "cityGroupTr": "OZBEKISTAN",
+    "cityId": "791",
     "districtId": "15741",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:36:35.425Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T04:15:31.182Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

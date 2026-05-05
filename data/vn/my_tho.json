@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "vn",
+    "countryName": "VIETNAM",
+    "countryNameTr": "VIETNAM",
+    "countryId": "135",
     "city": "my_tho",
+    "cityName": "MY THO",
+    "cityNameTr": "MY THO",
+    "cityGroup": "VIETNAM",
+    "cityGroupTr": "VIETNAM",
+    "cityId": "840",
     "districtId": "16590",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:37:43.885Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T04:17:12.126Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

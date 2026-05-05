@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "np",
+    "countryName": "NEPAL",
+    "countryNameTr": "NEPAL",
+    "countryId": "76",
     "city": "bratnagar",
+    "cityName": "BRATNAGAR",
+    "cityNameTr": "BRATNAGAR",
+    "cityGroup": "NEPAL",
+    "cityGroupTr": "NEPAL",
+    "cityId": "784",
     "districtId": "15565",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:13:47.054Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:29:12.520Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

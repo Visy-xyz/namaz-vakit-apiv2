@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "il",
+    "countryName": "ISRAEL",
+    "countryNameTr": "ISRAIL",
+    "countryId": "205",
     "city": "tel_aviv",
+    "cityName": "TEL AVIV",
+    "cityNameTr": "TEL AVIV",
+    "cityGroup": "ISRAEL",
+    "cityGroupTr": "ISRAIL",
+    "cityId": "730",
     "districtId": "14269",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:04:36.205Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:16:49.198Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

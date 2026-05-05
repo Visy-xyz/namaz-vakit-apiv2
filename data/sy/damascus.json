@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "sy",
+    "countryName": "SYRIA",
+    "countryNameTr": "SURIYE",
+    "countryId": "191",
     "city": "damascus",
+    "cityName": "DAMASCUS",
+    "cityNameTr": "SAM",
+    "cityGroup": "SYRIA",
+    "cityGroupTr": "SURIYE",
+    "cityId": "818",
     "districtId": "16306",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:58:32.366Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:43:57.067Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

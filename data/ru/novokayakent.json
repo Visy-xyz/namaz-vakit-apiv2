@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ru",
+    "countryName": "RUSSIA",
+    "countryNameTr": "RUSYA",
+    "countryId": "207",
     "city": "novokayakent",
+    "cityName": "NOVOKAYAKENT ",
+    "cityNameTr": "NOVOKAYAKENT ",
+    "cityGroup": "RUSSIA",
+    "cityGroupTr": "RUSYA",
+    "cityId": "805",
     "districtId": "15978",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:08:01.628Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:38:39.827Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

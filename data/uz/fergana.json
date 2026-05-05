@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "uz",
+    "countryName": "UZBEKISTAN",
+    "countryNameTr": "OZBEKISTAN",
+    "countryId": "131",
     "city": "fergana",
+    "cityName": "FERGANA",
+    "cityNameTr": "FERGANA",
+    "cityGroup": "UZBEKISTAN",
+    "cityGroupTr": "OZBEKISTAN",
+    "cityId": "791",
     "districtId": "15754",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:35:53.023Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T04:14:45.935Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

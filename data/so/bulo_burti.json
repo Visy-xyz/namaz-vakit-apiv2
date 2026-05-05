@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "so",
+    "countryName": "SOMALIA",
+    "countryNameTr": "SOMALI",
+    "countryId": "150",
     "city": "bulo_burti",
+    "cityName": "BULO BURTI",
+    "cityNameTr": "BULO BURTI",
+    "cityGroup": "SOMALIA",
+    "cityGroupTr": "SOMALI",
+    "cityId": "814",
     "districtId": "16275",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:45:21.986Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:42:59.961Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

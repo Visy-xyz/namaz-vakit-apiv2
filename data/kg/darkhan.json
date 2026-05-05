@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "kg",
+    "countryName": "KIRGIZHSTAN",
+    "countryNameTr": "KIRGIZISTAN",
+    "countryId": "168",
     "city": "darkhan",
+    "cityName": "DARKHAN",
+    "cityNameTr": "DARKHAN",
+    "cityGroup": "KIRGIZHSTAN",
+    "cityGroupTr": "KIRGIZISTAN",
+    "cityId": "743",
     "districtId": "15026",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:49:57.260Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:12:16.100Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

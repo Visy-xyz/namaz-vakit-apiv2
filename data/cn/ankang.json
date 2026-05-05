@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "cn",
+    "countryName": "CHINA",
+    "countryNameTr": "CIN",
+    "countryId": "61",
     "city": "ankang",
+    "cityName": "ANKANG",
+    "cityNameTr": "ANKANG",
+    "cityGroup": "CHINA",
+    "cityGroupTr": "CIN",
+    "cityId": "684",
     "districtId": "12425",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:03:41.610Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:59:20.870Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

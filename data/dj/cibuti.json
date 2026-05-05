@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "dj",
+    "countryName": "CIBUTI",
+    "countryNameTr": "CIBUTI",
+    "countryId": "160",
     "city": "cibuti",
+    "cityName": "CIBUTI",
+    "cityNameTr": "CIBUTI",
+    "cityGroup": "CIBUTI",
+    "cityGroupTr": "CIBUTI",
+    "cityId": "683",
     "districtId": "12366",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:47:58.677Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:07:53.688Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

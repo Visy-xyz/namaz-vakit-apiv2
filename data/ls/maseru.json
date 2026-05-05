@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ls",
+    "countryName": "LESOTO",
+    "countryNameTr": "LESOTO",
+    "countryId": "174",
     "city": "maseru",
+    "cityName": "MASERU",
+    "cityNameTr": "MASERU",
+    "cityGroup": "LESOTO",
+    "cityGroupTr": "LESOTO",
+    "cityId": "754",
     "districtId": "15169",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:51:23.412Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:19:19.921Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

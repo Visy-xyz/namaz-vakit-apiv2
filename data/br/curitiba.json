@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "br",
+    "countryName": "BRAZIL",
+    "countryNameTr": "BREZILYA",
+    "countryId": "146",
     "city": "curitiba",
+    "cityName": "CURITIBA",
+    "cityNameTr": "CURITIBA",
+    "cityGroup": "BRAZIL",
+    "cityGroupTr": "BREZILYA",
+    "cityId": "672",
     "districtId": "12060",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:41:43.197Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:51:59.970Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "bi",
+    "countryName": "BURUNDI",
+    "countryNameTr": "BURUNDI",
+    "countryId": "65",
     "city": "rutana",
+    "cityName": "RUTANA",
+    "cityNameTr": "RUTANA",
+    "cityGroup": "BURUNDI",
+    "cityGroupTr": "BURUNDI",
+    "cityId": "677",
     "districtId": "12282",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:11:05.499Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:49:08.775Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

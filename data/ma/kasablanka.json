@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ma",
+    "countryName": "MOROCCO",
+    "countryNameTr": "FAS",
+    "countryId": "145",
     "city": "kasablanka",
+    "cityName": "KASABLANKA",
+    "cityNameTr": "KASABLANKA",
+    "cityGroup": "MOROCCO",
+    "cityGroupTr": "FAS",
+    "cityId": "698",
     "districtId": "12806",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:40:14.676Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:19:45.927Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

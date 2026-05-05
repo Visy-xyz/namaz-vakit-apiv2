@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "eg",
+    "countryName": "EGYPT",
+    "countryNameTr": "MISIR",
+    "countryId": "189",
     "city": "al_mansurah",
+    "cityName": "AL MANSURAH",
+    "cityNameTr": "AL MANSURAH",
+    "cityGroup": "EGYPT",
+    "cityGroupTr": "MISIR",
+    "cityId": "776",
     "districtId": "15453",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:57:12.490Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:10:02.317Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

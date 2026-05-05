@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "pk",
+    "countryName": "PAKISTAN",
+    "countryNameTr": "PAKISTAN",
+    "countryId": "77",
     "city": "kasur",
+    "cityName": "KASUR",
+    "cityNameTr": "KASUR",
+    "cityGroup": "PAKISTAN",
+    "cityGroupTr": "PAKISTAN",
+    "cityId": "792",
     "districtId": "15771",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:14:09.707Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:32:50.227Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

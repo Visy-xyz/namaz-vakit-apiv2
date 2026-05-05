@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "pk",
+    "countryName": "PAKISTAN",
+    "countryNameTr": "PAKISTAN",
+    "countryId": "77",
     "city": "faisalabad",
+    "cityName": "FAISALABAD",
+    "cityNameTr": "FAISALABAD",
+    "cityGroup": "PAKISTAN",
+    "cityGroupTr": "PAKISTAN",
+    "cityId": "792",
     "districtId": "15770",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:13:58.517Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:32:38.102Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

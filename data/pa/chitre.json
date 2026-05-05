@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "pa",
+    "countryName": "PANAMA",
+    "countryNameTr": "PANAMA",
+    "countryId": "89",
     "city": "chitre",
+    "cityName": "CHITRE",
+    "cityNameTr": "CHITRE",
+    "cityGroup": "PANAMA",
+    "cityGroupTr": "PANAMA",
+    "cityId": "794",
     "districtId": "15799",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:17:01.504Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:30:24.759Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ke",
+    "countryName": "KENYA",
+    "countryNameTr": "KENYA",
+    "countryId": "114",
     "city": "kisumu",
+    "cityName": "KISUMU",
+    "cityNameTr": "KISUMU",
+    "cityGroup": "KENYA",
+    "cityGroupTr": "KENYA",
+    "cityId": "742",
     "districtId": "15012",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:25:43.918Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:11:41.216Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "sj",
+    "countryName": "SVALBARD",
+    "countryNameTr": "SVALBARD",
+    "countryId": "163",
     "city": "longyearbyen",
+    "cityName": "LONGYEARBYEN",
+    "cityNameTr": "LONGYEARBYEN",
+    "cityGroup": "SVALBARD",
+    "cityGroupTr": "SVALBARD",
+    "cityId": "820",
     "districtId": "16317",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:48:27.158Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:42:44.373Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "jp",
+    "countryName": "JAPAN",
+    "countryNameTr": "JAPONYA",
+    "countryId": "116",
     "city": "toyama",
+    "cityName": "TOYAMA",
+    "cityNameTr": "TOYAMA",
+    "cityGroup": "JAPAN",
+    "cityGroupTr": "JAPONYA",
+    "cityId": "736",
     "districtId": "14816",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:29:28.153Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:11:10.901Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

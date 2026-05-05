@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ao",
+    "countryName": "ANGOLA",
+    "countryNameTr": "ANGOLA",
+    "countryId": "140",
     "city": "luena",
+    "cityName": "LUENA",
+    "cityNameTr": "LUENA",
+    "cityGroup": "ANGOLA",
+    "cityGroupTr": "ANGOLA",
+    "cityId": "650",
     "districtId": "11137",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:39:15.569Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:39:09.624Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

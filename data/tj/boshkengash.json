@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "tj",
+    "countryName": "TAJIKISTAN",
+    "countryNameTr": "TACIKISTAN",
+    "countryId": "101",
     "city": "boshkengash",
+    "cityName": "BOSHKENGASH ",
+    "cityNameTr": "BOSHKENGASH ",
+    "cityGroup": "TAJIKISTAN",
+    "cityGroupTr": "TACIKISTAN",
+    "cityId": "822",
     "districtId": "16320",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:22:21.004Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:45:31.279Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

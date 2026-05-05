@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "cm",
+    "countryName": "CAMEROON",
+    "countryNameTr": "KAMERUN",
+    "countryId": "184",
     "city": "bafoussam",
+    "cityName": "BAFOUSSAM",
+    "cityNameTr": "BAFOUSSAM",
+    "cityGroup": "CAMEROON",
+    "cityGroupTr": "KAMERUN",
+    "cityId": "738",
     "districtId": "14854",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:52:23.645Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:59:01.600Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

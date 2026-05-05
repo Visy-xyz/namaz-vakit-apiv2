@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "my",
+    "countryName": "MALAYSIA",
+    "countryNameTr": "MALEZYA",
+    "countryId": "107",
     "city": "seremban",
+    "cityName": "SEREMBAN",
+    "cityNameTr": "SEREMBAN",
+    "cityGroup": "MALAYSIA",
+    "cityGroupTr": "MALEZYA",
+    "cityId": "768",
     "districtId": "15335",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:24:36.097Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:27:04.394Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

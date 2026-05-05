@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "tz",
+    "countryName": "TANZANYA",
+    "countryNameTr": "TANZANYA",
+    "countryId": "110",
     "city": "dodoma",
+    "cityName": "DODOMA",
+    "cityNameTr": "DODOMA",
+    "cityGroup": "TANZANYA",
+    "cityGroupTr": "TANZANYA",
+    "cityId": "823",
     "districtId": "16342",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:25:09.886Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T04:12:51.208Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

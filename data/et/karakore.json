@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "et",
+    "countryName": "ETHIOPIA",
+    "countryNameTr": "ETYOPYA",
+    "countryId": "95",
     "city": "karakore",
+    "cityName": "KARAKORE",
+    "cityNameTr": "KARAKORE",
+    "cityGroup": "ETHIOPIA",
+    "cityGroupTr": "ETYOPYA",
+    "cityId": "697",
     "districtId": "16736",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:21:37.134Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:11:01.972Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

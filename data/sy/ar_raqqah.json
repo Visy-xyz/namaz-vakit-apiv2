@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "sy",
+    "countryName": "SYRIA",
+    "countryNameTr": "SURIYE",
+    "countryId": "191",
     "city": "ar_raqqah",
+    "cityName": "AR RAQQAH",
+    "cityNameTr": "AR RAQQAH",
+    "cityGroup": "SYRIA",
+    "cityGroupTr": "SURIYE",
+    "cityId": "818",
     "districtId": "16303",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:57:54.802Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:43:46.630Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

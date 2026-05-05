@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ph",
+    "countryName": "PHILIPPINES",
+    "countryNameTr": "FILIPINLER",
+    "countryId": "126",
     "city": "cotabato",
+    "cityName": "COTABATO",
+    "cityNameTr": "COTABATO",
+    "cityGroup": "PHILIPPINES",
+    "cityGroupTr": "FILIPINLER",
+    "cityId": "701",
     "districtId": "12849",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:32:45.431Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:31:47.965Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

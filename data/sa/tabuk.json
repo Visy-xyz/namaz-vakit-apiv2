@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "sa",
+    "countryName": "SAUDI ARABIA",
+    "countryNameTr": "S. ARABISTAN",
+    "countryId": "64",
     "city": "tabuk",
+    "cityName": "TABUK",
+    "cityNameTr": "TABUK",
+    "cityGroup": "S. ARABISTAN",
+    "cityGroupTr": "S. ARABISTAN",
+    "cityId": "819",
     "districtId": "16316",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:10:57.467Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:42:23.376Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

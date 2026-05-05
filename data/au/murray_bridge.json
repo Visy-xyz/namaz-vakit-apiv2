@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "au",
+    "countryName": "AUSTRALIA",
+    "countryNameTr": "AVUSTRALYA",
+    "countryId": "59",
     "city": "murray_bridge",
+    "cityName": "MURRAY BRIDGE",
+    "cityNameTr": "MURRAY BRIDGE",
+    "cityGroup": "AUSTRALIA",
+    "cityGroupTr": "AVUSTRALYA",
+    "cityId": "656",
     "districtId": "11266",
     "year": 2026,
-    "fetchedAt": "2026-05-04T09:59:35.852Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:45:01.452Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

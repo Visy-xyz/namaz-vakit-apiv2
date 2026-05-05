@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "jp",
+    "countryName": "JAPAN",
+    "countryNameTr": "JAPONYA",
+    "countryId": "116",
     "city": "matsue",
+    "cityName": "MATSUE",
+    "cityNameTr": "MATSUE",
+    "cityGroup": "JAPAN",
+    "cityGroupTr": "JAPONYA",
+    "cityId": "736",
     "districtId": "14780",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:27:49.967Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:24:24.219Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

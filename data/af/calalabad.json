@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "af",
+    "countryName": "AFGHANISTAN",
+    "countryNameTr": "AFGANISTAN",
+    "countryId": "166",
     "city": "calalabad",
+    "cityName": "CALALABAD",
+    "cityNameTr": "CALALABAD",
+    "cityGroup": "AFGHANISTAN",
+    "cityGroupTr": "AFGANISTAN",
+    "cityId": "647",
     "districtId": "9956",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:48:48.334Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:37:45.545Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

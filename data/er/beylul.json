@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "er",
+    "countryName": "ERITRE",
+    "countryNameTr": "ERITRE",
+    "countryId": "175",
     "city": "beylul",
+    "cityName": "BEYLUL",
+    "cityNameTr": "BEYLUL",
+    "cityGroup": "ERITRE",
+    "cityGroupTr": "ERITRE",
+    "cityId": "694",
     "districtId": "12777",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:51:30.076Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:10:42.927Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ir",
+    "countryName": "IRAN",
+    "countryNameTr": "IRAN",
+    "countryId": "202",
     "city": "khvoy",
+    "cityName": "KHVOY",
+    "cityNameTr": "KHVOY",
+    "cityGroup": "IRAN",
+    "cityGroupTr": "IRAN",
+    "cityId": "727",
     "districtId": "14195",
     "year": 2026,
-    "fetchedAt": "2026-05-04T11:03:17.832Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:21:32.824Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

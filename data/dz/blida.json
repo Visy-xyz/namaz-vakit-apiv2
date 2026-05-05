@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "dz",
+    "countryName": "ALGERIA",
+    "countryNameTr": "CEZAYIR",
+    "countryId": "86",
     "city": "blida",
+    "cityName": "BLIDA",
+    "cityNameTr": "BLIDA",
+    "cityGroup": "ALGERIA",
+    "cityGroupTr": "CEZAYIR",
+    "cityId": "682",
     "districtId": "12352",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:16:33.238Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:08:37.130Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

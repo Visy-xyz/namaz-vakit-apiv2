@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "hn",
+    "countryName": "HONDURAS",
+    "countryNameTr": "HONDURAS",
+    "countryId": "105",
     "city": "la_ceiba",
+    "cityName": "LA CEIBA",
+    "cityNameTr": "LA CEIBA",
+    "cityGroup": "HONDURAS",
+    "cityGroupTr": "HONDURAS",
+    "cityId": "723",
     "districtId": "13987",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:23:11.593Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:13:53.681Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "sy",
+    "countryName": "SYRIA",
+    "countryNameTr": "SURIYE",
+    "countryId": "191",
     "city": "resulayn",
+    "cityName": "RESULAYN",
+    "cityNameTr": "RESULAYN",
+    "cityGroup": "SYRIA",
+    "cityGroupTr": "SURIYE",
+    "cityId": "818",
     "districtId": "16785",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:58:30.734Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:44:19.462Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "jp",
+    "countryName": "JAPAN",
+    "countryNameTr": "JAPONYA",
+    "countryId": "116",
     "city": "kisarazu",
+    "cityName": "KISARAZU",
+    "cityNameTr": "KISARAZU",
+    "cityGroup": "JAPAN",
+    "cityGroupTr": "JAPONYA",
+    "cityId": "736",
     "districtId": "14767",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:27:23.986Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:23:56.446Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

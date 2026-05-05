@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ph",
+    "countryName": "PHILIPPINES",
+    "countryNameTr": "FILIPINLER",
+    "countryId": "126",
     "city": "cebu",
+    "cityName": "CEBU",
+    "cityNameTr": "CEBU",
+    "cityGroup": "PHILIPPINES",
+    "cityGroupTr": "FILIPINLER",
+    "cityId": "701",
     "districtId": "12829",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:32:43.777Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:31:46.236Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

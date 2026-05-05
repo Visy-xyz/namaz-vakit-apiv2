@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "gt",
+    "countryName": "GUATEMALA",
+    "countryNameTr": "GUATEMALA",
+    "countryId": "99",
     "city": "huehuetenango",
+    "cityName": "HUEHUETENANGO",
+    "cityNameTr": "HUEHUETENANGO",
+    "cityGroup": "GUATEMALA",
+    "cityGroupTr": "GUATEMALA",
+    "cityId": "713",
     "districtId": "13459",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:22:06.248Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:13:13.509Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

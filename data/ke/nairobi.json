@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "ke",
+    "countryName": "KENYA",
+    "countryNameTr": "KENYA",
+    "countryId": "114",
     "city": "nairobi",
+    "cityName": "NAIROBI",
+    "cityNameTr": "NAIROBI",
+    "cityGroup": "KENYA",
+    "cityGroupTr": "KENYA",
+    "cityId": "742",
     "districtId": "15015",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:25:49.348Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T03:11:46.670Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

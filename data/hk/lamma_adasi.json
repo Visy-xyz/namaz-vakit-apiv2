@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "hk",
+    "countryName": "HONG KONG",
+    "countryNameTr": "HONG KONG",
+    "countryId": "113",
     "city": "lamma_adasi",
+    "cityName": "LAMMA ADASI",
+    "cityNameTr": "LAMMA ADASI",
+    "cityGroup": "HONG KONG",
+    "cityGroupTr": "HONG KONG",
+    "cityId": "724",
     "districtId": "14002",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:25:39.123Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:13:39.828Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

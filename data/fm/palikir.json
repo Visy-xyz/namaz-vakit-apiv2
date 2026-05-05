@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "fm",
+    "countryName": "MIKRONEZYA",
+    "countryNameTr": "MIKRONEZYA",
+    "countryId": "85",
     "city": "palikir",
+    "cityName": "PALIKIR",
+    "cityNameTr": "PALIKIR",
+    "cityGroup": "MIKRONEZYA",
+    "cityGroupTr": "MIKRONEZYA",
+    "cityId": "775",
     "districtId": "15452",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:16:24.073Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:11:14.058Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

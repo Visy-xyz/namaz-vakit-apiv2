@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "cn",
+    "countryName": "CHINA",
+    "countryNameTr": "CIN",
+    "countryId": "61",
     "city": "lianyungang",
+    "cityName": "LIANYUNGANG",
+    "cityNameTr": "LIANYUNGANG",
+    "cityGroup": "CHINA",
+    "cityGroupTr": "CIN",
+    "cityId": "684",
     "districtId": "12508",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:06:39.949Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:02:30.791Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "uz",
+    "countryName": "UZBEKISTAN",
+    "countryNameTr": "OZBEKISTAN",
+    "countryId": "131",
     "city": "olmaliq",
+    "cityName": "OLMALIQ",
+    "cityNameTr": "OLMALIQ",
+    "cityGroup": "UZBEKISTAN",
+    "cityGroupTr": "OZBEKISTAN",
+    "cityId": "791",
     "districtId": "15740",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:36:33.806Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-05T04:15:29.469Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "id",
+    "countryName": "INDONESIA",
+    "countryNameTr": "ENDONEZYA",
+    "countryId": "117",
     "city": "kupang_timor_adasi",
+    "cityName": "KUPANG (TIMOR ADASI)",
+    "cityNameTr": "KUPANG (TIMOR ADASI)",
+    "cityGroup": "INDONESIA",
+    "cityGroupTr": "ENDONEZYA",
+    "cityId": "693",
     "districtId": "12724",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:30:30.809Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T22:15:47.364Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {

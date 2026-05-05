@@ -1,11 +1,20 @@
 {
   "_meta": {
     "country": "bf",
+    "countryName": "BURKINA FASO",
+    "countryNameTr": "BURKINA FASO",
+    "countryId": "91",
     "city": "banfora",
+    "cityName": "BANFORA",
+    "cityNameTr": "BANFORA",
+    "cityGroup": "BURKINA FASO",
+    "cityGroupTr": "BURKINA FASO",
+    "cityId": "675",
     "districtId": "12260",
     "year": 2026,
-    "fetchedAt": "2026-05-04T10:17:19.419Z",
-    "totalDays": 365
+    "fetchedAt": "2026-05-04T21:48:41.019Z",
+    "totalDays": 365,
+    "source": "countries-allv2.json"
   },
   "data": [
     {
