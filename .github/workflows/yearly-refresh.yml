@@ -1,11 +1,11 @@
 name: Yearly Prayer Times Refresh
 
 on:
-  # Çdo 1 Janar ora 02:00 UTC
+  # Every January 1 at 02:00 UTC
   schedule:
     - cron: '0 2 1 1 *'
 
-  # Manual trigger — mund ta ekzekutosh edhe tani për herë të parë
+  # Manual trigger
   workflow_dispatch:
 
 permissions:
@@ -14,7 +14,6 @@ permissions:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    # Full Europe + US etc. can run for many hours; increase if the job hits the limit.
     timeout-minutes: 360
 
     steps:
@@ -26,17 +25,17 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Fetch prayer times (Europe list or data/ refresh)
+      - name: Fetch prayer times
         env:
           DIYANET_EMAIL: ${{ secrets.DIYANET_EMAIL }}
           DIYANET_PASS: ${{ secrets.DIYANET_PASS }}
         run: |
-          if [ -f countries-all.json ] || [ -f countries.json ]; then
-            echo "Using scripts/fetch-europe.mjs (countries-all.json or countries.json present)"
-            node scripts/fetch-europe.mjs
+          if [ -f countries-allv2.json ]; then
+            echo "Using scripts/fetch-countries-allv2.mjs (countries-allv2.json present)"
+            node scripts/fetch-countries-allv2.mjs --file countries-allv2.json --refetch --delay-ms 1500
           else
-            echo "No country list JSON — using scripts/fetch-yearly.mjs (refresh every data/*/city.json with _meta.districtId)"
-            node scripts/fetch-yearly.mjs
+            echo "Missing countries-allv2.json"
+            exit 1
           fi
 
       - name: Build prayer catalog
