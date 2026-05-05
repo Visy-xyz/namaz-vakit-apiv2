@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vercel dev",
+    "normalize:v2": "node scripts/generate-normalizations-v2.mjs",
     "sync:locations": "node scripts/sync-location-metadata.mjs",
     "build:catalog": "node scripts/build-prayer-catalog.mjs",
     "fetch:v2": "node scripts/fetch-countries-allv2.mjs",

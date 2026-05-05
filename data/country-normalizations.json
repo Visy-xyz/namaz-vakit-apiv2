@@ -1,0 +1,1178 @@
+{
+  "generatedAt": "2026-05-05T22:21:34.750Z",
+  "source": "countries-allv2.json + data/",
+  "note": "Editable country display metadata used by scripts/build-prayer-catalog.mjs. Manual edits are preserved on regeneration.",
+  "byCode": {
+    "ad": {
+      "name": "Andorra",
+      "nameAl": "Andorra",
+      "flag": "🇦🇩",
+      "nameTr": "ANDORRA",
+      "diyanetCountryId": "17"
+    },
+    "ae": {
+      "name": "United Arab Emirates",
+      "nameAl": "United Arab Emirates",
+      "flag": "🇦🇪",
+      "nameTr": "BIRLESIK ARAP EMIRLIGI",
+      "diyanetCountryId": "93"
+    },
+    "af": {
+      "name": "Afghanistan",
+      "nameAl": "Afghanistan",
+      "flag": "🇦🇫",
+      "nameTr": "AFGANISTAN",
+      "diyanetCountryId": "166"
+    },
+    "ag": {
+      "name": "Antigua & Barbuda",
+      "nameAl": "Antigua & Barbuda",
+      "flag": "🇦🇬",
+      "nameTr": "ANTIGUA VE BARBUDA",
+      "diyanetCountryId": "90"
+    },
+    "ai": {
+      "name": "Anguilla",
+      "nameAl": "Anguilla",
+      "flag": "🇦🇮",
+      "nameTr": "ANGUILLA",
+      "diyanetCountryId": "125"
+    },
+    "am": {
+      "name": "Armenia",
+      "nameAl": "Armenia",
+      "flag": "🇦🇲",
+      "nameTr": "ERMENISTAN",
+      "diyanetCountryId": "104"
+    },
+    "an": {
+      "name": "Netherlands Antilles",
+      "nameAl": "Netherlands Antilles",
+      "flag": "🇦🇳",
+      "nameTr": "HOLLANDA ANTILLERI",
+      "diyanetCountryId": "66"
+    },
+    "ao": {
+      "name": "Angola",
+      "nameAl": "Angola",
+      "flag": "🇦🇴",
+      "nameTr": "ANGOLA",
+      "diyanetCountryId": "140"
+    },
+    "ar": {
+      "name": "Argentina",
+      "nameAl": "Argentina",
+      "flag": "🇦🇷",
+      "nameTr": "ARJANTIN",
+      "diyanetCountryId": "199"
+    },
+    "au": {
+      "name": "Australia",
+      "nameAl": "Australia",
+      "flag": "🇦🇺",
+      "nameTr": "AVUSTRALYA",
+      "diyanetCountryId": "59"
+    },
+    "aw": {
+      "name": "Aruba",
+      "nameAl": "Aruba",
+      "flag": "🇦🇼",
+      "nameTr": "ARUBA",
+      "diyanetCountryId": "153"
+    },
+    "az": {
+      "name": "Azerbaijan",
+      "nameAl": "Azerbaijan",
+      "flag": "🇦🇿",
+      "nameTr": "AZERBAYCAN",
+      "diyanetCountryId": "5"
+    },
+    "bb": {
+      "name": "Barbados",
+      "nameAl": "Barbados",
+      "flag": "🇧🇧",
+      "nameTr": "BARBADOS",
+      "diyanetCountryId": "188"
+    },
+    "bd": {
+      "name": "Bangladesh",
+      "nameAl": "Bangladesh",
+      "flag": "🇧🇩",
+      "nameTr": "BANGLADES",
+      "diyanetCountryId": "177"
+    },
+    "bf": {
+      "name": "Burkina Faso",
+      "nameAl": "Burkina Faso",
+      "flag": "🇧🇫",
+      "nameTr": "BURKINA FASO",
+      "diyanetCountryId": "91"
+    },
+    "bh": {
+      "name": "Bahrain",
+      "nameAl": "Bahrain",
+      "flag": "🇧🇭",
+      "nameTr": "BAHREYN",
+      "diyanetCountryId": "132"
+    },
+    "bi": {
+      "name": "Burundi",
+      "nameAl": "Burundi",
+      "flag": "🇧🇮",
+      "nameTr": "BURUNDI",
+      "diyanetCountryId": "65"
+    },
+    "bj": {
+      "name": "Benin",
+      "nameAl": "Benin",
+      "flag": "🇧🇯",
+      "nameTr": "BENIN",
+      "diyanetCountryId": "181"
+    },
+    "bm": {
+      "name": "Bermuda",
+      "nameAl": "Bermuda",
+      "flag": "🇧🇲",
+      "nameTr": "BERMUDA",
+      "diyanetCountryId": "51"
+    },
+    "bn": {
+      "name": "Brunei",
+      "nameAl": "Brunei",
+      "flag": "🇧🇳",
+      "nameTr": "BRUNEI",
+      "diyanetCountryId": "97"
+    },
+    "bo": {
+      "name": "Bolivia",
+      "nameAl": "Bolivia",
+      "flag": "🇧🇴",
+      "nameTr": "BOLIVYA",
+      "diyanetCountryId": "83"
+    },
+    "br": {
+      "name": "Brazil",
+      "nameAl": "Brazil",
+      "flag": "🇧🇷",
+      "nameTr": "BREZILYA",
+      "diyanetCountryId": "146"
+    },
+    "bs": {
+      "name": "Bahamas",
+      "nameAl": "Bahamas",
+      "flag": "🇧🇸",
+      "nameTr": "BAHAMALAR",
+      "diyanetCountryId": "54"
+    },
+    "bt": {
+      "name": "Bhutan",
+      "nameAl": "Bhutan",
+      "flag": "🇧🇹",
+      "nameTr": "BUTAN",
+      "diyanetCountryId": "155"
+    },
+    "bw": {
+      "name": "Botswana",
+      "nameAl": "Botswana",
+      "flag": "🇧🇼",
+      "nameTr": "BOTSVANA",
+      "diyanetCountryId": "167"
+    },
+    "by": {
+      "name": "Belarus",
+      "nameAl": "Belarus",
+      "flag": "🇧🇾",
+      "nameTr": "BELARUS",
+      "diyanetCountryId": "208"
+    },
+    "bz": {
+      "name": "Belize",
+      "nameAl": "Belize",
+      "flag": "🇧🇿",
+      "nameTr": "BELIZE",
+      "diyanetCountryId": "182"
+    },
+    "cd": {
+      "name": "Congo - Kinshasa",
+      "nameAl": "Congo - Kinshasa",
+      "flag": "🇨🇩",
+      "nameTr": "DEMOKRATIK KONGO CUMHURIYETI",
+      "diyanetCountryId": "180"
+    },
+    "cf": {
+      "name": "Central African Republic",
+      "nameAl": "Central African Republic",
+      "flag": "🇨🇫",
+      "nameTr": "ORTA AFRIKA CUMHURIYETI",
+      "diyanetCountryId": "80"
+    },
+    "ci": {
+      "name": "Côte d’Ivoire",
+      "nameAl": "Côte d’Ivoire",
+      "flag": "🇨🇮",
+      "nameTr": "FILDISI SAHILI",
+      "diyanetCountryId": "120"
+    },
+    "cl": {
+      "name": "Chile",
+      "nameAl": "Chile",
+      "flag": "🇨🇱",
+      "nameTr": "SILI",
+      "diyanetCountryId": "200"
+    },
+    "cm": {
+      "name": "Cameroon",
+      "nameAl": "Cameroon",
+      "flag": "🇨🇲",
+      "nameTr": "KAMERUN",
+      "diyanetCountryId": "184"
+    },
+    "cn": {
+      "name": "China",
+      "nameAl": "China",
+      "flag": "🇨🇳",
+      "nameTr": "CIN",
+      "diyanetCountryId": "61"
+    },
+    "co": {
+      "name": "Colombia",
+      "nameAl": "Colombia",
+      "flag": "🇨🇴",
+      "nameTr": "KOLOMBIYA",
+      "diyanetCountryId": "57"
+    },
+    "cr": {
+      "name": "Costa Rica",
+      "nameAl": "Costa Rica",
+      "flag": "🇨🇷",
+      "nameTr": "KOSTARIKA",
+      "diyanetCountryId": "162"
+    },
+    "cu": {
+      "name": "Cuba",
+      "nameAl": "Cuba",
+      "flag": "🇨🇺",
+      "nameTr": "KUBA",
+      "diyanetCountryId": "209"
+    },
+    "cv": {
+      "name": "Cape Verde",
+      "nameAl": "Cape Verde",
+      "flag": "🇨🇻",
+      "nameTr": "YESIL BURUN",
+      "diyanetCountryId": "144"
+    },
+    "cy": {
+      "name": "Cyprus",
+      "nameAl": "Cyprus",
+      "flag": "🇨🇾",
+      "nameTr": "KUZEY KIBRIS",
+      "diyanetCountryId": "1"
+    },
+    "dj": {
+      "name": "Djibouti",
+      "nameAl": "Djibouti",
+      "flag": "🇩🇯",
+      "nameTr": "CIBUTI",
+      "diyanetCountryId": "160"
+    },
+    "dm": {
+      "name": "Dominica",
+      "nameAl": "Dominica",
+      "flag": "🇩🇲",
+      "nameTr": "DOMINIK",
+      "diyanetCountryId": "123"
+    },
+    "do": {
+      "name": "Dominican Republic",
+      "nameAl": "Dominican Republic",
+      "flag": "🇩🇴",
+      "nameTr": "DOMINIK CUMHURIYETI",
+      "diyanetCountryId": "72"
+    },
+    "dz": {
+      "name": "Algeria",
+      "nameAl": "Algeria",
+      "flag": "🇩🇿",
+      "nameTr": "CEZAYIR",
+      "diyanetCountryId": "86"
+    },
+    "ec": {
+      "name": "Ecuador",
+      "nameAl": "Ecuador",
+      "flag": "🇪🇨",
+      "nameTr": "EKVATOR",
+      "diyanetCountryId": "139"
+    },
+    "ee": {
+      "name": "Estonia",
+      "nameAl": "Estonia",
+      "flag": "🇪🇪",
+      "nameTr": "ESTONYA",
+      "diyanetCountryId": "6"
+    },
+    "eg": {
+      "name": "Egypt",
+      "nameAl": "Egypt",
+      "flag": "🇪🇬",
+      "nameTr": "MISIR",
+      "diyanetCountryId": "189"
+    },
+    "er": {
+      "name": "Eritrea",
+      "nameAl": "Eritrea",
+      "flag": "🇪🇷",
+      "nameTr": "ERITRE",
+      "diyanetCountryId": "175"
+    },
+    "et": {
+      "name": "Ethiopia",
+      "nameAl": "Ethiopia",
+      "flag": "🇪🇹",
+      "nameTr": "ETYOPYA",
+      "diyanetCountryId": "95"
+    },
+    "fj": {
+      "name": "Fiji",
+      "nameAl": "Fiji",
+      "flag": "🇫🇯",
+      "nameTr": "FIJI",
+      "diyanetCountryId": "197"
+    },
+    "fm": {
+      "name": "Micronesia",
+      "nameAl": "Micronesia",
+      "flag": "🇫🇲",
+      "nameTr": "MIKRONEZYA",
+      "diyanetCountryId": "85"
+    },
+    "ga": {
+      "name": "Gabon",
+      "nameAl": "Gabon",
+      "flag": "🇬🇦",
+      "nameTr": "GABON",
+      "diyanetCountryId": "79"
+    },
+    "gd": {
+      "name": "Grenada",
+      "nameAl": "Grenada",
+      "flag": "🇬🇩",
+      "nameTr": "GRENADA",
+      "diyanetCountryId": "58"
+    },
+    "ge": {
+      "name": "Georgia",
+      "nameAl": "Georgia",
+      "flag": "🇬🇪",
+      "nameTr": "GURCISTAN",
+      "diyanetCountryId": "62"
+    },
+    "gh": {
+      "name": "Ghana",
+      "nameAl": "Ghana",
+      "flag": "🇬🇭",
+      "nameTr": "GANA",
+      "diyanetCountryId": "143"
+    },
+    "gl": {
+      "name": "Greenland",
+      "nameAl": "Greenland",
+      "flag": "🇬🇱",
+      "nameTr": "GRONLAND",
+      "diyanetCountryId": "48"
+    },
+    "gm": {
+      "name": "Gambia",
+      "nameAl": "Gambia",
+      "flag": "🇬🇲",
+      "nameTr": "GAMBIYA",
+      "diyanetCountryId": "109"
+    },
+    "gn": {
+      "name": "Guinea",
+      "nameAl": "Guinea",
+      "flag": "🇬🇳",
+      "nameTr": "GINE",
+      "diyanetCountryId": "111"
+    },
+    "gp": {
+      "name": "Guadeloupe",
+      "nameAl": "Guadeloupe",
+      "flag": "🇬🇵",
+      "nameTr": "GUADELOPE",
+      "diyanetCountryId": "171"
+    },
+    "gq": {
+      "name": "Equatorial Guinea",
+      "nameAl": "Equatorial Guinea",
+      "flag": "🇬🇶",
+      "nameTr": "EKVATOR GINESI",
+      "diyanetCountryId": "63"
+    },
+    "gt": {
+      "name": "Guatemala",
+      "nameAl": "Guatemala",
+      "flag": "🇬🇹",
+      "nameTr": "GUATEMALA",
+      "diyanetCountryId": "99"
+    },
+    "gu": {
+      "name": "Guam",
+      "nameAl": "Guam",
+      "flag": "🇬🇺",
+      "nameTr": "GUAM ADASI",
+      "diyanetCountryId": "169"
+    },
+    "gy": {
+      "name": "Guyana",
+      "nameAl": "Guyana",
+      "flag": "🇬🇾",
+      "nameTr": "GUYANA",
+      "diyanetCountryId": "82"
+    },
+    "hk": {
+      "name": "Hong Kong SAR China",
+      "nameAl": "Hong Kong SAR China",
+      "flag": "🇭🇰",
+      "nameTr": "HONG KONG",
+      "diyanetCountryId": "113"
+    },
+    "hn": {
+      "name": "Honduras",
+      "nameAl": "Honduras",
+      "flag": "🇭🇳",
+      "nameTr": "HONDURAS",
+      "diyanetCountryId": "105"
+    },
+    "hr": {
+      "name": "Croatia",
+      "nameAl": "Croatia",
+      "flag": "🇭🇷",
+      "nameTr": "HIRVATISTAN",
+      "diyanetCountryId": "30"
+    },
+    "ht": {
+      "name": "Haiti",
+      "nameAl": "Haiti",
+      "flag": "🇭🇹",
+      "nameTr": "HAITI",
+      "diyanetCountryId": "70"
+    },
+    "id": {
+      "name": "Indonesia",
+      "nameAl": "Indonesia",
+      "flag": "🇮🇩",
+      "nameTr": "ENDONEZYA",
+      "diyanetCountryId": "117"
+    },
+    "il": {
+      "name": "Israel",
+      "nameAl": "Israel",
+      "flag": "🇮🇱",
+      "nameTr": "ISRAIL",
+      "diyanetCountryId": "205"
+    },
+    "in": {
+      "name": "India",
+      "nameAl": "India",
+      "flag": "🇮🇳",
+      "nameTr": "HINDISTAN",
+      "diyanetCountryId": "187"
+    },
+    "iq": {
+      "name": "Iraq",
+      "nameAl": "Iraq",
+      "flag": "🇮🇶",
+      "nameTr": "IRAK",
+      "diyanetCountryId": "124"
+    },
+    "ir": {
+      "name": "Iran",
+      "nameAl": "Iran",
+      "flag": "🇮🇷",
+      "nameTr": "IRAN",
+      "diyanetCountryId": "202"
+    },
+    "is": {
+      "name": "Iceland",
+      "nameAl": "Iceland",
+      "flag": "🇮🇸",
+      "nameTr": "IZLANDA",
+      "diyanetCountryId": "122"
+    },
+    "jm": {
+      "name": "Jamaica",
+      "nameAl": "Jamaica",
+      "flag": "🇯🇲",
+      "nameTr": "JAMAIKA",
+      "diyanetCountryId": "119"
+    },
+    "jo": {
+      "name": "Jordan",
+      "nameAl": "Jordan",
+      "flag": "🇯🇴",
+      "nameTr": "URDUN",
+      "diyanetCountryId": "192"
+    },
+    "jp": {
+      "name": "Japan",
+      "nameAl": "Japan",
+      "flag": "🇯🇵",
+      "nameTr": "JAPONYA",
+      "diyanetCountryId": "116"
+    },
+    "ke": {
+      "name": "Kenya",
+      "nameAl": "Kenya",
+      "flag": "🇰🇪",
+      "nameTr": "KENYA",
+      "diyanetCountryId": "114"
+    },
+    "kg": {
+      "name": "Kyrgyzstan",
+      "nameAl": "Kyrgyzstan",
+      "flag": "🇰🇬",
+      "nameTr": "KIRGIZISTAN",
+      "diyanetCountryId": "168"
+    },
+    "kh": {
+      "name": "Cambodia",
+      "nameAl": "Cambodia",
+      "flag": "🇰🇭",
+      "nameTr": "KAMBOCYA",
+      "diyanetCountryId": "161"
+    },
+    "km": {
+      "name": "Comoros",
+      "nameAl": "Comoros",
+      "flag": "🇰🇲",
+      "nameTr": "KOMORLAR",
+      "diyanetCountryId": "88"
+    },
+    "kp": {
+      "name": "North Korea",
+      "nameAl": "North Korea",
+      "flag": "🇰🇵",
+      "nameTr": "KUZEY KORE",
+      "diyanetCountryId": "142"
+    },
+    "kr": {
+      "name": "South Korea",
+      "nameAl": "South Korea",
+      "flag": "🇰🇷",
+      "nameTr": "GUNEY KORE",
+      "diyanetCountryId": "128"
+    },
+    "kudus": {
+      "name": "Jerusalem",
+      "nameAl": "Jerusalem",
+      "flag": "",
+      "nameTr": "KUDUS",
+      "region": "Middle East",
+      "diyanetCountryId": "206"
+    },
+    "kw": {
+      "name": "Kuwait",
+      "nameAl": "Kuwait",
+      "flag": "🇰🇼",
+      "nameTr": "KUVEYT",
+      "diyanetCountryId": "133"
+    },
+    "kz": {
+      "name": "Kazakhstan",
+      "nameAl": "Kazakhstan",
+      "flag": "🇰🇿",
+      "nameTr": "KAZAKISTAN",
+      "diyanetCountryId": "92"
+    },
+    "la": {
+      "name": "Laos",
+      "nameAl": "Laos",
+      "flag": "🇱🇦",
+      "nameTr": "LAOS",
+      "diyanetCountryId": "134"
+    },
+    "lb": {
+      "name": "Lebanon",
+      "nameAl": "Lebanon",
+      "flag": "🇱🇧",
+      "nameTr": "LUBNAN",
+      "diyanetCountryId": "42"
+    },
+    "lc": {
+      "name": "St. Lucia",
+      "nameAl": "St. Lucia",
+      "flag": "🇱🇨",
+      "nameTr": "ST. LUCIA",
+      "diyanetCountryId": "136"
+    },
+    "lk": {
+      "name": "Sri Lanka",
+      "nameAl": "Sri Lanka",
+      "flag": "🇱🇰",
+      "nameTr": "SRI LANKA",
+      "diyanetCountryId": "74"
+    },
+    "lr": {
+      "name": "Liberia",
+      "nameAl": "Liberia",
+      "flag": "🇱🇷",
+      "nameTr": "LIBERYA",
+      "diyanetCountryId": "73"
+    },
+    "ls": {
+      "name": "Lesotho",
+      "nameAl": "Lesotho",
+      "flag": "🇱🇸",
+      "nameTr": "LESOTO",
+      "diyanetCountryId": "174"
+    },
+    "ly": {
+      "name": "Libya",
+      "nameAl": "Libya",
+      "flag": "🇱🇾",
+      "nameTr": "LIBYA",
+      "diyanetCountryId": "203"
+    },
+    "ma": {
+      "name": "Morocco",
+      "nameAl": "Morocco",
+      "flag": "🇲🇦",
+      "nameTr": "FAS",
+      "diyanetCountryId": "145"
+    },
+    "mc": {
+      "name": "Monaco",
+      "nameAl": "Monaco",
+      "flag": "🇲🇨",
+      "nameTr": "MONAKO",
+      "diyanetCountryId": "3"
+    },
+    "md": {
+      "name": "Moldova",
+      "nameAl": "Moldova",
+      "flag": "🇲🇩",
+      "nameTr": "MOLDAVYA",
+      "diyanetCountryId": "46"
+    },
+    "mg": {
+      "name": "Madagascar",
+      "nameAl": "Madagascar",
+      "flag": "🇲🇬",
+      "nameTr": "MADAGASKAR",
+      "diyanetCountryId": "98"
+    },
+    "ml": {
+      "name": "Mali",
+      "nameAl": "Mali",
+      "flag": "🇲🇱",
+      "nameTr": "MALI",
+      "diyanetCountryId": "152"
+    },
+    "mm": {
+      "name": "Myanmar (Burma)",
+      "nameAl": "Myanmar (Burma)",
+      "flag": "🇲🇲",
+      "nameTr": "MYANMAR",
+      "diyanetCountryId": "154"
+    },
+    "mn": {
+      "name": "Mongolia",
+      "nameAl": "Mongolia",
+      "flag": "🇲🇳",
+      "nameTr": "MOGOLISTAN",
+      "diyanetCountryId": "60"
+    },
+    "mo": {
+      "name": "Macao SAR China",
+      "nameAl": "Macao SAR China",
+      "flag": "🇲🇴",
+      "nameTr": "MAKAO",
+      "diyanetCountryId": "100"
+    },
+    "mq": {
+      "name": "Martinique",
+      "nameAl": "Martinique",
+      "flag": "🇲🇶",
+      "nameTr": "MARTINIK",
+      "diyanetCountryId": "87"
+    },
+    "mr": {
+      "name": "Mauritania",
+      "nameAl": "Mauritania",
+      "flag": "🇲🇷",
+      "nameTr": "MORITANYA",
+      "diyanetCountryId": "106"
+    },
+    "ms": {
+      "name": "Montserrat",
+      "nameAl": "Montserrat",
+      "flag": "🇲🇸",
+      "nameTr": "MONTSERRAT (U.K.)",
+      "diyanetCountryId": "147"
+    },
+    "mu": {
+      "name": "Mauritius",
+      "nameAl": "Mauritius",
+      "flag": "🇲🇺",
+      "nameTr": "MAURITIUS ADASI",
+      "diyanetCountryId": "164"
+    },
+    "mv": {
+      "name": "Maldives",
+      "nameAl": "Maldives",
+      "flag": "🇲🇻",
+      "nameTr": "MALDIVLER",
+      "diyanetCountryId": "103"
+    },
+    "mw": {
+      "name": "Malawi",
+      "nameAl": "Malawi",
+      "flag": "🇲🇼",
+      "nameTr": "MALAVI",
+      "diyanetCountryId": "55"
+    },
+    "mx": {
+      "name": "Mexico",
+      "nameAl": "Mexico",
+      "flag": "🇲🇽",
+      "nameTr": "MEKSIKA",
+      "diyanetCountryId": "53"
+    },
+    "my": {
+      "name": "Malaysia",
+      "nameAl": "Malaysia",
+      "flag": "🇲🇾",
+      "nameTr": "MALEZYA",
+      "diyanetCountryId": "107"
+    },
+    "mz": {
+      "name": "Mozambique",
+      "nameAl": "Mozambique",
+      "flag": "🇲🇿",
+      "nameTr": "MOZAMBIK",
+      "diyanetCountryId": "151"
+    },
+    "na": {
+      "name": "Namibia",
+      "nameAl": "Namibia",
+      "flag": "🇳🇦",
+      "nameTr": "NAMIBYA",
+      "diyanetCountryId": "196"
+    },
+    "nc": {
+      "name": "New Caledonia",
+      "nameAl": "New Caledonia",
+      "flag": "🇳🇨",
+      "nameTr": "YENI KALEDONYA",
+      "diyanetCountryId": "115"
+    },
+    "ne": {
+      "name": "Niger",
+      "nameAl": "Niger",
+      "flag": "🇳🇪",
+      "nameTr": "NIJER",
+      "diyanetCountryId": "84"
+    },
+    "ng": {
+      "name": "Nigeria",
+      "nameAl": "Nigeria",
+      "flag": "🇳🇬",
+      "nameTr": "NIJERYA",
+      "diyanetCountryId": "127"
+    },
+    "ni": {
+      "name": "Nicaragua",
+      "nameAl": "Nicaragua",
+      "flag": "🇳🇮",
+      "nameTr": "NIKARAGUA",
+      "diyanetCountryId": "141"
+    },
+    "np": {
+      "name": "Nepal",
+      "nameAl": "Nepal",
+      "flag": "🇳🇵",
+      "nameTr": "NEPAL",
+      "diyanetCountryId": "76"
+    },
+    "nu": {
+      "name": "Niue",
+      "nameAl": "Niue",
+      "flag": "🇳🇺",
+      "nameTr": "NIUE",
+      "diyanetCountryId": "178"
+    },
+    "nz": {
+      "name": "New Zealand",
+      "nameAl": "New Zealand",
+      "flag": "🇳🇿",
+      "nameTr": "YENI ZELANDA",
+      "diyanetCountryId": "193"
+    },
+    "om": {
+      "name": "Oman",
+      "nameAl": "Oman",
+      "flag": "🇴🇲",
+      "nameTr": "UMMAN",
+      "diyanetCountryId": "173"
+    },
+    "pa": {
+      "name": "Panama",
+      "nameAl": "Panama",
+      "flag": "🇵🇦",
+      "nameTr": "PANAMA",
+      "diyanetCountryId": "89"
+    },
+    "pe": {
+      "name": "Peru",
+      "nameAl": "Peru",
+      "flag": "🇵🇪",
+      "nameTr": "PERU",
+      "diyanetCountryId": "69"
+    },
+    "pg": {
+      "name": "Papua New Guinea",
+      "nameAl": "Papua New Guinea",
+      "flag": "🇵🇬",
+      "nameTr": "PAPUA YENI GINE",
+      "diyanetCountryId": "185"
+    },
+    "ph": {
+      "name": "Philippines",
+      "nameAl": "Philippines",
+      "flag": "🇵🇭",
+      "nameTr": "FILIPINLER",
+      "diyanetCountryId": "126"
+    },
+    "pk": {
+      "name": "Pakistan",
+      "nameAl": "Pakistan",
+      "flag": "🇵🇰",
+      "nameTr": "PAKISTAN",
+      "diyanetCountryId": "77"
+    },
+    "pn": {
+      "name": "Pitcairn Islands",
+      "nameAl": "Pitcairn Islands",
+      "flag": "🇵🇳",
+      "nameTr": "PITCAIRN ADASI",
+      "diyanetCountryId": "183"
+    },
+    "pr": {
+      "name": "Puerto Rico",
+      "nameAl": "Puerto Rico",
+      "flag": "🇵🇷",
+      "nameTr": "PORTO RIKO",
+      "diyanetCountryId": "68"
+    },
+    "ps": {
+      "name": "Palestinian Territories",
+      "nameAl": "Palestinian Territories",
+      "flag": "🇵🇸",
+      "nameTr": "FILISTIN",
+      "diyanetCountryId": "204"
+    },
+    "pw": {
+      "name": "Palau",
+      "nameAl": "Palau",
+      "flag": "🇵🇼",
+      "nameTr": "PALAU",
+      "diyanetCountryId": "149"
+    },
+    "py": {
+      "name": "Paraguay",
+      "nameAl": "Paraguay",
+      "flag": "🇵🇾",
+      "nameTr": "PARAGUAY",
+      "diyanetCountryId": "194"
+    },
+    "qa": {
+      "name": "Qatar",
+      "nameAl": "Qatar",
+      "flag": "🇶🇦",
+      "nameTr": "KATAR",
+      "diyanetCountryId": "94"
+    },
+    "re": {
+      "name": "Réunion",
+      "nameAl": "Réunion",
+      "flag": "🇷🇪",
+      "nameTr": "REUNION",
+      "diyanetCountryId": "112"
+    },
+    "rs": {
+      "name": "Serbia",
+      "nameAl": "Serbia",
+      "flag": "🇷🇸",
+      "nameTr": "SIRBISTAN",
+      "diyanetCountryId": "27"
+    },
+    "ru": {
+      "name": "Russia",
+      "nameAl": "Russia",
+      "flag": "🇷🇺",
+      "nameTr": "RUSYA",
+      "diyanetCountryId": "207"
+    },
+    "rw": {
+      "name": "Rwanda",
+      "nameAl": "Rwanda",
+      "flag": "🇷🇼",
+      "nameTr": "RUANDA",
+      "diyanetCountryId": "81"
+    },
+    "sa": {
+      "name": "Saudi Arabia",
+      "nameAl": "Saudi Arabia",
+      "flag": "🇸🇦",
+      "nameTr": "S. ARABISTAN",
+      "diyanetCountryId": "64"
+    },
+    "sc": {
+      "name": "Seychelles",
+      "nameAl": "Seychelles",
+      "flag": "🇸🇨",
+      "nameTr": "SEYSEL ADALARI",
+      "diyanetCountryId": "138"
+    },
+    "sd": {
+      "name": "Sudan",
+      "nameAl": "Sudan",
+      "flag": "🇸🇩",
+      "nameTr": "SUDAN",
+      "diyanetCountryId": "129"
+    },
+    "sg": {
+      "name": "Singapore",
+      "nameAl": "Singapore",
+      "flag": "🇸🇬",
+      "nameTr": "SINGAPUR",
+      "diyanetCountryId": "179"
+    },
+    "sj": {
+      "name": "Svalbard & Jan Mayen",
+      "nameAl": "Svalbard & Jan Mayen",
+      "flag": "🇸🇯",
+      "nameTr": "SVALBARD",
+      "diyanetCountryId": "163"
+    },
+    "sn": {
+      "name": "Senegal",
+      "nameAl": "Senegal",
+      "flag": "🇸🇳",
+      "nameTr": "SENEGAL",
+      "diyanetCountryId": "102"
+    },
+    "so": {
+      "name": "Somalia",
+      "nameAl": "Somalia",
+      "flag": "🇸🇴",
+      "nameTr": "SOMALI",
+      "diyanetCountryId": "150"
+    },
+    "sr": {
+      "name": "Suriname",
+      "nameAl": "Suriname",
+      "flag": "🇸🇷",
+      "nameTr": "SURINAM",
+      "diyanetCountryId": "172"
+    },
+    "sv": {
+      "name": "El Salvador",
+      "nameAl": "El Salvador",
+      "flag": "🇸🇻",
+      "nameTr": "EL SALVADOR",
+      "diyanetCountryId": "165"
+    },
+    "sy": {
+      "name": "Syria",
+      "nameAl": "Syria",
+      "flag": "🇸🇾",
+      "nameTr": "SURIYE",
+      "diyanetCountryId": "191"
+    },
+    "sz": {
+      "name": "Eswatini",
+      "nameAl": "Eswatini",
+      "flag": "🇸🇿",
+      "nameTr": "ESWATINI",
+      "diyanetCountryId": "170"
+    },
+    "td": {
+      "name": "Chad",
+      "nameAl": "Chad",
+      "flag": "🇹🇩",
+      "nameTr": "CAD",
+      "diyanetCountryId": "156"
+    },
+    "tg": {
+      "name": "Togo",
+      "nameAl": "Togo",
+      "flag": "🇹🇬",
+      "nameTr": "TOGO",
+      "diyanetCountryId": "71"
+    },
+    "th": {
+      "name": "Thailand",
+      "nameAl": "Thailand",
+      "flag": "🇹🇭",
+      "nameTr": "TAYLAND",
+      "diyanetCountryId": "137"
+    },
+    "tj": {
+      "name": "Tajikistan",
+      "nameAl": "Tajikistan",
+      "flag": "🇹🇯",
+      "nameTr": "TACIKISTAN",
+      "diyanetCountryId": "101"
+    },
+    "tl": {
+      "name": "Timor-Leste",
+      "nameAl": "Timor-Leste",
+      "flag": "🇹🇱",
+      "nameTr": "DOGU TIMOR",
+      "diyanetCountryId": "176"
+    },
+    "tm": {
+      "name": "Turkmenistan",
+      "nameAl": "Turkmenistan",
+      "flag": "🇹🇲",
+      "nameTr": "TURKMENISTAN",
+      "diyanetCountryId": "159"
+    },
+    "tn": {
+      "name": "Tunisia",
+      "nameAl": "Tunisia",
+      "flag": "🇹🇳",
+      "nameTr": "TUNUS",
+      "diyanetCountryId": "118"
+    },
+    "to": {
+      "name": "Tonga",
+      "nameAl": "Tonga",
+      "flag": "🇹🇴",
+      "nameTr": "TONGA",
+      "diyanetCountryId": "130"
+    },
+    "tr": {
+      "name": "Türkiye",
+      "nameAl": "Türkiye",
+      "flag": "🇹🇷",
+      "nameTr": "TURKIYE",
+      "diyanetCountryId": "2"
+    },
+    "tt": {
+      "name": "Trinidad & Tobago",
+      "nameAl": "Trinidad & Tobago",
+      "flag": "🇹🇹",
+      "nameTr": "TRINIDAT VE TOBAGO",
+      "diyanetCountryId": "96"
+    },
+    "tw": {
+      "name": "Taiwan",
+      "nameAl": "Taiwan",
+      "flag": "🇹🇼",
+      "nameTr": "TAYVAN",
+      "diyanetCountryId": "108"
+    },
+    "tz": {
+      "name": "Tanzania",
+      "nameAl": "Tanzania",
+      "flag": "🇹🇿",
+      "nameTr": "TANZANYA",
+      "diyanetCountryId": "110"
+    },
+    "ua_crm": {
+      "name": "Crimea",
+      "nameAl": "Crimea",
+      "flag": "",
+      "nameTr": "UKRAYNA-KIRIM",
+      "region": "Europe",
+      "diyanetCountryId": "29"
+    },
+    "ug": {
+      "name": "Uganda",
+      "nameAl": "Uganda",
+      "flag": "🇺🇬",
+      "nameTr": "UGANDA",
+      "diyanetCountryId": "75"
+    },
+    "uy": {
+      "name": "Uruguay",
+      "nameAl": "Uruguay",
+      "flag": "🇺🇾",
+      "nameTr": "URUGUAY",
+      "diyanetCountryId": "201"
+    },
+    "uz": {
+      "name": "Uzbekistan",
+      "nameAl": "Uzbekistan",
+      "flag": "🇺🇿",
+      "nameTr": "OZBEKISTAN",
+      "diyanetCountryId": "131"
+    },
+    "va": {
+      "name": "Vatican City",
+      "nameAl": "Vatican City",
+      "flag": "🇻🇦",
+      "nameTr": "VATIKAN",
+      "diyanetCountryId": "10"
+    },
+    "ve": {
+      "name": "Venezuela",
+      "nameAl": "Venezuela",
+      "flag": "🇻🇪",
+      "nameTr": "VENEZUELA",
+      "diyanetCountryId": "186"
+    },
+    "vn": {
+      "name": "Vietnam",
+      "nameAl": "Vietnam",
+      "flag": "🇻🇳",
+      "nameTr": "VIETNAM",
+      "diyanetCountryId": "135"
+    },
+    "vu": {
+      "name": "Vanuatu",
+      "nameAl": "Vanuatu",
+      "flag": "🇻🇺",
+      "nameTr": "VANUATU",
+      "diyanetCountryId": "56"
+    },
+    "ws": {
+      "name": "Samoa",
+      "nameAl": "Samoa",
+      "flag": "🇼🇸",
+      "nameTr": "SAMOA",
+      "diyanetCountryId": "198"
+    },
+    "ye": {
+      "name": "Yemen",
+      "nameAl": "Yemen",
+      "flag": "🇾🇪",
+      "nameTr": "YEMEN",
+      "diyanetCountryId": "148"
+    },
+    "yt": {
+      "name": "Mayotte",
+      "nameAl": "Mayotte",
+      "flag": "🇾🇹",
+      "nameTr": "MAYOTTE",
+      "diyanetCountryId": "157"
+    },
+    "za": {
+      "name": "South Africa",
+      "nameAl": "South Africa",
+      "flag": "🇿🇦",
+      "nameTr": "GUNEY AFRIKA",
+      "diyanetCountryId": "67"
+    },
+    "zm": {
+      "name": "Zambia",
+      "nameAl": "Zambia",
+      "flag": "🇿🇲",
+      "nameTr": "ZAMBIYA",
+      "diyanetCountryId": "158"
+    }
+  }
+}
