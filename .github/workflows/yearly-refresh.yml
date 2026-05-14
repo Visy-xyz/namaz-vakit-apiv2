@@ -73,12 +73,15 @@ jobs:
           to: ${{ secrets.NOTIFY_EMAIL_USER }}
           from: Namaz Vakit API <${{ secrets.NOTIFY_EMAIL_USER }}>
           subject: >
-            ${{ needs.refresh.result == 'success' && '✅ Prayer times refreshed successfully' || '❌ Prayer times refresh FAILED' }}
+            ${{ needs.refresh.result == 'success' && '✅ [Namaz Vakit] Oraret u rifreskuan per vitin e ri!' || '❌ [Namaz Vakit] GABIM - Rifreskimi deshtoi!' }}
           body: |
-            Yearly prayer times refresh — ${{ needs.refresh.result == 'success' && 'SUCCESS' || 'FAILED' }}
+            ${{ needs.refresh.result == 'success' && '✅ SUKSES' || '❌ DESHTIM' }}
 
-            Run: #${{ github.run_number }}
-            Triggered: ${{ github.event_name }}
-            Date: ${{ github.event.head_commit.timestamp || 'scheduled' }}
+            ${{ needs.refresh.result == 'success' && 'Te dhenat e koheve te namazit u rifreskuan me sukses per vitin e ri. Aplikacioni eshte gati.' || 'Rifreskimi i te dhenave DESHTOI. Hyr ne GitHub dhe kontrollo se cfare ndodhi. Perdoruesit mund te shohin te dhena te vjetra!' }}
 
-            View details: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+            ─────────────────────────
+            Kur:     1 Janar ${{ github.run_number && '2026' }}  (automatik)
+            Status:  ${{ needs.refresh.result == 'success' && 'U krye me sukses' || 'DESHTOI - duhet nderhyrje' }}
+            ─────────────────────────
+
+            ${{ needs.refresh.result != 'success' && 'SHKO TANI: ' || 'Detajet: ' }}https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
