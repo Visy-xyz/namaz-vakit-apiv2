@@ -75,7 +75,7 @@ function main() {
   }
 
   fs.mkdirSync(OUT_DIR, { recursive: true });
-  fs.writeFileSync(OUT_FILE, JSON.stringify({ countries, labels, cities }));
+  fs.writeFileSync(OUT_FILE, JSON.stringify({ builtAt: new Date().toISOString(), countries, labels, cities }));
   console.log(
     'Wrote',
     OUT_FILE,

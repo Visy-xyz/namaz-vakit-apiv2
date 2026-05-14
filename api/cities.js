@@ -5,6 +5,7 @@ import { dataRoot } from '../lib/paths.js';
 import { countryMeta } from '../lib/countryMeta.js';
 import { displayCityName } from '../lib/cityNormalizations.js';
 import { catalogCitiesByCountry } from '../lib/prayerCatalog.js';
+import { checkRateLimit, clientIp } from '../lib/rateLimiter.js';
 
 const DATA_DIR = dataRoot();
 
@@ -90,9 +91,22 @@ export default function handler(req, res) {
     return res.status(204).end();
   }
 
-  const { country } = getQuery(req);
-  const fromCat = citiesFromCatalog(country || undefined);
-  const payload = fromCat ?? citiesFromFilesystem(country || undefined);
+  const rl = checkRateLimit(clientIp(req), 'cities', 60);
+  res.setHeader('X-RateLimit-Remaining', rl.remaining);
+  if (rl.limited) {
+    res.setHeader('Retry-After', Math.ceil((rl.resetAt - Date.now()) / 1000));
+    return res.status(429).json({ error: 'Too many requests. Try again in a minute.' });
+  }
+
+  const q = getQuery(req);
+  const cc = (q.country || '').toLowerCase() || undefined;
+
+  if (cc && !/^[a-z]{2}$/.test(cc)) {
+    return res.status(400).json({ error: 'Invalid country code. Expected 2-letter ISO code, e.g. "af".' });
+  }
+
+  const fromCat = citiesFromCatalog(cc);
+  const payload = fromCat ?? citiesFromFilesystem(cc);
 
   return res.status(200).json(payload);
 }

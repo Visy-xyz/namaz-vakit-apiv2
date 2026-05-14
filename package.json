@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "test": "node --test test/*.test.js",
     "dev": "vercel dev",
     "normalize:v2": "node scripts/generate-normalizations-v2.mjs",
     "sync:locations": "node scripts/sync-location-metadata.mjs",
