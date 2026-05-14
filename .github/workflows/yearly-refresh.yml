@@ -7,6 +7,11 @@ on:
 
   # Manual trigger
   workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Skip fetch (only test email notification)'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -26,6 +31,7 @@ jobs:
           node-version: '20'
 
       - name: Fetch prayer times
+        if: ${{ inputs.dry_run != true }}
         env:
           DIYANET_EMAIL: ${{ secrets.DIYANET_EMAIL }}
           DIYANET_PASS: ${{ secrets.DIYANET_PASS }}
@@ -39,6 +45,7 @@ jobs:
           fi
 
       - name: Build prayer catalog
+        if: ${{ inputs.dry_run != true }}
         run: node scripts/build-prayer-catalog.mjs
 
       - name: Commit new data
