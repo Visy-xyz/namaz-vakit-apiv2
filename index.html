@@ -488,9 +488,26 @@ function parseTimeAt(ymd,hm,offsetH){
   const ms=new Date(iso).getTime();
   return isNaN(ms)?null:ms;
 }
-function offsetHours(detail){return Number(detail&&detail.greenwichMeanTimeZone)||0;}
+function offsetHours(data){
+  if(data&&data.timezoneOffset!=null)return Number(data.timezoneOffset)||0;
+  const d=data&&data.detail;
+  return Number(d&&d.greenwichMeanTimeZone)||0;
+}
+function dayExtras(data){
+  if(data&&data.detail)return data.detail;
+  return{
+    hijriDateLong:data.hijriDate||'',
+    hijriDateShort:'',
+    shapeMoonUrl:data.moonPhaseUrl||'',
+    qiblaTime:data.qiblaTime,
+    gregorianDateShort:'',
+    astronomicalSunrise:data.astronomicalSunrise,
+    astronomicalSunset:data.astronomicalSunset,
+    greenwichMeanTimeZone:data.timezoneOffset
+  };
+}
 function stampMap(data){
-  const off=offsetHours(data.detail),ymd=data.date,m={};
+  const off=offsetHours(data),ymd=data.date,m={};
   for(const k of PRAYER_ORDER){
     const hm=data.times[k];
     const ts=parseTimeAt(ymd,hm,off);
@@ -564,7 +581,7 @@ function startCountdown(data){
       tomorrowFetching=true;
       fetchJson('/api/prayer?'+new URLSearchParams({country,city,date:ymdNext}))
         .then(d=>{
-          const off=offsetHours(d.detail),hm=d.times&&d.times.fajr;
+          const off=offsetHours(d),hm=d.times&&d.times.fajr;
           tomorrowFajrTs=hm?parseTimeAt(d.date,hm,off):null;
         })
         .catch(()=>{tomorrowFajrTs=null;})
@@ -591,7 +608,7 @@ function renderTimes(data){
     area.hidden=true;ds.hidden=true;ir.hidden=true;$('countdownBar').hidden=true;
     return;
   }
-  const d=data.detail||{};
+  const d=dayExtras(data);
   const x=t();
   const activeKey=getCurrentPrayerKey(data);
   const upcomingKey=(nextPrayerToday(data,Date.now())||{}).key||null;

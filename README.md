@@ -67,11 +67,34 @@ GET https://namaz.frmsh.al/api/monthly?country=af&city=calalabad&month=2026-05
 
 ---
 
-## Response Shape (short)
+## Response shape (`GET /api/prayer`)
 
-- `times`: `fajr`, `sunrise`, `dhuhr`, `asr`, `maghrib`, `isha`
-- `detail`: extended metadata for the day
-- `fileMeta` / `fetchedAt`: dataset metadata
+```json
+{
+  "country": "af",
+  "city": "calalabad",
+  "cityDisplayName": "Calalabad",
+  "date": "2026-05-04",
+  "times": {
+    "fajr": "03:22",
+    "sunrise": "04:49",
+    "dhuhr": "11:50",
+    "asr": "15:33",
+    "maghrib": "18:41",
+    "isha": "20:02"
+  },
+  "qiblaTime": "14:22",
+  "moonPhaseUrl": "https://awqatsalah.diyanet.gov.tr/images/d3.gif",
+  "hijriDate": "17 Zilkade 1447",
+  "astronomicalSunrise": "04:56",
+  "astronomicalSunset": "18:34",
+  "timezoneOffset": 4.5,
+  "fileMeta": { "country": "af", "districtId": "9956", "year": 2026, "fetchedAt": "…", "totalDays": 365 },
+  "fetchedAt": "2026-05-04T21:37:45.545Z"
+}
+```
+
+Add `detail=true` to include the full Diyanet row for that day. `fileMeta` mirrors `_meta` from `data/{country}/{city}.json`.
 
 ---
 

@@ -101,8 +101,8 @@ export default function handler(req, res) {
   const q = getQuery(req);
   const cc = (q.country || '').toLowerCase() || undefined;
 
-  if (cc && !/^[a-z]{2}$/.test(cc)) {
-    return res.status(400).json({ error: 'Invalid country code. Expected 2-letter ISO code, e.g. "af".' });
+  if (cc && !/^[a-z][a-z0-9_]+$/.test(cc)) {
+    return res.status(400).json({ error: 'Invalid country code. Use a code from /api/cities, e.g. "af".' });
   }
 
   const fromCat = citiesFromCatalog(cc);

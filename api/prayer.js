@@ -11,8 +11,8 @@ import { checkRateLimit, clientIp } from '../lib/rateLimiter.js';
  * GET /api/prayer?country=af&city=calalabad&date=2026-04-25
  *
  * Returns prayer times for a specific city and date.
- * `times` is a short subset; `detail` is the full Diyanet row from the JSON file.
- * `fileMeta` is the file’s `_meta` object (country, year, totalDays, fetchedAt, …).
+ * Returns `times`, `qiblaTime`, `moonPhaseUrl`, `hijriDate`, and `fileMeta`.
+ * Optional `detail=true` adds the full Diyanet row for that day.
  * Reads from cached JSON — ZERO calls to Diyanet. On Vercel, JSON is loaded from DATA_BASE_URL.
  */
 export default async function handler(req, res) {
@@ -45,8 +45,8 @@ export default async function handler(req, res) {
     });
   }
 
-  if (!/^[a-z]{2}$/.test(cc)) {
-    return res.status(400).json({ error: 'Invalid country code. Expected 2-letter ISO code, e.g. "af".' });
+  if (!/^[a-z][a-z0-9_]+$/.test(cc)) {
+    return res.status(400).json({ error: 'Invalid country code. Use the folder name from /api/cities, e.g. "af".' });
   }
 
   if (!/^[a-z0-9_-]+$/.test(slug)) {
@@ -100,6 +100,9 @@ export default async function handler(req, res) {
     qiblaTime: day.qiblaTime ?? null,
     moonPhaseUrl: day.shapeMoonUrl ?? null,
     hijriDate: day.hijriDateLong ?? null,
+    astronomicalSunrise: day.astronomicalSunrise ?? null,
+    astronomicalSunset: day.astronomicalSunset ?? null,
+    timezoneOffset: day.greenwichMeanTimeZone ?? null,
     ...(withDetail ? { detail: day } : {}),
     fileMeta: cityData._meta ?? null,
     fetchedAt: cityData._meta?.fetchedAt,
