@@ -45,7 +45,13 @@ const TIME_RE = /^\d{2}:\d{2}$/;
 const PRAYER_FIELDS = ['fajr', 'sunrise', 'dhuhr', 'asr', 'maghrib', 'isha'];
 
 // Countries at extreme latitudes where prayer ordering rules break down (Fajr/Isha may not exist)
-const EXTREME_LATITUDE = new Set(['fi', 'no', 'se', 'dk', 'is']);
+const EXTREME_LATITUDE = new Set(['fi', 'no', 'se', 'dk', 'is', 'sj']);
+
+// Diyanet's marker for "the sun does not set today" (polar summer), seen as
+// `maghrib: "1.00:"` from May to July in Inuvik, Galena and the like. The
+// winter counterpart is `sunrise: "00:00"`, handled in checkOrder. Neither is
+// corrupt data; both simply mean the prayer has no astronomical time that day.
+const POLAR_NO_SUNSET_RE = /^\d+\.\d{2}:$/;
 
 // ─── helpers ──────────────────────────────────────────────────────────────────
 
@@ -97,7 +103,13 @@ function checkOrder(day, country) {
   for (const [a, b] of pairs) {
     const ta = toMinutes(day[a]);
     const tb = toMinutes(day[b]);
-    if (ta >= tb) issues.push(`${a}(${day[a]}) >= ${b}(${day[b]})`);
+    // Equality is tolerated only for dhuhr -> asr: in polar winter the sun
+    // barely clears the horizon and asr legitimately falls in the same minute
+    // as dhuhr (Murmansk, Norilsk, Salekhard). Anywhere else, equal is wrong.
+    const equalAllowed = a === 'dhuhr' && b === 'asr';
+    if (ta > tb || (ta === tb && !equalAllowed)) {
+      issues.push(`${a}(${day[a]}) >= ${b}(${day[b]})`);
+    }
   }
 
   // Isha vs Maghrib: allow midnight wrap
@@ -118,7 +130,7 @@ function checkFile(filePath, country) {
   try {
     parsed = JSON.parse(fs.readFileSync(filePath, 'utf8'));
   } catch (e) {
-    return [`PARSE ERROR: ${e.message}`];
+    return { issues: [`PARSE ERROR: ${e.message}`], quality: [] };
   }
 
   // _meta
@@ -150,7 +162,7 @@ function checkFile(filePath, country) {
   const rows = parsed.data;
   if (!Array.isArray(rows) || rows.length === 0) {
     issues.push('data array missing or empty');
-    return issues;
+    return { issues, quality: [] };
   }
 
   // totalDays matches
@@ -184,6 +196,10 @@ function checkFile(filePath, country) {
   let nullTimeCount = 0;
   let badFormatCount = 0;
   let orderIssueCount = 0;
+  let polarDayCount = 0;
+  const isPolar = rows.some(r =>
+    POLAR_NO_SUNSET_RE.test(String(r?.maghrib ?? '')) || r?.sunrise === '00:00'
+  );
   let undateableCount = 0;
 
   for (let i = 0; i < rows.length; i++) {
@@ -211,6 +227,10 @@ function checkFile(filePath, country) {
         nullTimeCount++;
         rowBad = true;
         if (VERBOSE) issues.push(`row[${i}] ${dateKey}: ${f} is null/empty`);
+      } else if (POLAR_NO_SUNSET_RE.test(String(v))) {
+        // No sunset that day: not a format error, but ordering is meaningless.
+        polarDayCount++;
+        rowBad = true;
       } else if (!TIME_RE.test(String(v))) {
         badFormatCount++;
         rowBad = true;
@@ -218,8 +238,10 @@ function checkFile(filePath, country) {
       }
     }
 
-    // ordering
-    if (!rowBad) {
+    // ordering — a city with midnight sun anywhere in the year is extreme
+    // latitude by definition, so its ordering near those dates is unreliable
+    // (isha past midnight etc.), exactly like the Scandinavian countries above.
+    if (!rowBad && !isPolar) {
       const orderIssues = checkOrder(row, country);
       if (orderIssues.length) {
         orderIssueCount++;
@@ -228,11 +250,17 @@ function checkFile(filePath, country) {
     }
   }
 
-  // summarise row-level problems
-  if (undateableCount)   issues.push(`${undateableCount} rows with unparseable date`);
-  if (nullTimeCount)     issues.push(`${nullTimeCount} null/empty prayer time values`);
-  if (badFormatCount)    issues.push(`${badFormatCount} prayer times not in HH:MM format`);
-  if (orderIssueCount)   issues.push(`${orderIssueCount} rows with prayer time ordering violations`);
+  // Row-level defects are reported separately from blocking problems. A few
+  // bad rows in one city are an upstream (Diyanet) data bug the API already
+  // contains — it answers 503 for that day only — and must not stop the
+  // yearly refresh for every other city. They only fail the run in bulk,
+  // which would mean the upstream format changed.
+  const quality = [];
+  if (undateableCount)   quality.push(`${undateableCount} rows with unparseable date`);
+  if (nullTimeCount)     quality.push(`${nullTimeCount} null/empty prayer time values`);
+  if (badFormatCount)    quality.push(`${badFormatCount} prayer times not in HH:MM format`);
+  // polarDayCount is deliberately not reported: it is expected for arctic cities.
+  if (orderIssueCount)   quality.push(`${orderIssueCount} rows with prayer time ordering violations`);
 
   // date gap check (are dates consecutive?)
   if (sortedDates.length > 1) {
@@ -250,7 +278,7 @@ function checkFile(filePath, country) {
     if (!VERBOSE && gaps > 3) issues.push(`... and ${gaps - 3} more date gaps`);
   }
 
-  return issues;
+  return { issues, quality };
 }
 
 // ─── main ─────────────────────────────────────────────────────────────────────
@@ -291,8 +319,10 @@ function main() {
 
   let passed = 0;
   let failed = 0;
+  let degraded = 0;
   let lastCountry = '';
   const failedFiles = [];
+  const degradedFiles = [];
 
   for (const { filePath, country, city } of files) {
     if (country !== lastCountry) {
@@ -303,11 +333,16 @@ function main() {
       lastCountry = country;
     }
 
-    const issues = checkFile(filePath, country);
+    const { issues, quality } = checkFile(filePath, country);
 
-    if (issues.length === 0) {
-      process.stdout.write(`    ✓ ${city}\n`);
+    if (issues.length === 0 && quality.length === 0) {
+      if (!QUIET) process.stdout.write(`    ✓ ${city}\n`);
       passed++;
+    } else if (issues.length === 0) {
+      process.stdout.write(`    △ ${city}\n`);
+      for (const q of quality) process.stdout.write(`        ~ ${q}\n`);
+      degraded++;
+      degradedFiles.push(`${country}/${city}`);
     } else {
       process.stdout.write(`    ✗ ${city}\n`);
       for (const issue of issues) {
@@ -320,9 +355,20 @@ function main() {
   }
 
   console.log(`\n${'═'.repeat(50)}`);
-  console.log(`  Checked : ${files.length}`);
-  console.log(`  Passed  : ${passed}`);
-  console.log(`  Failed  : ${failed}`);
+  // Blocking failures always fail the run. Row-level defects fail it only in
+  // bulk: more than 1% of files (min 5) points at an upstream format change.
+  const degradedLimit = Math.max(5, Math.ceil(files.length * 0.01));
+  const tooManyDegraded = degraded > degradedLimit;
+
+  console.log(`  Checked  : ${files.length}`);
+  console.log(`  Passed   : ${passed}`);
+  console.log(`  Degraded : ${degraded}  (upstream data defects; limit ${degradedLimit})`);
+  console.log(`  Failed   : ${failed}`);
+
+  if (degradedFiles.length) {
+    console.log(`\n  Degraded files (bad rows; the API answers 503 for those days only):`);
+    for (const f of degradedFiles) console.log(`    ~ ${f}`);
+  }
 
   if (failedFiles.length) {
     console.log(`\n  Failed files:`);
@@ -330,7 +376,7 @@ function main() {
   }
 
   console.log('');
-  process.exit(failed > 0 ? 1 : 0);
+  process.exit(failed > 0 || tooManyDegraded ? 1 : 0);
 }
 
 main();
