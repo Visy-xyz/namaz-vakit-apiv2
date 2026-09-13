@@ -147,10 +147,17 @@ function fileYear(target) {
   let fd;
   try {
     fd = fs.openSync(file, 'r');
-    const buf = Buffer.alloc(256);
-    const read = fs.readSync(fd, buf, 0, 256, 0);
+    // `_meta` is the first key, but in some datasets it carries a dozen fields
+    // before `year` (v2 puts it at byte ~330), so read generously. Falling back
+    // to a full parse matters: reporting "no year" would make every city look
+    // stale and quietly defeat the skip entirely.
+    const buf = Buffer.alloc(4096);
+    const read = fs.readSync(fd, buf, 0, 4096, 0);
     const m = buf.toString('utf8', 0, read).match(/"year"\s*:\s*(\d{4})/);
-    return m ? Number(m[1]) : null;
+    if (m) return Number(m[1]);
+    const parsed = JSON.parse(fs.readFileSync(file, 'utf8'));
+    const fromMeta = Number(parsed?._meta?.year);
+    return Number.isInteger(fromMeta) ? fromMeta : null;
   } catch {
     return null;
   } finally {
@@ -259,9 +266,68 @@ async function fetchYear(districtId) {
   return result.data;
 }
 
+/** Mirrors `lib/dayDate.js`: rows carry several date shapes. */
+function rowDateKey(row) {
+  const raw = typeof row?.date === 'string' ? row.date.trim() : '';
+  if (/^\d{4}-\d{2}-\d{2}/.test(raw)) return raw.slice(0, 10);
+
+  const longIso = row?.gregorianDateLongIso8601;
+  if (typeof longIso === 'string') {
+    const m = longIso.match(/^(\d{4}-\d{2}-\d{2})/);
+    if (m) return m[1];
+  }
+
+  for (const key of ['gregorianDateShortIso8601', 'gregorianDateShort']) {
+    const v = row?.[key];
+    if (typeof v === 'string' && /^\d{1,2}\.\d{1,2}\.\d{4}$/.test(v)) {
+      const [dd, mm, yyyy] = v.split('.');
+      return `${yyyy}-${mm.padStart(2, '0')}-${dd.padStart(2, '0')}`;
+    }
+  }
+  return null;
+}
+
+/**
+ * Merges freshly fetched days into whatever the file already holds.
+ *
+ * A city file used to carry exactly one year, so fetching next year in December
+ * deleted the rest of the current one and the API answered 404 for every
+ * remaining day of December. Files now keep the current calendar year and
+ * anything newer — at most two years, with the old one dropped automatically
+ * the following December.
+ */
+function mergeWithExisting(file, days) {
+  const minYear = new Date().getFullYear();
+  const byDate = new Map();
+
+  if (fs.existsSync(file)) {
+    try {
+      const existing = JSON.parse(fs.readFileSync(file, 'utf8')).data;
+      if (Array.isArray(existing)) {
+        for (const row of existing) {
+          const key = rowDateKey(row);
+          if (key && Number(key.slice(0, 4)) >= minYear) byDate.set(key, row);
+        }
+      }
+    } catch {
+      /* an unreadable file is simply replaced by the fresh fetch */
+    }
+  }
+
+  for (const row of days) {
+    const key = rowDateKey(row);
+    if (key) byDate.set(key, row); // freshly fetched wins over anything stored
+  }
+
+  const merged = [...byDate.keys()].sort().map(k => byDate.get(k));
+  const years = [...new Set(merged.map(r => Number(rowDateKey(r).slice(0, 4))))].sort();
+  return { merged, years };
+}
+
 function saveTarget(target, days) {
   const file = filePathFor(target);
   fs.mkdirSync(path.dirname(file), { recursive: true });
+  const { merged, years } = mergeWithExisting(file, days);
   fs.writeFileSync(
     file,
     JSON.stringify(
@@ -279,11 +345,12 @@ function saveTarget(target, days) {
           cityId: target.cityId,
           districtId: target.districtId,
           year: YEAR,
+          years,
           fetchedAt: new Date().toISOString(),
-          totalDays: days.length,
+          totalDays: merged.length,
           source: 'countries-allv2.json',
         },
-        data: days,
+        data: merged,
       },
       null,
       2

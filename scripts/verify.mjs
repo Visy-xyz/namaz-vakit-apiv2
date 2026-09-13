@@ -129,8 +129,20 @@ function checkFile(filePath, country) {
     for (const f of ['country', 'city', 'year', 'fetchedAt', 'totalDays']) {
       if (meta[f] == null) issues.push(`_meta.${f} missing`);
     }
-    if (EXPECT_YEAR != null && meta.year != null && Number(meta.year) !== EXPECT_YEAR) {
-      issues.push(`STALE: _meta.year=${meta.year} but expected ${EXPECT_YEAR} — this file was not refreshed`);
+    if (EXPECT_YEAR != null) {
+      // Assert the year is actually in the rows. Trusting `_meta.year` alone
+      // would pass a file whose metadata was updated but whose days were not.
+      const yearsPresent = new Set(
+        (Array.isArray(parsed.data) ? parsed.data : [])
+          .map(d => dayDateKey(d))
+          .filter(Boolean)
+          .map(k => Number(k.slice(0, 4)))
+      );
+      if (!yearsPresent.has(EXPECT_YEAR)) {
+        issues.push(
+          `STALE: no ${EXPECT_YEAR} days in this file (has: ${[...yearsPresent].sort().join(', ') || 'none'}) — it was not refreshed`
+        );
+      }
     }
   }
 
@@ -146,9 +158,24 @@ function checkFile(filePath, country) {
     issues.push(`_meta.totalDays=${meta.totalDays} but data has ${rows.length} rows`);
   }
 
-  // expected days (365 or 366)
-  if (rows.length < 365 || rows.length > 366) {
-    issues.push(`unexpected row count: ${rows.length} (expected 365 or 366)`);
+  // Files carry the current calendar year and anything newer, so the total is a
+  // multiple of a year rather than a fixed 365. Check each year individually.
+  const daysPerYear = new Map();
+  for (const row of rows) {
+    const key = dayDateKey(row);
+    if (!key) continue;
+    const y = Number(key.slice(0, 4));
+    daysPerYear.set(y, (daysPerYear.get(y) || 0) + 1);
+  }
+  if (daysPerYear.size === 0) {
+    issues.push('no dateable rows');
+  } else if (daysPerYear.size > 2) {
+    issues.push(`covers ${daysPerYear.size} years (${[...daysPerYear.keys()].sort().join(', ')}) — expected at most 2`);
+  }
+  for (const [year, count] of [...daysPerYear.entries()].sort()) {
+    if (count < 365 || count > 366) {
+      issues.push(`year ${year} has ${count} days (expected 365 or 366)`);
+    }
   }
 
   // per-row checks
