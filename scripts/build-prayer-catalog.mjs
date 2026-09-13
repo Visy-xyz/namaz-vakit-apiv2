@@ -51,6 +51,7 @@ function main() {
   const countries = {};
   const cities = {};
   const labels = {};
+  const coverage = { years: [], firstDate: null, lastDate: null, sampled: 0 };
 
   for (const dirName of fs.readdirSync(DATA)) {
     if (dirName.startsWith('.')) continue;
@@ -66,6 +67,7 @@ function main() {
       .sort();
 
     cities[code] = slugs;
+    if (slugs.length) sampleCoverage(coverage, full, slugs[0]);
     const normMap = byCountryNorms[code] || {};
     labels[code] = {};
     for (const slug of slugs) {
@@ -75,7 +77,18 @@ function main() {
   }
 
   fs.mkdirSync(OUT_DIR, { recursive: true });
-  fs.writeFileSync(OUT_FILE, JSON.stringify({ builtAt: new Date().toISOString(), countries, labels, cities }));
+
+  // `data/` is excluded from the Vercel function bundle, so the API can only
+  // read normalisation files if the build copies them into `generated/`.
+  for (const src of [CITY_NORMS, COUNTRY_NORMS]) {
+    if (fs.existsSync(src)) fs.copyFileSync(src, path.join(OUT_DIR, path.basename(src)));
+  }
+
+  coverage.years.sort();
+  fs.writeFileSync(
+    OUT_FILE,
+    JSON.stringify({ builtAt: new Date().toISOString(), coverage, countries, labels, cities })
+  );
   console.log(
     'Wrote',
     OUT_FILE,
@@ -84,6 +97,48 @@ function main() {
     'cities=',
     Object.values(cities).reduce((a, b) => a + b.length, 0)
   );
+  console.log('Coverage: years=', coverage.years.join(','), 'through', coverage.lastDate);
+}
+
+/**
+ * Reads one representative city per country and folds its date range into the
+ * running coverage. `lastDate` is the EARLIEST end date seen, so the published
+ * figure reflects the first country that will run out of data, not the best case.
+ */
+function sampleCoverage(coverage, countryDir, slug) {
+  try {
+    const parsed = JSON.parse(fs.readFileSync(path.join(countryDir, `${slug}.json`), 'utf8'));
+    const rows = Array.isArray(parsed.data) ? parsed.data : [];
+    if (!rows.length) return;
+
+    const year = parsed._meta?.year;
+    if (year != null && !coverage.years.includes(year)) coverage.years.push(year);
+
+    const first = dayKey(rows[0]);
+    const last = dayKey(rows[rows.length - 1]);
+    if (first && (!coverage.firstDate || first < coverage.firstDate)) coverage.firstDate = first;
+    if (last && (!coverage.lastDate || last < coverage.lastDate)) coverage.lastDate = last;
+    coverage.sampled += 1;
+  } catch {
+    /* a single unreadable sample must not fail the catalog build */
+  }
+}
+
+/** Mirrors lib/dayDate.js for the two shapes the Diyanet rows actually use. */
+function dayKey(day) {
+  const raw = typeof day?.date === 'string' ? day.date.trim() : '';
+  if (/^\d{4}-\d{2}-\d{2}/.test(raw)) return raw.slice(0, 10);
+  const iso = day?.gregorianDateLongIso8601;
+  if (typeof iso === 'string') {
+    const m = iso.match(/^(\d{4}-\d{2}-\d{2})/);
+    if (m) return m[1];
+  }
+  const short = day?.gregorianDateShort;
+  if (typeof short === 'string' && /^\d{1,2}\.\d{1,2}\.\d{4}$/.test(short)) {
+    const [dd, mm, yyyy] = short.split('.');
+    return `${yyyy}-${mm.padStart(2, '0')}-${dd.padStart(2, '0')}`;
+  }
+  return null;
 }
 
 function countryMeta(code, normalized = {}) {

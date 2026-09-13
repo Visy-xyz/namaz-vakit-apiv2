@@ -1,0 +1,98 @@
+name: Data Expiry Canary
+
+# Two jobs in one: it alerts while there is still time to act if the prayer-time
+# data is running out, and its monthly commit keeps the repository active so
+# GitHub never auto-disables the yearly-refresh schedule for inactivity
+# (scheduled workflows are turned off after 60 days without repo activity).
+
+on:
+  schedule:
+    - cron: '0 6 1 * *' # 06:00 UTC, first of every month
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  API_URL: https://namazv2.frmsh.al
+  MIN_DAYS_REMAINING: '60'
+
+jobs:
+  canary:
+    runs-on: ubuntu-latest
+    outputs:
+      status: ${{ steps.check.outputs.status }}
+      days: ${{ steps.check.outputs.days }}
+      last_date: ${{ steps.check.outputs.last_date }}
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Query live API status
+        id: check
+        run: |
+          set -o pipefail
+          curl -fsS --retry 3 --retry-delay 5 "$API_URL/api/status" -o status.json
+          cat status.json
+
+          DAYS=$(node -p "JSON.parse(require('fs').readFileSync('status.json','utf8')).coverage.daysRemaining ?? ''")
+          LAST=$(node -p "JSON.parse(require('fs').readFileSync('status.json','utf8')).coverage.lastDate ?? ''")
+          STATUS=$(node -p "JSON.parse(require('fs').readFileSync('status.json','utf8')).status")
+
+          echo "days=$DAYS"          >> "$GITHUB_OUTPUT"
+          echo "last_date=$LAST"     >> "$GITHUB_OUTPUT"
+          echo "status=$STATUS"      >> "$GITHUB_OUTPUT"
+
+          mkdir -p generated
+          node -e "require('fs').writeFileSync('generated/heartbeat.json', JSON.stringify({checkedAt:new Date().toISOString(),status:process.argv[1],daysRemaining:Number(process.argv[2]),lastDate:process.argv[3]},null,2)+'\n')" "$STATUS" "$DAYS" "$LAST"
+
+          if [ -z "$DAYS" ]; then
+            echo "::error::/api/status did not report coverage.daysRemaining"
+            exit 1
+          fi
+          if [ "$DAYS" -lt "$MIN_DAYS_REMAINING" ]; then
+            echo "::error::Only $DAYS days of prayer-time data left (through $LAST). Run the Yearly Prayer Times Refresh workflow."
+            exit 1
+          fi
+          echo "OK — $DAYS days of data remaining (through $LAST)."
+
+      # Runs even when the check failed: the heartbeat commit is what keeps the
+      # yearly schedule alive, and that matters most when data is running out.
+      - name: Commit heartbeat
+        if: always()
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: data expiry canary heartbeat'
+          file_pattern: generated/heartbeat.json
+
+  notify:
+    name: Email on expiry risk
+    runs-on: ubuntu-latest
+    needs: canary
+    if: failure()
+    steps:
+      - name: Send email
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.NOTIFY_EMAIL_USER }}
+          password: ${{ secrets.NOTIFY_EMAIL_PASS }}
+          to: ${{ secrets.NOTIFY_EMAIL_USER }}
+          from: Namaz Vakit API v2 <${{ secrets.NOTIFY_EMAIL_USER }}>
+          subject: '⚠️ [Namaz Vakit v2] Te dhenat po mbarojne!'
+          body: |
+            ⚠️ KUJDES — te dhenat e koheve te namazit po mbarojne.
+
+            Ditet e mbetura: ${{ needs.canary.outputs.days }}
+            Mbulimi deri me: ${{ needs.canary.outputs.last_date }}
+
+            Nis workflow-in "Yearly Prayer Times Refresh" me dore
+            (Actions -> Yearly Prayer Times Refresh -> Run workflow)
+            dhe zgjidh vitin e ri.
+
+            Nese nuk rifreskohen, pas kesaj date API kthen 404 dhe
+            aplikacioni nuk do te tregoje kohet e namazit.
+
+            Detajet: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}

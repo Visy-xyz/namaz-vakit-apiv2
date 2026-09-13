@@ -5,59 +5,55 @@ import { displayCityName } from '../lib/cityNormalizations.js';
 import { readCityJson, dataBaseUrlHint } from '../lib/readCityData.js';
 import { invalidFields } from '../lib/validateCityData.js';
 import { checkRateLimit, clientIp } from '../lib/rateLimiter.js';
+import { validateLocation, validateDate } from '../lib/validate.js';
+import { cors, handledPreflight, ok, fail } from '../lib/respond.js';
 
 /**
- * GET /api/prayer?country=af&city=calalabad
- * GET /api/prayer?country=af&city=calalabad&date=2026-04-25
+ * GET /api/prayer?country=al&city=tirana
+ * GET /api/prayer?country=al&city=tirana&date=2026-04-25
  *
- * Returns prayer times for a specific city and date.
- * Returns `times`, `qiblaTime`, `moonPhaseUrl`, `hijriDate`, and `fileMeta`.
- * Optional `detail=true` adds the full Diyanet row for that day.
- * Reads from cached JSON — ZERO calls to Diyanet. On Vercel, JSON is loaded from DATA_BASE_URL.
+ * Prayer times for one city and date. Reads from cached JSON — ZERO calls to
+ * Diyanet at request time. On Vercel the JSON comes from DATA_BASE_URL.
+ *
+ * `detail` (the full Diyanet row: hijri date, moon phase, astronomical times)
+ * is ALWAYS included — released app builds read those fields from it.
+ *
+ * When a date is not covered this returns 404. It deliberately does NOT fall
+ * back to the same date a year earlier: prayer times drift by minutes and the
+ * hijri date drifts by ~11 days, so stale data would be shown as if correct.
  */
 export default async function handler(req, res) {
-  res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader('Cache-Control', 'public, max-age=3600');
-
-  if (req.method === 'OPTIONS') {
-    res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
-    return res.status(204).end();
-  }
+  cors(res);
+  if (handledPreflight(req, res)) return;
 
   const rl = checkRateLimit(clientIp(req), 'prayer', 300);
   res.setHeader('X-RateLimit-Remaining', rl.remaining);
   if (rl.limited) {
     res.setHeader('Retry-After', Math.ceil((rl.resetAt - Date.now()) / 1000));
-    return res.status(429).json({ error: 'Too many requests. Try again in a minute.' });
+    return fail(res, 429, { error: 'Too many requests. Try again in a minute.' });
   }
 
   const q = getQuery(req);
   const cc = (q.country || '').toLowerCase();
   const slug = (q.city || '').toLowerCase();
-  const date = q.date;
-  const withDetail = q.detail === 'true';
 
-  if (!cc || !slug) {
-    return res.status(400).json({
-      error: 'Missing params',
-      example: '/api/prayer?country=af&city=calalabad',
-      hint: 'List cities: GET /api/cities or /api/cities?country=us',
+  const locationErr = validateLocation(cc, slug);
+  if (locationErr) {
+    return fail(res, 400, {
+      error: locationErr,
+      example: '/api/prayer?country=al&city=tirana',
+      hint: 'List cities: GET /api/cities or /api/cities?country=al',
     });
   }
 
-  if (!/^[a-z][a-z0-9_]+$/.test(cc)) {
-    return res.status(400).json({ error: 'Invalid country code. Use the folder name from /api/cities, e.g. "af".' });
-  }
-
-  if (!/^[a-z0-9_-]+$/.test(slug)) {
-    return res.status(400).json({ error: 'Invalid city slug. Use lowercase letters, digits, hyphens, or underscores.' });
-  }
+  const dateErr = validateDate(q.date);
+  if (dateErr) return fail(res, 400, { error: dateErr });
 
   const cityData = await readCityJson(cc, slug);
 
   if (!cityData) {
     const hint = dataBaseUrlHint();
-    return res.status(404).json({
+    return fail(res, 404, {
       error: `City not found: ${cc}/${slug}`,
       hint: `Try /api/cities?country=${cc}`,
       ...(hint ? { setup: hint } : {}),
@@ -65,12 +61,12 @@ export default async function handler(req, res) {
   }
 
   const rows = Array.isArray(cityData.data) ? cityData.data : [];
-  const target = normalizeYmd(date || today());
+  const target = normalizeYmd(q.date || localToday(rows));
 
   const day = rows.find(d => dayDateKey(d) === target);
 
   if (!day) {
-    return res.status(404).json({
+    return fail(res, 404, {
       error: `No data for ${target}`,
       coverage: coverageRange(rows),
     });
@@ -78,13 +74,13 @@ export default async function handler(req, res) {
 
   const bad = invalidFields(day);
   if (bad.length) {
-    return res.status(503).json({
+    return fail(res, 503, {
       error: `Corrupt data for ${target}`,
       invalidFields: bad,
     });
   }
 
-  return res.status(200).json({
+  return ok(res, {
     country: cc,
     city: slug,
     cityDisplayName: displayCityName(cc, slug),
@@ -103,12 +99,24 @@ export default async function handler(req, res) {
     astronomicalSunrise: day.astronomicalSunrise ?? null,
     astronomicalSunset: day.astronomicalSunset ?? null,
     timezoneOffset: day.greenwichMeanTimeZone ?? null,
-    ...(withDetail ? { detail: day } : {}),
+    detail: day,
     fileMeta: cityData._meta ?? null,
     fetchedAt: cityData._meta?.fetchedAt,
   });
 }
 
-function today() {
-  return new Date().toISOString().split('T')[0];
+/**
+ * "Today" belongs to the city, not the server. Using the server's UTC date
+ * showed yesterday's times to users east of UTC just after midnight local.
+ *
+ * The per-day `greenwichMeanTimeZone` from Diyanet is already DST-adjusted, so
+ * anchor on the row for the current UTC date to learn the city's live offset,
+ * then re-derive the local date from it.
+ */
+function localToday(rows) {
+  const utcDate = new Date().toISOString().slice(0, 10);
+  const anchor = rows.find(d => dayDateKey(d) === utcDate);
+  const offsetHours = Number(anchor?.greenwichMeanTimeZone);
+  if (!Number.isFinite(offsetHours)) return utcDate;
+  return new Date(Date.now() + offsetHours * 3_600_000).toISOString().slice(0, 10);
 }

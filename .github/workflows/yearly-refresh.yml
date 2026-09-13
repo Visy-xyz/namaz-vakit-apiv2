@@ -1,15 +1,24 @@
 name: Yearly Prayer Times Refresh
 
 on:
-  # Every January 1 at 02:00 UTC
+  # 05:00 UTC on 1 December — the shipped data ends 31 December, so this leaves
+  # a month of slack to notice a failure and re-run by hand. Running on 1 Jan
+  # (the old schedule) meant the data was already expired before the job started.
   schedule:
-    - cron: '0 2 1 1 *'
+    - cron: '0 5 1 12 *'
 
-  # Manual trigger
   workflow_dispatch:
     inputs:
+      year:
+        description: 'Year to fetch (blank = the year starting within ~45 days)'
+        type: string
+        default: ''
+      refetch:
+        description: 'Re-fetch cities that already have this year'
+        type: boolean
+        default: false
       dry_run:
-        description: 'Skip fetch (only test email notification)'
+        description: 'Skip the fetch (only exercises notification)'
         type: boolean
         default: false
 
@@ -20,6 +29,10 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     timeout-minutes: 360
+    outputs:
+      target_year: ${{ steps.target.outputs.year }}
+      fetched: ${{ steps.fetch.outputs.fetched }}
+      coverage: ${{ steps.verify.outputs.coverage }}
 
     steps:
       - name: Checkout repo
@@ -30,31 +43,62 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Resolve target year
+        id: target
+        run: |
+          if [ -n "${{ inputs.year }}" ]; then
+            YEAR="${{ inputs.year }}"
+          else
+            # The year that is current 45 days from now: a December run targets
+            # next year, an ad-hoc run mid-year targets the current one.
+            YEAR=$(date -u -d '+45 days' +%Y)
+          fi
+          echo "year=$YEAR" >> "$GITHUB_OUTPUT"
+          echo "Target year: $YEAR"
+
       - name: Fetch prayer times
+        id: fetch
         if: ${{ inputs.dry_run != true }}
         env:
           DIYANET_EMAIL: ${{ secrets.DIYANET_EMAIL }}
           DIYANET_PASS: ${{ secrets.DIYANET_PASS }}
         run: |
-          if [ -f countries-allv2.json ]; then
-            echo "Using scripts/fetch-countries-allv2.mjs (countries-allv2.json present)"
-            node scripts/fetch-countries-allv2.mjs --file countries-allv2.json --refetch --delay-ms 1500
-          else
+          set -o pipefail
+          if [ ! -f countries-allv2.json ]; then
             echo "Missing countries-allv2.json"
             exit 1
           fi
+          EXTRA=""
+          if [ "${{ inputs.refetch }}" = "true" ]; then EXTRA="--refetch"; fi
+          node scripts/fetch-countries-allv2.mjs \
+            --file countries-allv2.json \
+            --year "${{ steps.target.outputs.year }}" \
+            --delay-ms 1500 $EXTRA | tee fetch.log
+          echo "fetched=$(grep -c ' ok ' fetch.log || true)" >> "$GITHUB_OUTPUT"
 
       - name: Build prayer catalog
         if: ${{ inputs.dry_run != true }}
         run: node scripts/build-prayer-catalog.mjs
 
+      # The check that makes success meaningful. Without --year, a run that
+      # fetched nothing still passes, because last year's data is valid data.
+      - name: Verify data is on the target year
+        id: verify
+        if: ${{ inputs.dry_run != true }}
+        run: |
+          node scripts/verify.mjs --year "${{ steps.target.outputs.year }}" --quiet
+          COVERAGE=$(node -e "const c=require('./generated/prayer-catalog.json').coverage;console.log(\`\${c.firstDate} -> \${c.lastDate}\`)")
+          echo "coverage=$COVERAGE" >> "$GITHUB_OUTPUT"
+          echo "Coverage: $COVERAGE"
+
       - name: Commit new data
+        if: ${{ inputs.dry_run != true }}
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: refresh prayer times ${{ github.run_number }}"
+          commit_message: "chore: refresh prayer times for ${{ steps.target.outputs.year }}"
           file_pattern: |
             data/**/*.json
-            generated/prayer-catalog.json
+            generated/*.json
 
   notify:
     name: Email notification
@@ -71,16 +115,17 @@ jobs:
           username: ${{ secrets.NOTIFY_EMAIL_USER }}
           password: ${{ secrets.NOTIFY_EMAIL_PASS }}
           to: ${{ secrets.NOTIFY_EMAIL_USER }}
-          from: Namaz Vakit API <${{ secrets.NOTIFY_EMAIL_USER }}>
+          from: Namaz Vakit API v2 <${{ secrets.NOTIFY_EMAIL_USER }}>
           subject: >
-            ${{ needs.refresh.result == 'success' && '✅ [Namaz Vakit] Oraret u rifreskuan per vitin e ri!' || '❌ [Namaz Vakit] GABIM - Rifreskimi deshtoi!' }}
+            ${{ needs.refresh.result == 'success' && format('✅ [Namaz Vakit v2] Oraret u rifreskuan per {0}!', needs.refresh.outputs.target_year) || '❌ [Namaz Vakit v2] GABIM - Rifreskimi deshtoi!' }}
           body: |
             ${{ needs.refresh.result == 'success' && '✅ SUKSES' || '❌ DESHTIM' }}
 
-            ${{ needs.refresh.result == 'success' && 'Te dhenat e koheve te namazit u rifreskuan me sukses per vitin e ri. Aplikacioni eshte gati.' || 'Rifreskimi i te dhenave DESHTOI. Hyr ne GitHub dhe kontrollo se cfare ndodhi. Perdoruesit mund te shohin te dhena te vjetra!' }}
+            ${{ needs.refresh.result == 'success' && format('Te dhenat u rifreskuan per vitin {0}. Qytete te marra: {1}. Mbulimi: {2}.', needs.refresh.outputs.target_year, needs.refresh.outputs.fetched, needs.refresh.outputs.coverage) || 'Rifreskimi DESHTOI. Verifikimi kerkon qe cdo skedar te jete i vitit te ri - nese ka deshtuar, te dhenat e vjetra jane ende aktive dhe perdoruesit do te shohin 404 pas 31 dhjetorit.' }}
 
             ─────────────────────────
-            Kur:     1 Janar ${{ github.run_number && '2026' }}  (automatik)
+            Viti:    ${{ needs.refresh.outputs.target_year }}
+            Kur:     1 Dhjetor (automatik)
             Status:  ${{ needs.refresh.result == 'success' && 'U krye me sukses' || 'DESHTOI - duhet nderhyrje' }}
             ─────────────────────────
 

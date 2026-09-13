@@ -5,72 +5,60 @@ import { displayCityName } from '../lib/cityNormalizations.js';
 import { readCityJson, dataBaseUrlHint } from '../lib/readCityData.js';
 import { invalidFields } from '../lib/validateCityData.js';
 import { checkRateLimit, clientIp } from '../lib/rateLimiter.js';
+import { validateLocation, validateMonth } from '../lib/validate.js';
+import { cors, handledPreflight, ok, fail } from '../lib/respond.js';
 
 /**
- * GET /api/monthly?country=af&city=calalabad
- * GET /api/monthly?country=af&city=calalabad&month=2026-04
+ * GET /api/monthly?country=al&city=tirana
+ * GET /api/monthly?country=al&city=tirana&month=2026-04
  *
- * Returns all prayer times for a full month.
- * Each day includes `detail` — the full Diyanet row (hijri, moon URL, astronomical times, …).
+ * All prayer times for a full month. Each day includes `detail` — the full
+ * Diyanet row (hijri, moon URL, astronomical times, …).
  */
 export default async function handler(req, res) {
-  res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader('Cache-Control', 'public, max-age=3600');
-
-  if (req.method === 'OPTIONS') {
-    res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
-    return res.status(204).end();
-  }
+  cors(res);
+  if (handledPreflight(req, res)) return;
 
   const rl = checkRateLimit(clientIp(req), 'monthly', 300);
   res.setHeader('X-RateLimit-Remaining', rl.remaining);
   if (rl.limited) {
     res.setHeader('Retry-After', Math.ceil((rl.resetAt - Date.now()) / 1000));
-    return res.status(429).json({ error: 'Too many requests. Try again in a minute.' });
+    return fail(res, 429, { error: 'Too many requests. Try again in a minute.' });
   }
 
   const q = getQuery(req);
   const cc = (q.country || '').toLowerCase();
   const slug = (q.city || '').toLowerCase();
-  const month = q.month;
-  const withDetail = q.detail === 'true';
 
-  if (!cc || !slug) {
-    return res.status(400).json({
-      error: 'Missing params',
-      example: '/api/monthly?country=af&city=calalabad&month=2026-05',
+  const locationErr = validateLocation(cc, slug);
+  if (locationErr) {
+    return fail(res, 400, {
+      error: locationErr,
+      example: '/api/monthly?country=al&city=tirana&month=2026-05',
     });
   }
 
-  if (!/^[a-z][a-z0-9_]+$/.test(cc)) {
-    return res.status(400).json({ error: 'Invalid country code. Use the folder name from /api/cities, e.g. "af".' });
-  }
-
-  if (!/^[a-z0-9_-]+$/.test(slug)) {
-    return res.status(400).json({ error: 'Invalid city slug. Use lowercase letters, digits, hyphens, or underscores.' });
-  }
+  const monthErr = validateMonth(q.month);
+  if (monthErr) return fail(res, 400, { error: monthErr });
 
   const cityData = await readCityJson(cc, slug);
 
   if (!cityData) {
     const hint = dataBaseUrlHint();
-    return res.status(404).json({
+    return fail(res, 404, {
       error: `City not found: ${cc}/${slug}`,
+      hint: `Try /api/cities?country=${cc}`,
       ...(hint ? { setup: hint } : {}),
     });
   }
 
   const rows = Array.isArray(cityData.data) ? cityData.data : [];
+  const targetMonth = normalizeYearMonth(q.month || currentMonth());
 
-  const targetMonth = normalizeYearMonth(month || currentMonth());
-
-  const days = rows.filter(d => {
-    const key = dayDateKey(d);
-    return key?.startsWith(targetMonth);
-  });
+  const days = rows.filter(d => dayDateKey(d)?.startsWith(targetMonth));
 
   if (days.length === 0) {
-    return res.status(404).json({
+    return fail(res, 404, {
       error: `No data for month ${targetMonth}`,
       coverage: coverageRange(rows),
     });
@@ -94,11 +82,11 @@ export default async function handler(req, res) {
       qiblaTime: d.qiblaTime ?? null,
       moonPhaseUrl: d.shapeMoonUrl ?? null,
       hijriDate: d.hijriDateLong ?? null,
-      ...(withDetail ? { detail: d } : {}),
+      detail: d,
     };
   });
 
-  return res.status(200).json({
+  return ok(res, {
     country: cc,
     city: slug,
     cityDisplayName: displayCityName(cc, slug),
@@ -111,6 +99,7 @@ export default async function handler(req, res) {
   });
 }
 
+/** Server-local month is fine here: callers asking for "this month" are not date-critical. */
 function currentMonth() {
   const d = new Date();
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}`;

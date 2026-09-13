@@ -1,35 +1,65 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { catalogStats, catalogCitiesByCountry, catalogDisplayName } from '../lib/prayerCatalog.js';
+import {
+  catalogStats,
+  catalogCitiesByCountry,
+  catalogDisplayName,
+  catalogCoverage,
+} from '../lib/prayerCatalog.js';
+
+/**
+ * Assertions are derived from the catalog rather than hard-coded, so this file
+ * is identical in the v1 and v2 repos despite their different country sets.
+ */
+const anyCountry = () => Object.keys(catalogCitiesByCountry() ?? {}).sort()[0];
 
 test('catalogStats: returns an object when catalog is loaded', () => {
-  const stats = catalogStats();
-  assert.ok(stats !== null, 'catalogStats should not be null when generated/prayer-catalog.json exists');
+  assert.ok(catalogStats() !== null, 'run `npm run build:catalog` first');
 });
 
-test('catalogStats: reports 167 countries', () => {
+test('catalogStats: counts match the city map', () => {
   const stats = catalogStats();
-  assert.equal(stats.countries, 167);
-});
-
-test('catalogStats: reports more than 3900 cities', () => {
-  const stats = catalogStats();
-  assert.ok(stats.cities > 3900, `expected >3900 cities, got ${stats.cities}`);
-});
-
-test('catalogStats: builtAt is an ISO string', () => {
-  const stats = catalogStats();
-  assert.ok(typeof stats.builtAt === 'string', 'builtAt should be a string');
-  assert.ok(!isNaN(Date.parse(stats.builtAt)), 'builtAt should be a valid ISO date');
-});
-
-test('catalogCitiesByCountry: returns cities for "af"', () => {
   const byCountry = catalogCitiesByCountry();
-  assert.ok(Array.isArray(byCountry['af']), 'af should have a city array');
-  assert.ok(byCountry['af'].length > 0, 'af should have at least one city');
+  assert.equal(stats.countries, Object.keys(byCountry).length);
+  assert.equal(
+    stats.cities,
+    Object.values(byCountry).reduce((sum, arr) => sum + arr.length, 0)
+  );
 });
 
-test('catalogDisplayName: resolves kabul display name', () => {
-  const name = catalogDisplayName('af', 'kabul');
-  assert.ok(typeof name === 'string' && name.length > 0, 'should return a non-empty display name');
+test('catalogStats: covers a realistic number of cities', () => {
+  assert.ok(catalogStats().cities > 1000, 'catalog looks truncated');
+});
+
+test('catalogStats: builtAt is a valid ISO date', () => {
+  const { builtAt } = catalogStats();
+  assert.equal(typeof builtAt, 'string');
+  assert.ok(!Number.isNaN(Date.parse(builtAt)));
+});
+
+test('catalogCitiesByCountry: every country has at least one city', () => {
+  const byCountry = catalogCitiesByCountry();
+  for (const [code, cities] of Object.entries(byCountry)) {
+    assert.ok(Array.isArray(cities) && cities.length > 0, `${code} has no cities`);
+  }
+});
+
+test('catalogDisplayName: resolves a name for a real city', () => {
+  const cc = anyCountry();
+  const slug = catalogCitiesByCountry()[cc][0];
+  const name = catalogDisplayName(cc, slug);
+  assert.ok(typeof name === 'string' && name.length > 0, `no display name for ${cc}/${slug}`);
+});
+
+test('catalogDisplayName: returns null for an unknown city', () => {
+  assert.equal(catalogDisplayName(anyCountry(), '__nope__'), null);
+});
+
+test('catalogCoverage: reports the shipped date range', () => {
+  const coverage = catalogCoverage();
+  assert.ok(coverage, 'catalog should carry a coverage block — rebuild it');
+  assert.match(coverage.lastDate, /^\d{4}-\d{2}-\d{2}$/);
+  assert.match(coverage.firstDate, /^\d{4}-\d{2}-\d{2}$/);
+  assert.ok(coverage.firstDate <= coverage.lastDate);
+  assert.ok(Array.isArray(coverage.years) && coverage.years.length > 0);
 });

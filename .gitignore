@@ -1,5 +1,12 @@
 node_modules/
+
+# Vercel pulls short-lived OIDC tokens into .env.local — never commit any of these.
 .env
-.vercel/
-*.log
+.env.*
+!.env.example
 .vercel
+.vercel/
+
+*.log
+fetch.log
+status.json

@@ -135,8 +135,36 @@ function filePathFor(target) {
   return path.join(DATA, target.country, `${target.city}.json`);
 }
 
-function fileExists(target) {
-  return fs.existsSync(filePathFor(target));
+/**
+ * Year already on disk for a target, or null.
+ *
+ * `_meta` is the first key of the file, so a short prefix read is enough — this
+ * runs for thousands of cities and the files are ~270 KB each.
+ */
+function fileYear(target) {
+  const file = filePathFor(target);
+  if (!fs.existsSync(file)) return null;
+  let fd;
+  try {
+    fd = fs.openSync(file, 'r');
+    const buf = Buffer.alloc(256);
+    const read = fs.readSync(fd, buf, 0, 256, 0);
+    const m = buf.toString('utf8', 0, read).match(/"year"\s*:\s*(\d{4})/);
+    return m ? Number(m[1]) : null;
+  } catch {
+    return null;
+  } finally {
+    if (fd !== undefined) fs.closeSync(fd);
+  }
+}
+
+/**
+ * A target is done only when its file is on the YEAR being fetched. Skipping on
+ * mere existence meant a yearly refresh could silently fetch nothing and still
+ * report success, leaving last year's times in place.
+ */
+function isCurrent(target) {
+  return fileYear(target) === YEAR;
 }
 
 function readJwtExpMs(token) {
@@ -285,7 +313,7 @@ async function main() {
 
   const countries = loadCountries();
   const targets = buildTargets(countries);
-  const toFetch = REFETCH ? targets : targets.filter(target => !fileExists(target));
+  const toFetch = REFETCH ? targets : targets.filter(target => !isCurrent(target));
   const skipped = targets.length - toFetch.length;
 
   const byCountry = {};
