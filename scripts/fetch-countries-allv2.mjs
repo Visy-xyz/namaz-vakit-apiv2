@@ -457,7 +457,26 @@ async function main() {
   console.log(`Minutes: ${elapsed}`);
   console.log('='.repeat(60));
 
-  if (fail > 0) process.exit(1);
+
+  // A few dead district ids in Diyanet's own catalog (Chechnya, Punta Arenas
+  // return "no record with this Id") must not block the refresh for thousands
+  // of working cities. But a run where nothing at all succeeded means auth or
+  // the upstream is broken, and one with widespread failures means a partial
+  // outage — both must fail loudly. The year-aware skip makes a re-run cheap:
+  // it only retries what is missing.
+  const attempted = ok + fail;
+  const failLimit = Math.max(5, Math.ceil(targets.length * 0.01));
+  if (attempted > 0 && ok === 0) {
+    console.error(`FAILED: attempted ${attempted} cities and none succeeded — check credentials / Diyanet availability.`);
+    process.exit(1);
+  }
+  if (fail > failLimit) {
+    console.error(`FAILED: ${fail} cities failed (limit ${failLimit}) — likely a partial outage; re-run to resume.`);
+    process.exit(1);
+  }
+  if (fail > 0) {
+    console.log(`Tolerated ${fail} failure(s) (limit ${failLimit}); these ids are probably gone from Diyanet.`);
+  }
 }
 
 main().catch(err => {
