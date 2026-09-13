@@ -108,6 +108,47 @@ jobs:
             data/**/*.json
             generated/*.json
 
+      # The app reads the Cloudflare CDN first, the Vercel APIs read GitHub, so
+      # both have to land on the same refreshed data. This runs after the commit
+      # on purpose: if the CDN publish fails the job still fails loudly, but the
+      # Vercel path is already fresh and a re-run only has to redo this step
+      # (the fetch skips everything already on the target year).
+      - name: Publish to Cloudflare CDN
+        if: ${{ inputs.dry_run != true }}
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          set -o pipefail
+          if [ -z "$CLOUDFLARE_API_TOKEN" ]; then
+            echo "::error::CLOUDFLARE_API_TOKEN is not set - the app would keep serving last year from the CDN."
+            exit 1
+          fi
+
+          # The Worker serves <country>/<city>.json at its root, so the asset
+          # directory is data/ without the normalisation files.
+          rm -rf cdn-dist
+          mkdir -p cdn-dist/public
+          cp -r data/. cdn-dist/public/
+          rm -f cdn-dist/public/city-normalizations.json                 cdn-dist/public/country-normalizations.json
+
+          cat > cdn-dist/public/_headers <<'HEADERS'
+          /*.json
+            Cache-Control: public, max-age=86400
+            Access-Control-Allow-Origin: *
+          HEADERS
+
+          cat > cdn-dist/wrangler.jsonc <<'CFG'
+          {
+            "name": "cdn-b",
+            "compatibility_date": "2026-09-04",
+            "assets": { "directory": "./public" }
+          }
+          CFG
+
+          echo "Publishing $(find cdn-dist/public -name '*.json' | wc -l) files to cdn-b"
+          cd cdn-dist && npx --yes wrangler@4 deploy
+
   notify:
     name: Email notification
     runs-on: ubuntu-latest

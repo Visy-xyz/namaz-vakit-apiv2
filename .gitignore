@@ -10,3 +10,6 @@ node_modules/
 *.log
 fetch.log
 status.json
+
+# Built by the yearly refresh before publishing to the CDN.
+cdn-dist/
