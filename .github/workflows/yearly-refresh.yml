@@ -1,11 +1,19 @@
 name: Yearly Prayer Times Refresh
 
 on:
-  # 05:00 UTC on 1 December — the shipped data ends 31 December, so this leaves
-  # a month of slack to notice a failure and re-run by hand. Running on 1 Jan
-  # (the old schedule) meant the data was already expired before the job started.
+  # Three attempts, because it is NOT documented when Diyanet starts serving the
+  # next year — if December is too early the job fails loudly and the next run
+  # picks it up. Retries are close to free: fetching skips any city already on
+  # the target year, so a completed refresh re-runs with zero Diyanet calls and
+  # an interrupted one resumes instead of starting over.
+  #
+  #   1 Dec  — early attempt, a month of slack before the data expires
+  #  20 Dec  — retry if the data was not published yet on the 1st
+  #   2 Jan  — safety net; the new year is certainly published by now
   schedule:
     - cron: '0 5 1 12 *'
+    - cron: '0 5 20 12 *'
+    - cron: '0 5 2 1 *'
 
   workflow_dispatch:
     inputs:
@@ -121,11 +129,11 @@ jobs:
           body: |
             ${{ needs.refresh.result == 'success' && '✅ SUKSES' || '❌ DESHTIM' }}
 
-            ${{ needs.refresh.result == 'success' && format('Te dhenat u rifreskuan per vitin {0}. Qytete te marra: {1}. Mbulimi: {2}.', needs.refresh.outputs.target_year, needs.refresh.outputs.fetched, needs.refresh.outputs.coverage) || 'Rifreskimi DESHTOI. Verifikimi kerkon qe cdo skedar te jete i vitit te ri - nese ka deshtuar, te dhenat e vjetra jane ende aktive dhe perdoruesit do te shohin 404 pas 31 dhjetorit.' }}
+            ${{ needs.refresh.result == 'success' && format('Te dhenat u rifreskuan per vitin {0}. Qytete te marra: {1}. Mbulimi: {2}.', needs.refresh.outputs.target_year, needs.refresh.outputs.fetched, needs.refresh.outputs.coverage) || 'Rifreskimi DESHTOI. Mund te jete thjesht se Diyaneti nuk i ka publikuar ende datat e vitit te ri - provo perseri me vone. Ka edhe dy nisje automatike (20 Dhjetor dhe 2 Janar). Nese deshtojne te gjitha, perdoruesit do te shohin 404 pas 31 dhjetorit.' }}
 
             ─────────────────────────
             Viti:    ${{ needs.refresh.outputs.target_year }}
-            Kur:     1 Dhjetor (automatik)
+            Kur:     1 + 20 Dhjetor, 2 Janar (automatik)
             Status:  ${{ needs.refresh.result == 'success' && 'U krye me sukses' || 'DESHTOI - duhet nderhyrje' }}
             ─────────────────────────
 
