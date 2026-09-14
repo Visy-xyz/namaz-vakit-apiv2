@@ -7,6 +7,7 @@ import { invalidFields } from '../lib/validateCityData.js';
 import { checkRateLimit, clientIp } from '../lib/rateLimiter.js';
 import { validateLocation, validateMonth } from '../lib/validate.js';
 import { cors, handledPreflight, ok, fail } from '../lib/respond.js';
+import { resolveCitySlug } from '../lib/citySlugAliases.js';
 
 /**
  * GET /api/monthly?country=al&city=tirana
@@ -28,9 +29,10 @@ export default async function handler(req, res) {
 
   const q = getQuery(req);
   const cc = (q.country || '').toLowerCase();
-  const slug = (q.city || '').toLowerCase();
+  const requestedSlug = (q.city || '').toLowerCase();
 
-  const locationErr = validateLocation(cc, slug);
+  const locationErr = validateLocation(cc, requestedSlug);
+  const slug = resolveCitySlug(cc, requestedSlug);
   if (locationErr) {
     return fail(res, 400, {
       error: locationErr,
